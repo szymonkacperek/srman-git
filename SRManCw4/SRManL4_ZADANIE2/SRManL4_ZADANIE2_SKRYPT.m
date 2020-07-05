@@ -149,8 +149,8 @@ Tb = Ta*1.8;
 % Ustalam ograniczenia napiêciowe
 
 global umax u1max u2max
-u1max = 24;
-u2max = 24;
+u1max = 24; 
+u2max = u1max*0.5;
 umax = diag([u1max; u2max]);
 
 %% (b)  ZADANIE 2.2
@@ -163,16 +163,16 @@ umax = diag([u1max; u2max]);
 
 %---- USTALENIE TUNELU
 global epsilon
-epsilon = 5.4;
+epsilon = 0.9;
 
 %---- STROJENIE REGULATORA
 % uchyb e
-lambda1 = 3.5;
-lambda2 = 3.6;
+lambda1 = 2.3;
+lambda2 = 2.2;
 Lambda = diag([lambda1 lambda2]);
 
 % pochodna uchybu e'
-d1 = 2.25;
-d2 = 2.35;
+d1 = 0.05;
+d2 = 0.05;
 D = diag([d1 d2]);
     
