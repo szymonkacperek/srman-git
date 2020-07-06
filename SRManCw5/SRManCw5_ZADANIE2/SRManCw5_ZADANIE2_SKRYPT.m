@@ -17,15 +17,15 @@ N = size(t,2);
 %% 1.2 PARAMETRY MANIPULATORA
 global m1 I1 L1 b1 g m2 I2 L2 b2 fC1 fC2
 % Parametry ramienia 0 - rysunek zob. plik PDF
-L1 = 1.0;%*0.9;           % m
+L1 = 1.0*0.5;           % m
 m1 = 5.0;           % kg
 I1 = m1*L1^2/12;    % kg*m
 b1 = 9.5;           % N*s/rad
 fC1 = 0.2;          % N*m
 
 % Parametry ramienia 1
-L2 = 0.8;%*0.9;           % m
-m2 = 3.0;%*1.1;           % kg
+L2 = 0.8*0.4;           % m
+m2 = 3.0*1.6;           % kg
 I2 = m2*L2^2/12;    % kg*m
 b2 = 4.5;           % N*s/rad
 fC2 = 0.1;          % N*m
@@ -64,34 +64,34 @@ Ta = 5;
 Tb = Ta*1.8;
 
 %% 2    ZADANIA
-%% (a)  ZADANIE 1.1 
+%% (a)  ZADANIE 2.1 
 %---- • Korzystaj¹c z parametryzacji modelu manipulatora PM2R z æwiczenia 1, wyprowadziæ
-%       postaæ macierzy regresji z równania (8) – elementy q¨d i qÿd wystêpuj¹ce w tej macierzy
-%       wynikaj¹ z postaci równania (7).
+%       postaæ macierzy regresji z równania (14) – elementy q¨r i qÿr wystêpuj¹ce w tej macierzy
+%       wynikaj¹ z postaci równania (13).
 
 % zobacz plik ./SRManCw5_ZADANIE1_PRAWO_ESTYMACJI.m
 
-%% (b)  ZADANIE 1.2
-%---- • Przyj¹æ pocz¹tkowe wartoœci estymat parametrów manipulatora ?p0 6= 0.
+%% (b)  ZADANIE 2.2
+%---- • Przyj¹æ pocz¹tkowe wartoœci estymat parametrów manipulatora phat != 0.
 
 % Zmienn¹ wpisujê w bloku ca³kuj¹cym z subsystemu Simulink "PARAMETRY DYN."
 phatInitConditions = [0.1 0.1 0.1 0.1 0.1 0.1 0.1];
 
-%% (c)  ZADANIE 1.3
-%---- • Zamodelowaæ pêtlê regulacyjn¹ (7) – rys. 1. Wartoœci macierzy Kp i Kv dobraæ doœwiadczalnie
-%       tak, aby uzyskaæ zadowalaj¹c¹ jakoœæ sterowania.
+%% (c)  ZADANIE 2.3
+%---- • Zamodelowaæ pêtlê regulacyjn¹ (13) – rys. 2. Wartoœci macierzy Kv i Lambda dobraæ doœwiadczalnie
+%       jako macierze sta³e w czasie.
 
-Kp = diag([800 800]);
+Lambda = diag([800 800]);
 Kv = diag([800 800]);
 
-
-%% (d)  ZADANIE 1.4
-%---- • Zamodelowaæ blok estymacji (8) – rys. 1.
-
-% zobacz Simulink/"PARAMETRY DYN."
 % Macierz wzmocnieñ
 global Gamma
 Gamma = diag([100 100 100 100 100 100 100]);
+
+%% (d)  ZADANIE 2.4
+%---- • Zamodelowaæ blok estymacji parametrów (14) – rys. 2.
+
+% zobacz ./SRManCw5_ZADANIE2_PRAWO_ESTYMACJI.m
 
 %% (e)  ZADANIE 1.5
 %---- • Przeprowadziæ symulacje uk³adu sterowania (7)+(8) z manipulatorem (1) dla nastêpuj¹cych

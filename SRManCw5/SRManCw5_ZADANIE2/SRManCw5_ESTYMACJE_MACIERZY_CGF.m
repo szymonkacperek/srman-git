@@ -12,7 +12,7 @@ function CGFhat = SRManCw5_ESTYMACJE_MACIERZY_CGF(input)
 phat = input(1:7);  
 q = input(8:9);
 qDot = input(9:10);
-qdDot = input(11:12);
+qrDot = input(11:12);
 
 % Wyznaczam estymatê macierzy Chat wg (SRManCw1.pdf, B)
 c11hat = -phat(2)*qDot(2)*sin(q(2));
@@ -31,4 +31,4 @@ f11hat = phat(6)*q(1);
 f21hat = phat(7)*q(2);
 Fhat = [f11hat; f21hat];
 
-CGFhat = Chat*qdDot + Ghat + Fhat;
+CGFhat = Chat*qrDot + Ghat + Fhat;
