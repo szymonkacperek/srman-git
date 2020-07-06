@@ -35,7 +35,7 @@ g = 9.81;           % m/s^2
 
 % Wektory warunków pocz¹tkowych - po³o¿enie ogniw
 initConditionsVel = [0; 0];
-initConditionsPos = [pi/2; pi/2];
+initConditionsPos = [0; 0];
 
 %% 1.6 PARAMETRY GENERATORÓW SYGNA£ÓW REFERENCYJNCYCH      
 % G1 (Generator sinusoidalny)
@@ -83,16 +83,12 @@ p = [I2+m2*L2^2 2*m2*L1*L2 I1+m1*L1^2+4*m2*L1^2 m2*L2*g (m1+2*m2)*g*L1 b1 b2];
 %---- • Zamodelowaæ pêtlê regulacyjn¹ (13) – rys. 2. Wartoœci macierzy Kv i Lambda dobraæ doœwiadczalnie
 %       jako macierze sta³e w czasie.
 
-k = 5.0;
-Lambda = diag([k k]);
-
-w = 800.0;
-Kv = diag([w w]);
+Lambda = diag([0.5 0.5]);
+Kv = diag([800 800]);
 
 % Macierz wzmocnieñ
 global Gamma
-r = 100.0;
-Gamma = diag([r r r r r r r]);
+Gamma = diag([100 100 100 100 100 100 100]);
 
 %% (d)  ZADANIE 2.4
 %---- • Zamodelowaæ blok estymacji parametrów (14) – rys. 2.

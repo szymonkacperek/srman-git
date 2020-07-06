@@ -27,8 +27,8 @@ g12hat = phat(4)*cos(q(1)+q(2));
 Ghat = [g11hat; g12hat];
 
 % Wyznaczam estymatê macierzy Fhat
-f11hat = phat(6)*q(1);
-f21hat = phat(7)*q(2);
+f11hat = phat(6)*qDot(1);
+f21hat = phat(7)*qDot(2);
 Fhat = [f11hat; f21hat];
 
 CGFhat = Chat*qrDot + Ghat + Fhat;
