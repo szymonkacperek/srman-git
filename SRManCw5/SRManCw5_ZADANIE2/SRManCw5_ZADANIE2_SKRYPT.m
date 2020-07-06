@@ -17,15 +17,15 @@ N = size(t,2);
 %% 1.2 PARAMETRY MANIPULATORA
 global m1 I1 L1 b1 g m2 I2 L2 b2 fC1 fC2
 % Parametry ramienia 0 - rysunek zob. plik PDF
-L1 = 1.0;%*100.5;           % m
+L1 = 1.0*0.9;           % m
 m1 = 5.0;           % kg
 I1 = m1*L1^2/12;    % kg*m
 b1 = 9.5;           % N*s/rad
 fC1 = 0.2;          % N*m
 
 % Parametry ramienia 1
-L2 = 0.8;%*0.4;           % m
-m2 = 3.0;%*1.6;           % kg
+L2 = 0.8*0.9;           % m
+m2 = 3.0*1.1;           % kg
 I2 = m2*L2^2/12;    % kg*m
 b2 = 4.5;           % N*s/rad
 fC2 = 0.1;          % N*m
@@ -104,5 +104,5 @@ Gamma = diag([r r r r r r r]);
 %       przyjmuj¹c macierz wzmocnieñ Kv jako zmienn¹ w czasie:
 
 global Delta
-delta = 10000.1;
+delta = 10000.0;
 Delta = diag([delta delta]);
