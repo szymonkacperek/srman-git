@@ -18,7 +18,6 @@ m11 = phat(1)+phat(3)+2*phat(2)*cos(q(2));
 m12 = phat(1)+phat(2)*cos(q(2));
 m21 = phat(1)+phat(2)*cos(q(2));
 m22 = phat(1);
-
 Mhat = [m11 m12; m21 m22];
 
 output = Mhat * qrDotDot;

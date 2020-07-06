@@ -6,7 +6,6 @@
 %---- • NOTATKI
 % 
 function qDotDot = SRManCw5_ZADANIE2_PARAMETRYZACJA_PM2R(input)
-global m1 I1 L1 b1 g m2 I2 L2 b2
 % Definicja sygna³ów wejœciowych
 tau = input(1:2);
 q = input(3:4);

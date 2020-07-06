@@ -99,12 +99,10 @@ Gamma = diag([r r r r r r r]);
 
 % zobacz ./SRManCw5_ZADANIE2_PRAWO_ESTYMACJI.m
 
-%% (e)  ZADANIE 1.5
-%---- • Przeprowadziæ symulacje uk³adu sterowania (7)+(8) z manipulatorem (1) dla nastêpuj¹cych
-%       sygna³ów zadanych: G1 i G2. Zapewniæ niezerowe pocz¹tkowe wartoœci b³êdów œledzenia e0 != 0.
-%       • Jak zachowuj¹ siê b³êdy œledzenia e(t)? Czy zmierzaj¹ asymptotycznie do zera?
-%         Czy s¹ ograniczone w ca³ym horyzoncie sterowania? Jak zachowuj¹ siê b³êdy prêdkoœci eÿ(t)?
-%       • Zbadaæ wp³yw wartoœci wspó³czynników wzmocnienia ? bloku estymacji na szybkoœæ
-%         zmian wartoœci estymat ?p(t) w ca³ym horyzoncie czasowym sterowania. Czy
-%         wartoœci estymat ?p(t) zmierzaj¹ do prawdziwych wartoœci parametrów dynamicznych
-%         p manipulatora?
+%% (e)  ZADANIE 2.7
+%---- • Przeprowadziæ symulacje dla skokowych, sinusoidalnych i wielomianowych sygna³ów zadanych
+%       przyjmuj¹c macierz wzmocnieñ Kv jako zmienn¹ w czasie:
+
+global Delta
+delta = 10000.1;
+Delta = diag([delta delta]);
