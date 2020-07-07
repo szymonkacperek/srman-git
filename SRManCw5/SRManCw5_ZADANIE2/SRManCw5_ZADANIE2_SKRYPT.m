@@ -91,7 +91,7 @@ Kv = diag([w w]);
 
 % Macierz wzmocnieñ
 global Gamma
-r = 100.0;
+r = 1/100.0;
 Gamma = diag([r r r r r r r]);
 
 %% (d)  ZADANIE 2.4
@@ -104,5 +104,5 @@ Gamma = diag([r r r r r r r]);
 %       przyjmuj¹c macierz wzmocnieñ Kv jako zmienn¹ w czasie:
 
 global Delta
-delta = 5000.0;
+delta = 2000.0;
 Delta = diag([delta delta]);

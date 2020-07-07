@@ -148,14 +148,14 @@ Jako model matematyczny manipulatora przyjęto sparametryzowaną wersję modelu:
 gdzie $\Gamma \in \mathbb{R}^{7x7}$ jest macierzą diagonalną o współczynnikach $\gamma=100$, a wektor parametrów początkowych $\hat{p}_0\in\mathbb{R}^{1x7}$ posiada współczynniki równe 0,1. Niezerowy uchyb pozycji $e\neq0$ przyjęto poprzez ustalenie warunków początkowych dla pozycji ramion $q=[\pi/2\quad \pi/2]$. 
 
 \subsection{Wnioski}
-Niezerowe warunki początkowe $e\neq0$ znacząco wpłynęły na przebieg momentów napędowych $\tau$, przy ich redukcji proporcjonalnie malała wartość szczytowa przebiegu. 
+Niezerowe warunki początkowe $e\neq0$ znacząco wpłynęły na przebieg momentów napędowych $\tau$, przy ich redukcji proporcjonalnie malała wartość szczytowa przebiegu sygnałów sterujących. 
 % 2.7
 %Błędy śledzenia dla wymuszenia $Q_{d2}$ w przypadku wzmacniania przez wersję dynamiczną i statyczną macierzy $K_V$ nie zmierzały asymptotycznie do zera w porównaniu z wersją statyczną.
-Dla dynamicznej macierzy Kv, na zmniejszenie błędów śledzenia korzystnie wpływa zmniejszenie współczynnika $\Gamma$ oraz zwiększanie wartości $\delta$. Wiąże się to jednak ze wzrostem szczytowego momentu napędowego, który występuje na początku.
+Dla dynamicznej macierzy $K_V$, na zmniejszenie błędów śledzenia korzystnie wpływa zmniejszenie współczynnika $\gamma$ oraz zwiększanie wartości $\delta$. Wiąże się to jednak ze wzrostem szczytowego momentu napędowego, który występuje na początku.
 
 Jakość regulacji dla obu przypadków postaci macierzy $K_V$ nie wykazuje istotnych różnic, poza możliwym wystąpieniem zjawiska \textit{chatteringu} w przypadku dynamicznej wersji macierzy $K_V$.
 
-Zwiększając macierz $\Gamma$, wektor parametrów estymowanych $\hat{p}$ znacznie szybciej osiągał końcowe wartości, zmniejszeniu ulegały również ich oscylacje.
+Zwiększając macierz $\Gamma$, wektor parametrów estymowanych $\hat{p}$ znacznie szybciej osiągał końcowe wartości, zmniejszeniu ulegały również ich oscylacje. Niezależnie jednak od rodzaju wymuszenia oraz warunków początkowych, estymaty parametrów $\hat{p}$ znacząco różniły się od parametrów $p$.
 
 Wszelkie operacje zmniejszające uchyb znacząco wpływają na wartości szczytowe momentów napędowych, aż do wartości które przekraczają możliwości przekładni redukcyjnych - koniecznym może być zastosowanie stosownego ogranicznika mocy. 
 
@@ -169,7 +169,7 @@ Podsumowując, mimo wprowadzonych niepewności parametrycznych regulator oddawa�
 	\begin{figure}[H]\centering
 	a) \includegraphics[width=0.30\columnwidth]{SRManCw5/SRManCw5_ZADANIE2/figs/02Pozycje} b)\includegraphics[width=0.30\columnwidth]{SRManCw5/SRManCw5_ZADANIE2/figs/02Uchyby} c)\includegraphics[width=0.30\columnwidth]{SRManCw5/SRManCw5_ZADANIE2/figs/02Sygnal}
 	d) \includegraphics[width=0.30\columnwidth]{SRManCw5/SRManCw5_ZADANIE2/figs/03Pozycje} e)\includegraphics[width=0.30\columnwidth]{SRManCw5/SRManCw5_ZADANIE2/figs/03Uchyby} f)\includegraphics[width=0.30\columnwidth]{SRManCw5/SRManCw5_ZADANIE2/figs/03Sygnal}\caption{
-		Wyniki symulacji dla  $e_0\neq0$. Przebiegi a) pozycji ogniw wraz z zadanym sygnałem referencyjnym, b) uchybów pozycji i prędkości, c)  sygnałów sterujących, dla wymuszeń:\\
+		Wyniki symulacji dla  $e_0\neq0$ oraz statycznej wersji $K_V$. Przebiegi a) pozycji ogniw wraz z zadanym sygnałem referencyjnym, b) uchybów pozycji i prędkości, c)  sygnałów sterujących, dla wymuszeń:\\
 		\textbf{a-c:} $Q_{d2}=[\sin(0,6t);\quad \sin(0,7t)]$;\\
 		\textbf{d-f:} $Q_{d3}=[0,0025t^3+0,0020t^2+0,0015t+0,001]$.}
 \end{figure}
