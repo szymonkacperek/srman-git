@@ -148,10 +148,9 @@ Tb = Ta*1.8;
 %       sterowañ ?.
 
 % Ustalam ograniczenia napiêciowe
-
 global umax
-u1max = 16;
-u2max = u1max*0.5;
+u1max = 24;
+u2max = u1max;%*0.5;
 umax = [u1max; u2max];
 
 %% (b)  ZADANIE 1.2

@@ -130,7 +130,7 @@
 			Wyniki symulacji dla $u_{2max}=12$ [V] o wymuszeniu $Q_d=[1\quad1]$: przebiegi a) pozycji ogniw wraz z zadanym sygnałem referencyjnym, b) uchybów pozycji i prędkości, c)  napięć sterujących oraz odpowiadające im momenty generowane na wałach silników.}\label{fig:hiperprostopadloscian12v}
 	\end{figure}
 	\begin{figure}[H]\centering
-		a) \includegraphics[width=0.30\columnwidth]{SRManCw4/SRManL4_ZADANIE2/figs/02Pozycje_U24} b)\includegraphics[width=0.30\columnwidth]{SRManCw4/SRManL4_ZADANIE2/figs/02Uchyby_U24} c)\includegraphics[width=0.30\columnwidth]{SRManCw4/SRManL4_ZADANIE2/figs/02Sygnaly_U24}\caption{
+		a) \includegraphics[width=0.30\columnwidth]{SRManCw4/SRManL4_ZADANIE2/figs/02Pozycje_U24} b)\includegraphics[width=0.30\columnwidth]{SRManCw4/SRManL4_ZADANIE2/figs/02Uchyby_U24} c)\includegraphics[width=0.30\columnwidth]{SRManCw4/SRManL4_ZADANIE2/figs/01Sygnaly_U12}\caption{
 			Wyniki symulacji dla $u_{HKmax}=24$ [V]. Przebiegi a) pozycji ogniw wraz z zadanym sygnałem referencyjnym, b) uchybów pozycji i prędkości, c)  napięć sterujących oraz odpowiadające im momenty generowane na wałach silników, o wymuszeniu: $Q_d=[1\quad1]$}
 	\end{figure}	
 \subsection{Wnioski}
@@ -144,21 +144,32 @@ Podsumowując, zmiana podprzestrzeni pozwala uniknąć zasadniczej wady. Manipul
 Celem implementacji algorytmu jest identyfikacja dynamicznych parametrów modelu manipulatora PM2R (bez silników i przekładni) za pomocą regulatora zaproponowanego przez Slotine i Li. Według założeń wspomniany algorytm jest odporny na niepewności parametryczne.
 
 Jako model matematyczny manipulatora przyjęto sparametryzowaną wersję modelu: $Y^Tp=\tau$. Zaimplementowano regulator Slotine i Li wraz z \textit{Generatorem Trajektorii Wirtualnej}. W celu sprawdzenia założeń projektowych przyjęto niepewność parametryczną 10\% dla masy drugiego ramienia oraz 10\% długości obu ramion. Przyjęto parametry:\begin{equation}
-\Lambda=\begin{bmatrix}5 & 0 \\ 0 & 5\end{bmatrix},\quad K_V=\begin{bmatrix}800 & 0 \\ 0 & 800\end{bmatrix}, \quad \delta=\begin{bmatrix}10000 & 0 \\ 0 & 10000\end{bmatrix},\quad \Lambda=\begin{bmatrix}5 & 0 \\ 0 & 5\end{bmatrix},\quad \hat{p}_0,\quad\Gamma\end{equation}
+\Lambda=\begin{bmatrix}5 & 0 \\ 0 & 5\end{bmatrix},\quad K_V=\begin{bmatrix}800 & 0 \\ 0 & 800\end{bmatrix}, \quad \delta=\begin{bmatrix}5000 & 0 \\ 0 & 5000\end{bmatrix},\quad \Lambda=\begin{bmatrix}5 & 0 \\ 0 & 5\end{bmatrix},\quad \hat{p}_0,\quad\Gamma\end{equation}
 gdzie $\Gamma \in \mathbb{R}^{7x7}$ jest macierzą diagonalną o współczynnikach $\gamma=100$, a wektor parametrów początkowych $\hat{p}_0\in\mathbb{R}^{1x7}$ posiada współczynniki równe 0,1. Niezerowy uchyb pozycji $e\neq0$ przyjęto poprzez ustalenie warunków początkowych dla pozycji ramion $q=[\pi/2\quad \pi/2]$. 
 
 \subsection{Wnioski}
+Niezerowe warunki początkowe $e\neq0$ znacząco wpłynęły na przebieg momentów napędowych $\tau$, przy ich redukcji proporcjonalnie malała wartość szczytowa przebiegu. 
+% 2.7
+%Błędy śledzenia dla wymuszenia $Q_{d2}$ w przypadku wzmacniania przez wersję dynamiczną i statyczną macierzy $K_V$ nie zmierzały asymptotycznie do zera w porównaniu z wersją statyczną.
+Dla dynamicznej macierzy Kv, na zmniejszenie błędów śledzenia korzystnie wpływa zmniejszenie współczynnika $\Gamma$ oraz zwiększanie wartości $\delta$. Wiąże się to jednak ze wzrostem szczytowego momentu napędowego, który występuje na początku.
 
+Jakość regulacji dla obu przypadków postaci macierzy $K_V$ nie wykazuje istotnych różnic, poza możliwym wystąpieniem zjawiska \textit{chatteringu} w przypadku dynamicznej wersji macierzy $K_V$.
+
+Zwiększając macierz $\Gamma$, wektor parametrów estymowanych $\hat{p}$ znacznie szybciej osiągał końcowe wartości, zmniejszeniu ulegały również ich oscylacje.
+
+Wszelkie operacje zmniejszające uchyb znacząco wpływają na wartości szczytowe momentów napędowych, aż do wartości które przekraczają możliwości przekładni redukcyjnych - koniecznym może być zastosowanie stosownego ogranicznika mocy. 
+
+Podsumowując, mimo wprowadzonych niepewności parametrycznych regulator oddawał zadane trajektorie referencyjne.
 
 \subsection{Prezentacja wyników}
 	\begin{figure}[H]\centering
 	a) \includegraphics[width=0.30\columnwidth]{SRManCw5/SRManCw5_ZADANIE2/figs/01Pozycje_e0} b)\includegraphics[width=0.30\columnwidth]{SRManCw5/SRManCw5_ZADANIE2/figs/01Uchyby_e0} c)\includegraphics[width=0.30\columnwidth]{SRManCw5/SRManCw5_ZADANIE2/figs/01Sygnal_e0}\caption{
-		Wyniki symulacji dla wymuszenia $Q_{d1}=[1\quad1]$ oraz $e=0$. Przebiegi a) pozycji ogniw wraz z zadanym sygnałem referencyjnym, b) uchybów pozycji i prędkości, c)  sygnałów sterujących.}
+		Wyniki symulacji dla wymuszenia $Q_{d1}=[1\quad1]$ oraz $e_0=0$. Przebiegi a) pozycji ogniw wraz z zadanym sygnałem referencyjnym, b) uchybów pozycji i prędkości, c)  sygnałów sterujących.}
 \end{figure}
 	\begin{figure}[H]\centering
 	a) \includegraphics[width=0.30\columnwidth]{SRManCw5/SRManCw5_ZADANIE2/figs/02Pozycje} b)\includegraphics[width=0.30\columnwidth]{SRManCw5/SRManCw5_ZADANIE2/figs/02Uchyby} c)\includegraphics[width=0.30\columnwidth]{SRManCw5/SRManCw5_ZADANIE2/figs/02Sygnal}
 	d) \includegraphics[width=0.30\columnwidth]{SRManCw5/SRManCw5_ZADANIE2/figs/03Pozycje} e)\includegraphics[width=0.30\columnwidth]{SRManCw5/SRManCw5_ZADANIE2/figs/03Uchyby} f)\includegraphics[width=0.30\columnwidth]{SRManCw5/SRManCw5_ZADANIE2/figs/03Sygnal}\caption{
-		Wyniki symulacji dla  $e\neq0$. Przebiegi a) pozycji ogniw wraz z zadanym sygnałem referencyjnym, b) uchybów pozycji i prędkości, c)  sygnałów sterujących, dla wymuszeń:\\
+		Wyniki symulacji dla  $e_0\neq0$. Przebiegi a) pozycji ogniw wraz z zadanym sygnałem referencyjnym, b) uchybów pozycji i prędkości, c)  sygnałów sterujących, dla wymuszeń:\\
 		\textbf{a-c:} $Q_{d2}=[\sin(0,6t);\quad \sin(0,7t)]$;\\
 		\textbf{d-f:} $Q_{d3}=[0,0025t^3+0,0020t^2+0,0015t+0,001]$.}
 \end{figure}
@@ -166,7 +177,7 @@ gdzie $\Gamma \in \mathbb{R}^{7x7}$ jest macierzą diagonalną o współczynnika
 	a) \includegraphics[width=0.30\columnwidth]{SRManCw5/SRManCw5_ZADANIE2/figs/04Pozycje} b)\includegraphics[width=0.30\columnwidth]{SRManCw5/SRManCw5_ZADANIE2/figs/04Uchyby} c)\includegraphics[width=0.30\columnwidth]{SRManCw5/SRManCw5_ZADANIE2/figs/04Sygnal}\\
 	d) \includegraphics[width=0.30\columnwidth]{SRManCw5/SRManCw5_ZADANIE2/figs/05Pozycje} e)\includegraphics[width=0.30\columnwidth]{SRManCw5/SRManCw5_ZADANIE2/figs/05Uchyby} f)\includegraphics[width=0.30\columnwidth]{SRManCw5/SRManCw5_ZADANIE2/figs/05Sygnal}\\
 	d) \includegraphics[width=0.30\columnwidth]{SRManCw5/SRManCw5_ZADANIE2/figs/06Pozycje} e)\includegraphics[width=0.30\columnwidth]{SRManCw5/SRManCw5_ZADANIE2/figs/06Uchyby} f)\includegraphics[width=0.30\columnwidth]{SRManCw5/SRManCw5_ZADANIE2/figs/06Sygnal}\caption{
-		Wyniki symulacji dla $K_V=\delta\hat{M}(q)$. Przebiegi (a, d, g) pozycji ogniw wraz z zadanym sygnałem referencyjnym, (b, e, h) uchybów pozycji i prędkości, (c, f, i)  napięć sterujących oraz odpowiadające im momenty generowane na wałach silników, o wymuszeniu:\\
+		Wyniki symulacji dla $K_V=\delta\hat{M}(q)$, $e_0=0$. Przebiegi (a, d, g) pozycji ogniw wraz z zadanym sygnałem referencyjnym, (b, e, h) uchybów pozycji i prędkości, (c, f, i)  napięć sterujących oraz odpowiadające im momenty generowane na wałach silników, o wymuszeniu:\\
 		\textbf{a-c:} $Q_{d1}=[1\quad1]$;\\
 		\textbf{d-f:} $Q_{d2}=[\sin(0,6t);\quad \sin(0,7t)]$;\\
 		\textbf{g-i:} $Q_{d3}=[0,0025t^3+0,0020t^2+0,0015t+0,001]$.}

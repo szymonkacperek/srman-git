@@ -35,7 +35,7 @@ g = 9.81;           % m/s^2
 
 % Wektory warunków pocz¹tkowych - po³o¿enie ogniw
 initConditionsVel = [0; 0];
-initConditionsPos = [pi/2; pi/2];
+initConditionsPos = [0; 0];%[pi/2; pi/2];
 
 %% 1.6 PARAMETRY GENERATORÓW SYGNA£ÓW REFERENCYJNCYCH      
 % G1 (Generator sinusoidalny)
@@ -104,5 +104,5 @@ Gamma = diag([r r r r r r r]);
 %       przyjmuj¹c macierz wzmocnieñ Kv jako zmienn¹ w czasie:
 
 global Delta
-delta = 10000.0;
+delta = 5000.0;
 Delta = diag([delta delta]);
