@@ -1,12 +1,12 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7440 64-bit) (preloaded format=pdflatex 2020.5.24)  7 JUL 2020 11:55
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7440 64-bit) (preloaded format=pdflatex 2020.5.24)  7 JUL 2020 17:25
 entering extended mode
 **./SRMan_RAPORT_Z7Z8.tex
 (SRMan_RAPORT_Z7Z8.tex
 LaTeX2e <2020-02-02> patch level 5
 L3 programming layer <2020-05-15> ("C:\MiKTeX 2.9\tex/latex/base\article.cls"
 Document Class: article 2019/12/20 v1.4l Standard LaTeX document class
-("C:\MiKTeX 2.9\tex/latex/base\size12.clo"
-File: size12.clo 2019/12/20 v1.4l Standard LaTeX file (size option)
+("C:\MiKTeX 2.9\tex/latex/base\size10.clo"
+File: size10.clo 2019/12/20 v1.4l Standard LaTeX file (size option)
 )
 \c@part=\count167
 \c@section=\count168
@@ -261,36 +261,31 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \@float@everytoks=\toks33
 \@floatcapt=\box54
 )
-("C:\MiKTeX 2.9\tex/latex/caption\subcaption.sty"
-Package: subcaption 2020/01/22 v1.3d Sub-captions (AR)
-
-("C:\MiKTeX 2.9\tex/latex/caption\caption.sty"
-Package: caption 2020/05/10 v3.4j Customizing captions (AR)
-
-("C:\MiKTeX 2.9\tex/latex/caption\caption3.sty"
-Package: caption3 2020/05/10 v1.11 caption3 kernel (AR)
-Package caption3 Info: TeX engine: e-TeX on input line 61.
-\captionmargin=\dimen159
-\captionmargin@=\dimen160
-\captionwidth=\dimen161
-\caption@tempdima=\dimen162
-\caption@indent=\dimen163
-\caption@parindent=\dimen164
-\caption@hangindent=\dimen165
-Package caption Info: Standard document class detected.
-)
-\c@caption@flags=\count268
-\c@continuedfloat=\count269
-Package caption Info: float package is loaded.
-)
-\c@subfigure=\count270
-\c@subtable=\count271
-)
 ("C:\MiKTeX 2.9\tex/latex/grffile\grffile.sty"
 Package: grffile 2019/11/11 v2.1 Extended file name support for graphics (legac
 y)
 Package grffile Info: This package is an empty stub for compatibility on input 
 line 40.
+)
+("C:\MiKTeX 2.9\tex/latex/subfigure\subfigure.sty"
+Package: subfigure 2002/07/30 v2.1.4 subfigure package
+\subfigtopskip=\skip66
+\subfigcapskip=\skip67
+\subfigcaptopadj=\dimen159
+\subfigbottomskip=\skip68
+\subfigcapmargin=\dimen160
+\subfiglabelskip=\skip69
+\c@subfigure=\count268
+\c@lofdepth=\count269
+\c@subtable=\count270
+\c@lotdepth=\count271
+
+****************************************
+* Local config file subfigure.cfg used *
+****************************************
+("C:\MiKTeX 2.9\tex/latex/subfigure\subfigure.cfg")
+\subfig@top=\skip70
+\subfig@bottom=\skip71
 )
 ("C:\MiKTeX 2.9\tex/latex/tcolorbox\tcolorbox.sty"
 Package: tcolorbox 2020/04/28 version 4.30 text color boxes
@@ -299,8 +294,8 @@ Package: tcolorbox 2020/04/28 version 4.30 text color boxes
 ("C:\MiKTeX 2.9\tex/latex/pgf/utilities\pgfrcs.sty"
 ("C:\MiKTeX 2.9\tex/generic/pgf/utilities\pgfutil-common.tex"
 \pgfutil@everybye=\toks34
-\pgfutil@tempdima=\dimen166
-\pgfutil@tempdimb=\dimen167
+\pgfutil@tempdima=\dimen161
+\pgfutil@tempdimb=\dimen162
 
 ("C:\MiKTeX 2.9\tex/generic/pgf/utilities\pgfutil-common-lists.tex"))
 ("C:\MiKTeX 2.9\tex/generic/pgf/utilities\pgfutil-latex.def"
@@ -327,16 +322,16 @@ Package: pgfsys 2020/01/08 v3.1.5b (3.1.5b)
 ("C:\MiKTeX 2.9\tex/generic/pgf/utilities\pgfkeysfiltered.code.tex"
 \pgfkeys@tmptoks=\toks37
 ))
-\pgf@x=\dimen168
-\pgf@y=\dimen169
-\pgf@xa=\dimen170
-\pgf@ya=\dimen171
-\pgf@xb=\dimen172
-\pgf@yb=\dimen173
-\pgf@xc=\dimen174
-\pgf@yc=\dimen175
-\pgf@xd=\dimen176
-\pgf@yd=\dimen177
+\pgf@x=\dimen163
+\pgf@y=\dimen164
+\pgf@xa=\dimen165
+\pgf@ya=\dimen166
+\pgf@xb=\dimen167
+\pgf@yb=\dimen168
+\pgf@xc=\dimen169
+\pgf@yc=\dimen170
+\pgf@xd=\dimen171
+\pgf@yd=\dimen172
 \w@pgf@writea=\write3
 \r@pgf@reada=\read2
 \c@pgf@counta=\count272
@@ -391,7 +386,7 @@ Package: pgfcore 2020/01/08 v3.1.5b (3.1.5b)
 ("C:\MiKTeX 2.9\tex/generic/pgf/math\pgfmathcalc.code.tex"
 ("C:\MiKTeX 2.9\tex/generic/pgf/math\pgfmathutil.code.tex")
 ("C:\MiKTeX 2.9\tex/generic/pgf/math\pgfmathparser.code.tex"
-\pgfmath@dimen=\dimen178
+\pgfmath@dimen=\dimen173
 \pgfmath@count=\count279
 \pgfmath@box=\box56
 \pgfmath@toks=\toks41
@@ -413,30 +408,30 @@ ex"))) ("C:\MiKTeX 2.9\tex/generic/pgf/math\pgfmathfloat.code.tex"
 ("C:\MiKTeX 2.9\tex/generic/pgf/math\pgfint.code.tex")
 ("C:\MiKTeX 2.9\tex/generic/pgf/basiclayer\pgfcorepoints.code.tex"
 File: pgfcorepoints.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-\pgf@picminx=\dimen179
-\pgf@picmaxx=\dimen180
-\pgf@picminy=\dimen181
-\pgf@picmaxy=\dimen182
-\pgf@pathminx=\dimen183
-\pgf@pathmaxx=\dimen184
-\pgf@pathminy=\dimen185
-\pgf@pathmaxy=\dimen186
-\pgf@xx=\dimen187
-\pgf@xy=\dimen188
-\pgf@yx=\dimen189
-\pgf@yy=\dimen190
-\pgf@zx=\dimen191
-\pgf@zy=\dimen192
+\pgf@picminx=\dimen174
+\pgf@picmaxx=\dimen175
+\pgf@picminy=\dimen176
+\pgf@picmaxy=\dimen177
+\pgf@pathminx=\dimen178
+\pgf@pathmaxx=\dimen179
+\pgf@pathminy=\dimen180
+\pgf@pathmaxy=\dimen181
+\pgf@xx=\dimen182
+\pgf@xy=\dimen183
+\pgf@yx=\dimen184
+\pgf@yy=\dimen185
+\pgf@zx=\dimen186
+\pgf@zy=\dimen187
 )
 ("C:\MiKTeX 2.9\tex/generic/pgf/basiclayer\pgfcorepathconstruct.code.tex"
 File: pgfcorepathconstruct.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-\pgf@path@lastx=\dimen193
-\pgf@path@lasty=\dimen194
+\pgf@path@lastx=\dimen188
+\pgf@path@lasty=\dimen189
 )
 ("C:\MiKTeX 2.9\tex/generic/pgf/basiclayer\pgfcorepathusage.code.tex"
 File: pgfcorepathusage.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-\pgf@shorten@end@additional=\dimen195
-\pgf@shorten@start@additional=\dimen196
+\pgf@shorten@end@additional=\dimen190
+\pgf@shorten@start@additional=\dimen191
 )
 ("C:\MiKTeX 2.9\tex/generic/pgf/basiclayer\pgfcorescopes.code.tex"
 File: pgfcorescopes.code.tex 2020/01/08 v3.1.5b (3.1.5b)
@@ -447,13 +442,13 @@ File: pgfcorescopes.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 )
 ("C:\MiKTeX 2.9\tex/generic/pgf/basiclayer\pgfcoregraphicstate.code.tex"
 File: pgfcoregraphicstate.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-\pgflinewidth=\dimen197
+\pgflinewidth=\dimen192
 )
 ("C:\MiKTeX 2.9\tex/generic/pgf/basiclayer\pgfcoretransformations.code.tex"
 File: pgfcoretransformations.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-\pgf@pt@x=\dimen198
-\pgf@pt@y=\dimen256
-\pgf@pt@temp=\dimen257
+\pgf@pt@x=\dimen193
+\pgf@pt@y=\dimen194
+\pgf@pt@temp=\dimen195
 )
 ("C:\MiKTeX 2.9\tex/generic/pgf/basiclayer\pgfcorequick.code.tex"
 File: pgfcorequick.code.tex 2020/01/08 v3.1.5b (3.1.5b)
@@ -466,11 +461,11 @@ File: pgfcorepathprocessing.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 )
 ("C:\MiKTeX 2.9\tex/generic/pgf/basiclayer\pgfcorearrows.code.tex"
 File: pgfcorearrows.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-\pgfarrowsep=\dimen258
+\pgfarrowsep=\dimen196
 )
 ("C:\MiKTeX 2.9\tex/generic/pgf/basiclayer\pgfcoreshade.code.tex"
 File: pgfcoreshade.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-\pgf@max=\dimen259
+\pgf@max=\dimen197
 \pgf@sys@shading@range@num=\count282
 \pgf@shadingcount=\count283
 )
@@ -502,8 +497,8 @@ File: pgfmoduleplot.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 )
 ("C:\MiKTeX 2.9\tex/latex/pgf/compatibility\pgfcomp-version-0-65.sty"
 Package: pgfcomp-version-0-65 2020/01/08 v3.1.5b (3.1.5b)
-\pgf@nodesepstart=\dimen260
-\pgf@nodesepend=\dimen261
+\pgf@nodesepstart=\dimen198
+\pgf@nodesepend=\dimen256
 )
 ("C:\MiKTeX 2.9\tex/latex/pgf/compatibility\pgfcomp-version-1-18.sty"
 Package: pgfcomp-version-1-18 2020/01/08 v3.1.5b (3.1.5b)
@@ -555,8 +550,8 @@ Library (tcolorbox): 'tcbskins.code.tex' version '4.30'
 Package: pgffor 2020/01/08 v3.1.5b (3.1.5b)
 
 ("C:\MiKTeX 2.9\tex/generic/pgf/math\pgfmath.code.tex")
-\pgffor@iter=\dimen262
-\pgffor@skip=\dimen263
+\pgffor@iter=\dimen257
+\pgffor@skip=\dimen258
 \pgffor@stack=\toks46
 \pgffor@toks=\toks47
 ))
@@ -566,16 +561,16 @@ Package: tikz 2020/01/08 v3.1.5b (3.1.5b)
 ("C:\MiKTeX 2.9\tex/generic/pgf/libraries\pgflibraryplothandlers.code.tex"
 File: pgflibraryplothandlers.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 \pgf@plot@mark@count=\count291
-\pgfplotmarksize=\dimen264
+\pgfplotmarksize=\dimen259
 )
-\tikz@lastx=\dimen265
-\tikz@lasty=\dimen266
-\tikz@lastxsaved=\dimen267
-\tikz@lastysaved=\dimen268
-\tikz@lastmovetox=\dimen269
-\tikz@lastmovetoy=\dimen270
-\tikzleveldistance=\dimen271
-\tikzsiblingdistance=\dimen272
+\tikz@lastx=\dimen260
+\tikz@lasty=\dimen261
+\tikz@lastxsaved=\dimen262
+\tikz@lastysaved=\dimen263
+\tikz@lastmovetox=\dimen264
+\tikz@lastmovetoy=\dimen265
+\tikzleveldistance=\dimen266
+\tikzsiblingdistance=\dimen267
 \tikz@figbox=\box70
 \tikz@figbox@bg=\box71
 \tikz@tempbox=\box72
@@ -611,9 +606,9 @@ Library (tcolorbox): 'tcbhooks.code.tex' version '4.30'
 Library (tcolorbox): 'tcbtheorems.code.tex' version '4.30'
 ) ("C:\MiKTeX 2.9\tex/latex/tcolorbox\tcbfitting.code.tex"
 Library (tcolorbox): 'tcbfitting.code.tex' version '4.30'
-\tcbfitdim=\dimen273
-\tcb@lowerfitdim=\dimen274
-\tcb@upperfitdim=\dimen275
+\tcbfitdim=\dimen268
+\tcb@lowerfitdim=\dimen269
+\tcb@upperfitdim=\dimen270
 \tcb@cur@hbadness=\count300
 ) ("C:\MiKTeX 2.9\tex/latex/tcolorbox\tcbxparse.code.tex"
 Library (tcolorbox): 'tcbxparse.code.tex' version '4.30'
@@ -643,14 +638,14 @@ Library (tcolorbox): 'tcblistings.code.tex' version '4.30'
 \lst@gtempboxa=\box79
 \lst@token=\toks48
 \lst@length=\count307
-\lst@currlwidth=\dimen276
+\lst@currlwidth=\dimen271
 \lst@column=\count308
 \lst@pos=\count309
-\lst@lostspace=\dimen277
-\lst@width=\dimen278
+\lst@lostspace=\dimen272
+\lst@width=\dimen273
 \lst@newlines=\count310
 \lst@lineno=\count311
-\lst@maxwidth=\dimen279
+\lst@maxwidth=\dimen274
 
 ("C:\MiKTeX 2.9\tex/latex/listings\lstmisc.sty"
 File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
@@ -732,7 +727,7 @@ Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
 ("C:\MiKTeX 2.9\tex/latex/kvoptions\kvoptions.sty"
 Package: kvoptions 2019/11/29 v3.13 Key value format for package options (HO)
 )
-\@linkdim=\dimen280
+\@linkdim=\dimen275
 \Hy@linkcounter=\count315
 \Hy@pagecounter=\count316
 
@@ -762,7 +757,7 @@ Package hyperref Info: Bookmarks ON on input line 4717.
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 5076.
-\XeTeXLinkMargin=\dimen281
+\XeTeXLinkMargin=\dimen276
 
 ("C:\MiKTeX 2.9\tex/generic/bitset\bitset.sty"
 Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
@@ -772,8 +767,8 @@ Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
 )
 ))
 \Fld@menulength=\count319
-\Field@Width=\dimen282
-\Fld@charsize=\dimen283
+\Field@Width=\dimen277
+\Fld@charsize=\dimen278
 Package hyperref Info: Hyper figures OFF on input line 6347.
 Package hyperref Info: Link nesting OFF on input line 6352.
 Package hyperref Info: Hyper index ON on input line 6355.
@@ -811,34 +806,125 @@ Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 86.
 )
-\Hy@SectionHShift=\skip66
+\Hy@SectionHShift=\skip72
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 68.
+Package hyperref Info: Option `colorlinks' set `true' on input line 73.
 
 
 LaTeX Warning: Unused global option(s):
     [polish].
 
-(SRMan_RAPORT_Z7Z8.aux)
+(SRMan_RAPORT_Z7Z8.aux
+
+LaTeX Warning: Label `fig:a' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:a' multiply defined.
+
+
+LaTeX Warning: Label `fig:a' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:a' multiply defined.
+
+
+LaTeX Warning: Label `fig:a' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:a' multiply defined.
+
+
+LaTeX Warning: Label `fig:a' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:a' multiply defined.
+
+
+LaTeX Warning: Label `fig:a' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:a' multiply defined.
+
+
+LaTeX Warning: Label `fig:a' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:a' multiply defined.
+
+
+LaTeX Warning: Label `fig:a' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:a' multiply defined.
+
+
+LaTeX Warning: Label `fig:a' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:a' multiply defined.
+
+
+LaTeX Warning: Label `fig:a' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:a' multiply defined.
+
+
+LaTeX Warning: Label `fig:a' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:a' multiply defined.
+
+
+LaTeX Warning: Label `fig:a' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:a' multiply defined.
+
+
+LaTeX Warning: Label `fig:a' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:a' multiply defined.
+
+
+LaTeX Warning: Label `fig:a' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:a' multiply defined.
+
+
+LaTeX Warning: Label `fig:a' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:a' multiply defined.
+
+
+LaTeX Warning: Label `fig:a' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:a' multiply defined.
+
+)
 \openout1 = `SRMan_RAPORT_Z7Z8.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 70.
-LaTeX Font Info:    ... okay on input line 70.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 70.
-LaTeX Font Info:    ... okay on input line 70.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 70.
-LaTeX Font Info:    ... okay on input line 70.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 70.
-LaTeX Font Info:    ... okay on input line 70.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 70.
-LaTeX Font Info:    ... okay on input line 70.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 70.
-LaTeX Font Info:    ... okay on input line 70.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 70.
-LaTeX Font Info:    ... okay on input line 70.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 70.
-LaTeX Font Info:    ... okay on input line 70.
-LaTeX Font Info:    Trying to load font information for T1+lmr on input line 70
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 75.
+LaTeX Font Info:    ... okay on input line 75.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 75.
+LaTeX Font Info:    ... okay on input line 75.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 75.
+LaTeX Font Info:    ... okay on input line 75.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 75.
+LaTeX Font Info:    ... okay on input line 75.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 75.
+LaTeX Font Info:    ... okay on input line 75.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 75.
+LaTeX Font Info:    ... okay on input line 75.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 75.
+LaTeX Font Info:    ... okay on input line 75.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 75.
+LaTeX Font Info:    ... okay on input line 75.
+LaTeX Font Info:    Trying to load font information for T1+lmr on input line 75
 .
  ("C:\MiKTeX 2.9\tex/latex/lm\t1lmr.fd"
 File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
@@ -851,23 +937,23 @@ File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
-* h-part:(L,W,R)=(42.67912pt, 512.14963pt, 42.67912pt)
-* v-part:(T,H,B)=(71.13188pt, 731.23584pt, 42.67912pt)
+* h-part:(L,W,R)=(14.22636pt, 569.05515pt, 14.22636pt)
+* v-part:(T,H,B)=(56.9055pt, 773.91498pt, 14.22636pt)
 * \paperwidth=597.50787pt
 * \paperheight=845.04684pt
-* \textwidth=512.14963pt
-* \textheight=731.23584pt
-* \oddsidemargin=-29.59087pt
-* \evensidemargin=-29.59087pt
-* \topmargin=-38.1381pt
+* \textwidth=569.05515pt
+* \textheight=773.91498pt
+* \oddsidemargin=-58.04362pt
+* \evensidemargin=-58.04362pt
+* \topmargin=-52.36449pt
 * \headheight=12.0pt
 * \headsep=25.0pt
-* \topskip=12.0pt
+* \topskip=10.0pt
 * \footskip=30.0pt
-* \marginparwidth=35.0pt
-* \marginparsep=10.0pt
+* \marginparwidth=57.0pt
+* \marginparsep=11.0pt
 * \columnsep=10.0pt
-* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
 * \hoffset=0.0pt
 * \voffset=0.0pt
 * \mag=1000
@@ -879,17 +965,17 @@ File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 
 Package lastpage Info: Please have a look at the pageslts package at
 (lastpage)             https://www.ctan.org/pkg/pageslts
-(lastpage)             ! on input line 70.
+(lastpage)             ! on input line 75.
 ("C:\MiKTeX 2.9\tex/context/base/mkii\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count325
-\scratchdimen=\dimen284
+\scratchdimen=\dimen279
 \scratchbox=\box81
 \nofMPsegments=\count326
 \nofMParguments=\count327
 \everyMPshowfont=\toks49
 \MPscratchCnt=\count328
-\MPscratchDim=\dimen285
+\MPscratchDim=\dimen280
 \MPnumerator=\count329
 \makeMPintoPDFobject=\count330
 \everyMPtoPDFconversion=\toks50
@@ -898,15 +984,10 @@ Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 85.
 )
-Package caption Info: Begin \AtBeginDocument code.
-Package caption Info: hyperref package is loaded.
-Package caption Info: listings package is loaded.
-Package caption Info: End \AtBeginDocument code.
-
 ABD: EveryShipout initializing macros
 \c@lstlisting=\count331
 \AtBeginShipoutBox=\box82
-Package hyperref Info: Link coloring ON on input line 70.
+Package hyperref Info: Link coloring ON on input line 75.
 
 ("C:\MiKTeX 2.9\tex/latex/hyperref\nameref.sty"
 Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
@@ -919,61 +1000,61 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count332
 )
-LaTeX Info: Redefining \ref on input line 70.
-LaTeX Info: Redefining \pageref on input line 70.
-LaTeX Info: Redefining \nameref on input line 70.
+LaTeX Info: Redefining \ref on input line 75.
+LaTeX Info: Redefining \pageref on input line 75.
+LaTeX Info: Redefining \nameref on input line 75.
 
 (SRMan_RAPORT_Z7Z8.out) (SRMan_RAPORT_Z7Z8.out)
 \@outlinefile=\write6
 \openout6 = `SRMan_RAPORT_Z7Z8.out'.
 
-LaTeX Font Info:    Trying to load font information for T1+lmss on input line 7
-8.
+LaTeX Font Info:    Trying to load font information for T1+lmss on input line 8
+3.
 
 ("C:\MiKTeX 2.9\tex/latex/lm\t1lmss.fd"
 File: t1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 9
-1.
+6.
  ("C:\MiKTeX 2.9\tex/latex/lm\ot1lmr.fd"
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OML+lmm on input line 9
-1.
+6.
  ("C:\MiKTeX 2.9\tex/latex/lm\omllmm.fd"
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 
-91.
+96.
 
 ("C:\MiKTeX 2.9\tex/latex/lm\omslmsy.fd"
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 
-91.
+96.
 
 ("C:\MiKTeX 2.9\tex/latex/lm\omxlmex.fd"
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 91.
+(Font)              <10> on input line 96.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 91.
+(Font)              <7> on input line 96.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 91.
-LaTeX Font Info:    Trying to load font information for U+lasy on input line 91
+(Font)              <5> on input line 96.
+LaTeX Font Info:    Trying to load font information for U+lasy on input line 96
 .
 
 ("C:\MiKTeX 2.9\tex/latex/base\ulasy.fd"
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
-LaTeX Font Info:    Trying to load font information for U+msa on input line 91.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 96.
 
 
 ("C:\MiKTeX 2.9\tex/latex/amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 91.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 96.
 
 
 ("C:\MiKTeX 2.9\tex/latex/amsfonts\umsb.fd"
@@ -990,7 +1071,7 @@ Package epstopdf Info: Source file: <SRManCw4/SRManL4_ZADANIE1/figs/01Pozycje_U
 (epstopdf)             Command: <epstopdf --outfile=SRManCw4/SRManL4_ZADANIE1/f
 igs/01Pozycje_U12-eps-converted-to.pdf SRManCw4/SRManL4_ZADANIE1/figs/01Pozycje
 _U12.eps>
-(epstopdf)             \includegraphics on input line 102.
+(epstopdf)             \includegraphics on input line 107.
 Package epstopdf Info: Output file is already uptodate.
 
 
@@ -1003,8 +1084,8 @@ File: SRManCw4/SRManL4_ZADANIE1/figs/01Pozycje_U12-eps-converted-to.pdf Graphic
  file (type pdf)
 <use SRManCw4/SRManL4_ZADANIE1/figs/01Pozycje_U12-eps-converted-to.pdf>
 Package pdftex.def Info: SRManCw4/SRManL4_ZADANIE1/figs/01Pozycje_U12-eps-conve
-rted-to.pdf  used on input line 102.
-(pdftex.def)             Requested size: 153.64644pt x 153.6504pt.
+rted-to.pdf  used on input line 107.
+(pdftex.def)             Requested size: 170.71828pt x 170.72113pt.
 Package epstopdf Info: Source file: <SRManCw4/SRManL4_ZADANIE1/figs/01Uchyby_U1
 2.eps>
 (epstopdf)                    date: 2020-07-07 10:53:09
@@ -1016,7 +1097,7 @@ Package epstopdf Info: Source file: <SRManCw4/SRManL4_ZADANIE1/figs/01Uchyby_U1
 (epstopdf)             Command: <epstopdf --outfile=SRManCw4/SRManL4_ZADANIE1/f
 igs/01Uchyby_U12-eps-converted-to.pdf SRManCw4/SRManL4_ZADANIE1/figs/01Uchyby_U
 12.eps>
-(epstopdf)             \includegraphics on input line 102.
+(epstopdf)             \includegraphics on input line 107.
 Package epstopdf Info: Output file is already uptodate.
 
 
@@ -1029,8 +1110,8 @@ File: SRManCw4/SRManL4_ZADANIE1/figs/01Uchyby_U12-eps-converted-to.pdf Graphic
 file (type pdf)
 <use SRManCw4/SRManL4_ZADANIE1/figs/01Uchyby_U12-eps-converted-to.pdf>
 Package pdftex.def Info: SRManCw4/SRManL4_ZADANIE1/figs/01Uchyby_U12-eps-conver
-ted-to.pdf  used on input line 102.
-(pdftex.def)             Requested size: 153.64644pt x 153.6504pt.
+ted-to.pdf  used on input line 107.
+(pdftex.def)             Requested size: 170.71828pt x 170.72113pt.
 Package epstopdf Info: Source file: <SRManCw4/SRManL4_ZADANIE1/figs/01Sygnaly_U
 12.eps>
 (epstopdf)                    date: 2020-07-07 10:58:44
@@ -1042,7 +1123,7 @@ Package epstopdf Info: Source file: <SRManCw4/SRManL4_ZADANIE1/figs/01Sygnaly_U
 (epstopdf)             Command: <epstopdf --outfile=SRManCw4/SRManL4_ZADANIE1/f
 igs/01Sygnaly_U12-eps-converted-to.pdf SRManCw4/SRManL4_ZADANIE1/figs/01Sygnaly
 _U12.eps>
-(epstopdf)             \includegraphics on input line 102.
+(epstopdf)             \includegraphics on input line 107.
 Package epstopdf Info: Output file is already uptodate.
 
 
@@ -1055,8 +1136,8 @@ File: SRManCw4/SRManL4_ZADANIE1/figs/01Sygnaly_U12-eps-converted-to.pdf Graphic
  file (type pdf)
 <use SRManCw4/SRManL4_ZADANIE1/figs/01Sygnaly_U12-eps-converted-to.pdf>
 Package pdftex.def Info: SRManCw4/SRManL4_ZADANIE1/figs/01Sygnaly_U12-eps-conve
-rted-to.pdf  used on input line 102.
-(pdftex.def)             Requested size: 153.64644pt x 153.6504pt.
+rted-to.pdf  used on input line 107.
+(pdftex.def)             Requested size: 170.71828pt x 170.72113pt.
 Package epstopdf Info: Source file: <SRManCw4/SRManL4_ZADANIE1/figs/02Pozycje_U
 24.eps>
 (epstopdf)                    date: 2020-07-07 11:00:59
@@ -1068,7 +1149,7 @@ Package epstopdf Info: Source file: <SRManCw4/SRManL4_ZADANIE1/figs/02Pozycje_U
 (epstopdf)             Command: <epstopdf --outfile=SRManCw4/SRManL4_ZADANIE1/f
 igs/02Pozycje_U24-eps-converted-to.pdf SRManCw4/SRManL4_ZADANIE1/figs/02Pozycje
 _U24.eps>
-(epstopdf)             \includegraphics on input line 106.
+(epstopdf)             \includegraphics on input line 111.
 Package epstopdf Info: Output file is already uptodate.
 
 
@@ -1081,8 +1162,8 @@ File: SRManCw4/SRManL4_ZADANIE1/figs/02Pozycje_U24-eps-converted-to.pdf Graphic
  file (type pdf)
 <use SRManCw4/SRManL4_ZADANIE1/figs/02Pozycje_U24-eps-converted-to.pdf>
 Package pdftex.def Info: SRManCw4/SRManL4_ZADANIE1/figs/02Pozycje_U24-eps-conve
-rted-to.pdf  used on input line 106.
-(pdftex.def)             Requested size: 153.64644pt x 153.6504pt.
+rted-to.pdf  used on input line 111.
+(pdftex.def)             Requested size: 125.19283pt x 125.1934pt.
 Package epstopdf Info: Source file: <SRManCw4/SRManL4_ZADANIE1/figs/02Uchyby_U2
 4.eps>
 (epstopdf)                    date: 2020-07-07 11:03:11
@@ -1094,7 +1175,7 @@ Package epstopdf Info: Source file: <SRManCw4/SRManL4_ZADANIE1/figs/02Uchyby_U2
 (epstopdf)             Command: <epstopdf --outfile=SRManCw4/SRManL4_ZADANIE1/f
 igs/02Uchyby_U24-eps-converted-to.pdf SRManCw4/SRManL4_ZADANIE1/figs/02Uchyby_U
 24.eps>
-(epstopdf)             \includegraphics on input line 106.
+(epstopdf)             \includegraphics on input line 111.
 Package epstopdf Info: Output file is already uptodate.
 
 
@@ -1107,8 +1188,8 @@ File: SRManCw4/SRManL4_ZADANIE1/figs/02Uchyby_U24-eps-converted-to.pdf Graphic
 file (type pdf)
 <use SRManCw4/SRManL4_ZADANIE1/figs/02Uchyby_U24-eps-converted-to.pdf>
 Package pdftex.def Info: SRManCw4/SRManL4_ZADANIE1/figs/02Uchyby_U24-eps-conver
-ted-to.pdf  used on input line 106.
-(pdftex.def)             Requested size: 153.64644pt x 153.6504pt.
+ted-to.pdf  used on input line 111.
+(pdftex.def)             Requested size: 125.19283pt x 125.1934pt.
 Package epstopdf Info: Source file: <SRManCw4/SRManL4_ZADANIE1/figs/02Sygnaly_U
 24.eps>
 (epstopdf)                    date: 2020-07-07 11:01:39
@@ -1120,7 +1201,7 @@ Package epstopdf Info: Source file: <SRManCw4/SRManL4_ZADANIE1/figs/02Sygnaly_U
 (epstopdf)             Command: <epstopdf --outfile=SRManCw4/SRManL4_ZADANIE1/f
 igs/02Sygnaly_U24-eps-converted-to.pdf SRManCw4/SRManL4_ZADANIE1/figs/02Sygnaly
 _U24.eps>
-(epstopdf)             \includegraphics on input line 106.
+(epstopdf)             \includegraphics on input line 111.
 Package epstopdf Info: Output file is already uptodate.
 
 
@@ -1133,8 +1214,8 @@ File: SRManCw4/SRManL4_ZADANIE1/figs/02Sygnaly_U24-eps-converted-to.pdf Graphic
  file (type pdf)
 <use SRManCw4/SRManL4_ZADANIE1/figs/02Sygnaly_U24-eps-converted-to.pdf>
 Package pdftex.def Info: SRManCw4/SRManL4_ZADANIE1/figs/02Sygnaly_U24-eps-conve
-rted-to.pdf  used on input line 106.
-(pdftex.def)             Requested size: 153.64644pt x 153.6504pt.
+rted-to.pdf  used on input line 111.
+(pdftex.def)             Requested size: 125.19283pt x 125.1934pt.
 Package epstopdf Info: Source file: <SRManCw4/SRManL4_ZADANIE1/figs/03Pozycje_U
 24.eps>
 (epstopdf)                    date: 2020-07-07 11:04:00
@@ -1146,7 +1227,7 @@ Package epstopdf Info: Source file: <SRManCw4/SRManL4_ZADANIE1/figs/03Pozycje_U
 (epstopdf)             Command: <epstopdf --outfile=SRManCw4/SRManL4_ZADANIE1/f
 igs/03Pozycje_U24-eps-converted-to.pdf SRManCw4/SRManL4_ZADANIE1/figs/03Pozycje
 _U24.eps>
-(epstopdf)             \includegraphics on input line 107.
+(epstopdf)             \includegraphics on input line 112.
 Package epstopdf Info: Output file is already uptodate.
 
 
@@ -1159,138 +1240,312 @@ File: SRManCw4/SRManL4_ZADANIE1/figs/03Pozycje_U24-eps-converted-to.pdf Graphic
  file (type pdf)
 <use SRManCw4/SRManL4_ZADANIE1/figs/03Pozycje_U24-eps-converted-to.pdf>
 Package pdftex.def Info: SRManCw4/SRManL4_ZADANIE1/figs/03Pozycje_U24-eps-conve
-rted-to.pdf  used on input line 107.
-(pdftex.def)             Requested size: 153.64644pt x 153.6504pt.
-Package epstopdf Info: Source file: <SRManCw4/SRManL4_ZADANIE1/figs/03Uchyby_U2
+rted-to.pdf  used on input line 112.
+(pdftex.def)             Requested size: 125.19283pt x 125.1934pt.
+Package epstopdf Info: Source file: <SRManCw4/SRManL4_ZADANIE1/figs/02Pozycje_U
+24.eps>
+(epstopdf)                    date: 2020-07-07 11:00:59
+(epstopdf)                    size: 43689 bytes
+(epstopdf)             Output file: <SRManCw4/SRManL4_ZADANIE1/figs/02Pozycje_U
+24-eps-converted-to.pdf>
+(epstopdf)                    date: 2020-07-07 11:09:07
+(epstopdf)                    size: 15979 bytes
+(epstopdf)             Command: <epstopdf --outfile=SRManCw4/SRManL4_ZADANIE1/f
+igs/02Pozycje_U24-eps-converted-to.pdf SRManCw4/SRManL4_ZADANIE1/figs/02Pozycje
+_U24.eps>
+(epstopdf)             \includegraphics on input line 113.
+Package epstopdf Info: Output file is already uptodate.
+File: SRManCw4/SRManL4_ZADANIE1/figs/02Pozycje_U24-eps-converted-to.pdf Graphic
+ file (type pdf)
+<use SRManCw4/SRManL4_ZADANIE1/figs/02Pozycje_U24-eps-converted-to.pdf>
+Package pdftex.def Info: SRManCw4/SRManL4_ZADANIE1/figs/02Pozycje_U24-eps-conve
+rted-to.pdf  used on input line 113.
+(pdftex.def)             Requested size: 125.19283pt x 125.1934pt.
+Package epstopdf Info: Source file: <SRManCw4/SRManL4_ZADANIE1/figs/02Uchyby_U2
 4.eps>
-(epstopdf)                    date: 2020-07-07 11:06:12
-(epstopdf)                    size: 289267 bytes
-(epstopdf)             Output file: <SRManCw4/SRManL4_ZADANIE1/figs/03Uchyby_U2
+(epstopdf)                    date: 2020-07-07 11:03:11
+(epstopdf)                    size: 53384 bytes
+(epstopdf)             Output file: <SRManCw4/SRManL4_ZADANIE1/figs/02Uchyby_U2
 4-eps-converted-to.pdf>
-(epstopdf)                    date: 2020-07-07 11:09:12
-(epstopdf)                    size: 77884 bytes
+(epstopdf)                    date: 2020-07-07 11:09:08
+(epstopdf)                    size: 18437 bytes
 (epstopdf)             Command: <epstopdf --outfile=SRManCw4/SRManL4_ZADANIE1/f
-igs/03Uchyby_U24-eps-converted-to.pdf SRManCw4/SRManL4_ZADANIE1/figs/03Uchyby_U
+igs/02Uchyby_U24-eps-converted-to.pdf SRManCw4/SRManL4_ZADANIE1/figs/02Uchyby_U
 24.eps>
-(epstopdf)             \includegraphics on input line 107.
+(epstopdf)             \includegraphics on input line 113.
 Package epstopdf Info: Output file is already uptodate.
-
-
-pdfTeX warning: pdflatex.exe (file ./SRManCw4/SRManL4_ZADANIE1/figs/03Uchyby_U2
-4-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most ve
-rsion <1.5> allowed
-<SRManCw4/SRManL4_ZADANIE1/figs/03Uchyby_U24-eps-converted-to.pdf, id=86, 227.8
-5126pt x 227.85126pt>
-File: SRManCw4/SRManL4_ZADANIE1/figs/03Uchyby_U24-eps-converted-to.pdf Graphic 
+File: SRManCw4/SRManL4_ZADANIE1/figs/02Uchyby_U24-eps-converted-to.pdf Graphic 
 file (type pdf)
-<use SRManCw4/SRManL4_ZADANIE1/figs/03Uchyby_U24-eps-converted-to.pdf>
-Package pdftex.def Info: SRManCw4/SRManL4_ZADANIE1/figs/03Uchyby_U24-eps-conver
-ted-to.pdf  used on input line 107.
-(pdftex.def)             Requested size: 153.64644pt x 153.6504pt.
-Package epstopdf Info: Source file: <SRManCw4/SRManL4_ZADANIE1/figs/03Sygnaly_U
+<use SRManCw4/SRManL4_ZADANIE1/figs/02Uchyby_U24-eps-converted-to.pdf>
+Package pdftex.def Info: SRManCw4/SRManL4_ZADANIE1/figs/02Uchyby_U24-eps-conver
+ted-to.pdf  used on input line 113.
+(pdftex.def)             Requested size: 125.19283pt x 125.1934pt.
+Package epstopdf Info: Source file: <SRManCw4/SRManL4_ZADANIE1/figs/02Sygnaly_U
 24.eps>
-(epstopdf)                    date: 2020-07-07 11:04:43
-(epstopdf)                    size: 466664 bytes
-(epstopdf)             Output file: <SRManCw4/SRManL4_ZADANIE1/figs/03Sygnaly_U
+(epstopdf)                    date: 2020-07-07 11:01:39
+(epstopdf)                    size: 87845 bytes
+(epstopdf)             Output file: <SRManCw4/SRManL4_ZADANIE1/figs/02Sygnaly_U
 24-eps-converted-to.pdf>
-(epstopdf)                    date: 2020-07-07 11:09:13
-(epstopdf)                    size: 150337 bytes
+(epstopdf)                    date: 2020-07-07 11:09:09
+(epstopdf)                    size: 26488 bytes
 (epstopdf)             Command: <epstopdf --outfile=SRManCw4/SRManL4_ZADANIE1/f
-igs/03Sygnaly_U24-eps-converted-to.pdf SRManCw4/SRManL4_ZADANIE1/figs/03Sygnaly
+igs/02Sygnaly_U24-eps-converted-to.pdf SRManCw4/SRManL4_ZADANIE1/figs/02Sygnaly
 _U24.eps>
-(epstopdf)             \includegraphics on input line 107.
+(epstopdf)             \includegraphics on input line 113.
 Package epstopdf Info: Output file is already uptodate.
-
-
-pdfTeX warning: pdflatex.exe (file ./SRManCw4/SRManL4_ZADANIE1/figs/03Sygnaly_U
-24-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most v
-ersion <1.5> allowed
-<SRManCw4/SRManL4_ZADANIE1/figs/03Sygnaly_U24-eps-converted-to.pdf, id=87, 227.
-85126pt x 227.85126pt>
-File: SRManCw4/SRManL4_ZADANIE1/figs/03Sygnaly_U24-eps-converted-to.pdf Graphic
+File: SRManCw4/SRManL4_ZADANIE1/figs/02Sygnaly_U24-eps-converted-to.pdf Graphic
  file (type pdf)
-<use SRManCw4/SRManL4_ZADANIE1/figs/03Sygnaly_U24-eps-converted-to.pdf>
-Package pdftex.def Info: SRManCw4/SRManL4_ZADANIE1/figs/03Sygnaly_U24-eps-conve
-rted-to.pdf  used on input line 107.
-(pdftex.def)             Requested size: 153.64644pt x 153.6504pt.
-Package epstopdf Info: Source file: <SRManCw4/SRManL4_ZADANIE1/figs/04Pozycje_U
+<use SRManCw4/SRManL4_ZADANIE1/figs/02Sygnaly_U24-eps-converted-to.pdf>
+Package pdftex.def Info: SRManCw4/SRManL4_ZADANIE1/figs/02Sygnaly_U24-eps-conve
+rted-to.pdf  used on input line 113.
+(pdftex.def)             Requested size: 125.19283pt x 125.1934pt.
+Package epstopdf Info: Source file: <SRManCw4/SRManL4_ZADANIE1/figs/03Pozycje_U
 24.eps>
-(epstopdf)                    date: 2020-07-07 11:06:39
-(epstopdf)                    size: 212256 bytes
-(epstopdf)             Output file: <SRManCw4/SRManL4_ZADANIE1/figs/04Pozycje_U
+(epstopdf)                    date: 2020-07-07 11:04:00
+(epstopdf)                    size: 433225 bytes
+(epstopdf)             Output file: <SRManCw4/SRManL4_ZADANIE1/figs/03Pozycje_U
 24-eps-converted-to.pdf>
-(epstopdf)                    date: 2020-07-07 11:09:15
-(epstopdf)                    size: 67066 bytes
+(epstopdf)                    date: 2020-07-07 11:09:11
+(epstopdf)                    size: 143825 bytes
 (epstopdf)             Command: <epstopdf --outfile=SRManCw4/SRManL4_ZADANIE1/f
-igs/04Pozycje_U24-eps-converted-to.pdf SRManCw4/SRManL4_ZADANIE1/figs/04Pozycje
+igs/03Pozycje_U24-eps-converted-to.pdf SRManCw4/SRManL4_ZADANIE1/figs/03Pozycje
 _U24.eps>
-(epstopdf)             \includegraphics on input line 108.
+(epstopdf)             \includegraphics on input line 114.
 Package epstopdf Info: Output file is already uptodate.
-
-
-pdfTeX warning: pdflatex.exe (file ./SRManCw4/SRManL4_ZADANIE1/figs/04Pozycje_U
-24-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most v
-ersion <1.5> allowed
-<SRManCw4/SRManL4_ZADANIE1/figs/04Pozycje_U24-eps-converted-to.pdf, id=88, 227.
-85126pt x 227.85126pt>
-File: SRManCw4/SRManL4_ZADANIE1/figs/04Pozycje_U24-eps-converted-to.pdf Graphic
+File: SRManCw4/SRManL4_ZADANIE1/figs/03Pozycje_U24-eps-converted-to.pdf Graphic
  file (type pdf)
-<use SRManCw4/SRManL4_ZADANIE1/figs/04Pozycje_U24-eps-converted-to.pdf>
-Package pdftex.def Info: SRManCw4/SRManL4_ZADANIE1/figs/04Pozycje_U24-eps-conve
-rted-to.pdf  used on input line 108.
-(pdftex.def)             Requested size: 153.64644pt x 153.6504pt.
-Package epstopdf Info: Source file: <SRManCw4/SRManL4_ZADANIE1/figs/04Uchyby_U2
+<use SRManCw4/SRManL4_ZADANIE1/figs/03Pozycje_U24-eps-converted-to.pdf>
+Package pdftex.def Info: SRManCw4/SRManL4_ZADANIE1/figs/03Pozycje_U24-eps-conve
+rted-to.pdf  used on input line 114.
+(pdftex.def)             Requested size: 125.19283pt x 125.1934pt.
+Package epstopdf Info: Source file: <SRManCw4/SRManL4_ZADANIE1/figs/02Pozycje_U
+24.eps>
+(epstopdf)                    date: 2020-07-07 11:00:59
+(epstopdf)                    size: 43689 bytes
+(epstopdf)             Output file: <SRManCw4/SRManL4_ZADANIE1/figs/02Pozycje_U
+24-eps-converted-to.pdf>
+(epstopdf)                    date: 2020-07-07 11:09:07
+(epstopdf)                    size: 15979 bytes
+(epstopdf)             Command: <epstopdf --outfile=SRManCw4/SRManL4_ZADANIE1/f
+igs/02Pozycje_U24-eps-converted-to.pdf SRManCw4/SRManL4_ZADANIE1/figs/02Pozycje
+_U24.eps>
+(epstopdf)             \includegraphics on input line 115.
+Package epstopdf Info: Output file is already uptodate.
+File: SRManCw4/SRManL4_ZADANIE1/figs/02Pozycje_U24-eps-converted-to.pdf Graphic
+ file (type pdf)
+<use SRManCw4/SRManL4_ZADANIE1/figs/02Pozycje_U24-eps-converted-to.pdf>
+Package pdftex.def Info: SRManCw4/SRManL4_ZADANIE1/figs/02Pozycje_U24-eps-conve
+rted-to.pdf  used on input line 115.
+(pdftex.def)             Requested size: 125.19283pt x 125.1934pt.
+Package epstopdf Info: Source file: <SRManCw4/SRManL4_ZADANIE1/figs/02Uchyby_U2
 4.eps>
-(epstopdf)                    date: 2020-07-07 11:08:54
-(epstopdf)                    size: 80499 bytes
-(epstopdf)             Output file: <SRManCw4/SRManL4_ZADANIE1/figs/04Uchyby_U2
+(epstopdf)                    date: 2020-07-07 11:03:11
+(epstopdf)                    size: 53384 bytes
+(epstopdf)             Output file: <SRManCw4/SRManL4_ZADANIE1/figs/02Uchyby_U2
 4-eps-converted-to.pdf>
-(epstopdf)                    date: 2020-07-07 11:09:16
-(epstopdf)                    size: 25359 bytes
+(epstopdf)                    date: 2020-07-07 11:09:08
+(epstopdf)                    size: 18437 bytes
 (epstopdf)             Command: <epstopdf --outfile=SRManCw4/SRManL4_ZADANIE1/f
-igs/04Uchyby_U24-eps-converted-to.pdf SRManCw4/SRManL4_ZADANIE1/figs/04Uchyby_U
+igs/02Uchyby_U24-eps-converted-to.pdf SRManCw4/SRManL4_ZADANIE1/figs/02Uchyby_U
 24.eps>
-(epstopdf)             \includegraphics on input line 108.
+(epstopdf)             \includegraphics on input line 115.
 Package epstopdf Info: Output file is already uptodate.
-
-
-pdfTeX warning: pdflatex.exe (file ./SRManCw4/SRManL4_ZADANIE1/figs/04Uchyby_U2
-4-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most ve
-rsion <1.5> allowed
-<SRManCw4/SRManL4_ZADANIE1/figs/04Uchyby_U24-eps-converted-to.pdf, id=89, 227.8
-5126pt x 227.85126pt>
-File: SRManCw4/SRManL4_ZADANIE1/figs/04Uchyby_U24-eps-converted-to.pdf Graphic 
+File: SRManCw4/SRManL4_ZADANIE1/figs/02Uchyby_U24-eps-converted-to.pdf Graphic 
 file (type pdf)
-<use SRManCw4/SRManL4_ZADANIE1/figs/04Uchyby_U24-eps-converted-to.pdf>
-Package pdftex.def Info: SRManCw4/SRManL4_ZADANIE1/figs/04Uchyby_U24-eps-conver
-ted-to.pdf  used on input line 108.
-(pdftex.def)             Requested size: 153.64644pt x 153.6504pt.
-Package epstopdf Info: Source file: <SRManCw4/SRManL4_ZADANIE1/figs/04Sygnaly_U
+<use SRManCw4/SRManL4_ZADANIE1/figs/02Uchyby_U24-eps-converted-to.pdf>
+Package pdftex.def Info: SRManCw4/SRManL4_ZADANIE1/figs/02Uchyby_U24-eps-conver
+ted-to.pdf  used on input line 115.
+(pdftex.def)             Requested size: 125.19283pt x 125.1934pt.
+Package epstopdf Info: Source file: <SRManCw4/SRManL4_ZADANIE1/figs/02Sygnaly_U
 24.eps>
-(epstopdf)                    date: 2020-07-07 11:07:24
-(epstopdf)                    size: 300563 bytes
-(epstopdf)             Output file: <SRManCw4/SRManL4_ZADANIE1/figs/04Sygnaly_U
+(epstopdf)                    date: 2020-07-07 11:01:39
+(epstopdf)                    size: 87845 bytes
+(epstopdf)             Output file: <SRManCw4/SRManL4_ZADANIE1/figs/02Sygnaly_U
 24-eps-converted-to.pdf>
-(epstopdf)                    date: 2020-07-07 11:09:17
-(epstopdf)                    size: 93257 bytes
+(epstopdf)                    date: 2020-07-07 11:09:09
+(epstopdf)                    size: 26488 bytes
 (epstopdf)             Command: <epstopdf --outfile=SRManCw4/SRManL4_ZADANIE1/f
-igs/04Sygnaly_U24-eps-converted-to.pdf SRManCw4/SRManL4_ZADANIE1/figs/04Sygnaly
+igs/02Sygnaly_U24-eps-converted-to.pdf SRManCw4/SRManL4_ZADANIE1/figs/02Sygnaly
 _U24.eps>
-(epstopdf)             \includegraphics on input line 108.
+(epstopdf)             \includegraphics on input line 115.
 Package epstopdf Info: Output file is already uptodate.
-
-
-pdfTeX warning: pdflatex.exe (file ./SRManCw4/SRManL4_ZADANIE1/figs/04Sygnaly_U
-24-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most v
-ersion <1.5> allowed
-<SRManCw4/SRManL4_ZADANIE1/figs/04Sygnaly_U24-eps-converted-to.pdf, id=90, 227.
-85126pt x 227.85126pt>
-File: SRManCw4/SRManL4_ZADANIE1/figs/04Sygnaly_U24-eps-converted-to.pdf Graphic
+File: SRManCw4/SRManL4_ZADANIE1/figs/02Sygnaly_U24-eps-converted-to.pdf Graphic
  file (type pdf)
-<use SRManCw4/SRManL4_ZADANIE1/figs/04Sygnaly_U24-eps-converted-to.pdf>
-Package pdftex.def Info: SRManCw4/SRManL4_ZADANIE1/figs/04Sygnaly_U24-eps-conve
-rted-to.pdf  used on input line 108.
-(pdftex.def)             Requested size: 153.64644pt x 153.6504pt.
+<use SRManCw4/SRManL4_ZADANIE1/figs/02Sygnaly_U24-eps-converted-to.pdf>
+Package pdftex.def Info: SRManCw4/SRManL4_ZADANIE1/figs/02Sygnaly_U24-eps-conve
+rted-to.pdf  used on input line 115.
+(pdftex.def)             Requested size: 125.19283pt x 125.1934pt.
+Package epstopdf Info: Source file: <SRManCw4/SRManL4_ZADANIE1/figs/03Pozycje_U
+24.eps>
+(epstopdf)                    date: 2020-07-07 11:04:00
+(epstopdf)                    size: 433225 bytes
+(epstopdf)             Output file: <SRManCw4/SRManL4_ZADANIE1/figs/03Pozycje_U
+24-eps-converted-to.pdf>
+(epstopdf)                    date: 2020-07-07 11:09:11
+(epstopdf)                    size: 143825 bytes
+(epstopdf)             Command: <epstopdf --outfile=SRManCw4/SRManL4_ZADANIE1/f
+igs/03Pozycje_U24-eps-converted-to.pdf SRManCw4/SRManL4_ZADANIE1/figs/03Pozycje
+_U24.eps>
+(epstopdf)             \includegraphics on input line 116.
+Package epstopdf Info: Output file is already uptodate.
+File: SRManCw4/SRManL4_ZADANIE1/figs/03Pozycje_U24-eps-converted-to.pdf Graphic
+ file (type pdf)
+<use SRManCw4/SRManL4_ZADANIE1/figs/03Pozycje_U24-eps-converted-to.pdf>
+Package pdftex.def Info: SRManCw4/SRManL4_ZADANIE1/figs/03Pozycje_U24-eps-conve
+rted-to.pdf  used on input line 116.
+(pdftex.def)             Requested size: 125.19283pt x 125.1934pt.
+Package epstopdf Info: Source file: <SRManCw4/SRManL4_ZADANIE1/figs/02Pozycje_U
+24.eps>
+(epstopdf)                    date: 2020-07-07 11:00:59
+(epstopdf)                    size: 43689 bytes
+(epstopdf)             Output file: <SRManCw4/SRManL4_ZADANIE1/figs/02Pozycje_U
+24-eps-converted-to.pdf>
+(epstopdf)                    date: 2020-07-07 11:09:07
+(epstopdf)                    size: 15979 bytes
+(epstopdf)             Command: <epstopdf --outfile=SRManCw4/SRManL4_ZADANIE1/f
+igs/02Pozycje_U24-eps-converted-to.pdf SRManCw4/SRManL4_ZADANIE1/figs/02Pozycje
+_U24.eps>
+(epstopdf)             \includegraphics on input line 117.
+Package epstopdf Info: Output file is already uptodate.
+File: SRManCw4/SRManL4_ZADANIE1/figs/02Pozycje_U24-eps-converted-to.pdf Graphic
+ file (type pdf)
+<use SRManCw4/SRManL4_ZADANIE1/figs/02Pozycje_U24-eps-converted-to.pdf>
+Package pdftex.def Info: SRManCw4/SRManL4_ZADANIE1/figs/02Pozycje_U24-eps-conve
+rted-to.pdf  used on input line 117.
+(pdftex.def)             Requested size: 125.19283pt x 125.1934pt.
+Package epstopdf Info: Source file: <SRManCw4/SRManL4_ZADANIE1/figs/02Uchyby_U2
+4.eps>
+(epstopdf)                    date: 2020-07-07 11:03:11
+(epstopdf)                    size: 53384 bytes
+(epstopdf)             Output file: <SRManCw4/SRManL4_ZADANIE1/figs/02Uchyby_U2
+4-eps-converted-to.pdf>
+(epstopdf)                    date: 2020-07-07 11:09:08
+(epstopdf)                    size: 18437 bytes
+(epstopdf)             Command: <epstopdf --outfile=SRManCw4/SRManL4_ZADANIE1/f
+igs/02Uchyby_U24-eps-converted-to.pdf SRManCw4/SRManL4_ZADANIE1/figs/02Uchyby_U
+24.eps>
+(epstopdf)             \includegraphics on input line 117.
+Package epstopdf Info: Output file is already uptodate.
+File: SRManCw4/SRManL4_ZADANIE1/figs/02Uchyby_U24-eps-converted-to.pdf Graphic 
+file (type pdf)
+<use SRManCw4/SRManL4_ZADANIE1/figs/02Uchyby_U24-eps-converted-to.pdf>
+Package pdftex.def Info: SRManCw4/SRManL4_ZADANIE1/figs/02Uchyby_U24-eps-conver
+ted-to.pdf  used on input line 117.
+(pdftex.def)             Requested size: 125.19283pt x 125.1934pt.
+Package epstopdf Info: Source file: <SRManCw4/SRManL4_ZADANIE1/figs/02Sygnaly_U
+24.eps>
+(epstopdf)                    date: 2020-07-07 11:01:39
+(epstopdf)                    size: 87845 bytes
+(epstopdf)             Output file: <SRManCw4/SRManL4_ZADANIE1/figs/02Sygnaly_U
+24-eps-converted-to.pdf>
+(epstopdf)                    date: 2020-07-07 11:09:09
+(epstopdf)                    size: 26488 bytes
+(epstopdf)             Command: <epstopdf --outfile=SRManCw4/SRManL4_ZADANIE1/f
+igs/02Sygnaly_U24-eps-converted-to.pdf SRManCw4/SRManL4_ZADANIE1/figs/02Sygnaly
+_U24.eps>
+(epstopdf)             \includegraphics on input line 117.
+Package epstopdf Info: Output file is already uptodate.
+File: SRManCw4/SRManL4_ZADANIE1/figs/02Sygnaly_U24-eps-converted-to.pdf Graphic
+ file (type pdf)
+<use SRManCw4/SRManL4_ZADANIE1/figs/02Sygnaly_U24-eps-converted-to.pdf>
+Package pdftex.def Info: SRManCw4/SRManL4_ZADANIE1/figs/02Sygnaly_U24-eps-conve
+rted-to.pdf  used on input line 117.
+(pdftex.def)             Requested size: 125.19283pt x 125.1934pt.
+Package epstopdf Info: Source file: <SRManCw4/SRManL4_ZADANIE1/figs/03Pozycje_U
+24.eps>
+(epstopdf)                    date: 2020-07-07 11:04:00
+(epstopdf)                    size: 433225 bytes
+(epstopdf)             Output file: <SRManCw4/SRManL4_ZADANIE1/figs/03Pozycje_U
+24-eps-converted-to.pdf>
+(epstopdf)                    date: 2020-07-07 11:09:11
+(epstopdf)                    size: 143825 bytes
+(epstopdf)             Command: <epstopdf --outfile=SRManCw4/SRManL4_ZADANIE1/f
+igs/03Pozycje_U24-eps-converted-to.pdf SRManCw4/SRManL4_ZADANIE1/figs/03Pozycje
+_U24.eps>
+(epstopdf)             \includegraphics on input line 118.
+Package epstopdf Info: Output file is already uptodate.
+File: SRManCw4/SRManL4_ZADANIE1/figs/03Pozycje_U24-eps-converted-to.pdf Graphic
+ file (type pdf)
+<use SRManCw4/SRManL4_ZADANIE1/figs/03Pozycje_U24-eps-converted-to.pdf>
+Package pdftex.def Info: SRManCw4/SRManL4_ZADANIE1/figs/03Pozycje_U24-eps-conve
+rted-to.pdf  used on input line 118.
+(pdftex.def)             Requested size: 125.19283pt x 125.1934pt.
+Package epstopdf Info: Source file: <SRManCw4/SRManL4_ZADANIE1/figs/02Pozycje_U
+24.eps>
+(epstopdf)                    date: 2020-07-07 11:00:59
+(epstopdf)                    size: 43689 bytes
+(epstopdf)             Output file: <SRManCw4/SRManL4_ZADANIE1/figs/02Pozycje_U
+24-eps-converted-to.pdf>
+(epstopdf)                    date: 2020-07-07 11:09:07
+(epstopdf)                    size: 15979 bytes
+(epstopdf)             Command: <epstopdf --outfile=SRManCw4/SRManL4_ZADANIE1/f
+igs/02Pozycje_U24-eps-converted-to.pdf SRManCw4/SRManL4_ZADANIE1/figs/02Pozycje
+_U24.eps>
+(epstopdf)             \includegraphics on input line 119.
+Package epstopdf Info: Output file is already uptodate.
+File: SRManCw4/SRManL4_ZADANIE1/figs/02Pozycje_U24-eps-converted-to.pdf Graphic
+ file (type pdf)
+<use SRManCw4/SRManL4_ZADANIE1/figs/02Pozycje_U24-eps-converted-to.pdf>
+Package pdftex.def Info: SRManCw4/SRManL4_ZADANIE1/figs/02Pozycje_U24-eps-conve
+rted-to.pdf  used on input line 119.
+(pdftex.def)             Requested size: 125.19283pt x 125.1934pt.
+Package epstopdf Info: Source file: <SRManCw4/SRManL4_ZADANIE1/figs/02Uchyby_U2
+4.eps>
+(epstopdf)                    date: 2020-07-07 11:03:11
+(epstopdf)                    size: 53384 bytes
+(epstopdf)             Output file: <SRManCw4/SRManL4_ZADANIE1/figs/02Uchyby_U2
+4-eps-converted-to.pdf>
+(epstopdf)                    date: 2020-07-07 11:09:08
+(epstopdf)                    size: 18437 bytes
+(epstopdf)             Command: <epstopdf --outfile=SRManCw4/SRManL4_ZADANIE1/f
+igs/02Uchyby_U24-eps-converted-to.pdf SRManCw4/SRManL4_ZADANIE1/figs/02Uchyby_U
+24.eps>
+(epstopdf)             \includegraphics on input line 119.
+Package epstopdf Info: Output file is already uptodate.
+File: SRManCw4/SRManL4_ZADANIE1/figs/02Uchyby_U24-eps-converted-to.pdf Graphic 
+file (type pdf)
+<use SRManCw4/SRManL4_ZADANIE1/figs/02Uchyby_U24-eps-converted-to.pdf>
+Package pdftex.def Info: SRManCw4/SRManL4_ZADANIE1/figs/02Uchyby_U24-eps-conver
+ted-to.pdf  used on input line 119.
+(pdftex.def)             Requested size: 125.19283pt x 125.1934pt.
+Package epstopdf Info: Source file: <SRManCw4/SRManL4_ZADANIE1/figs/02Sygnaly_U
+24.eps>
+(epstopdf)                    date: 2020-07-07 11:01:39
+(epstopdf)                    size: 87845 bytes
+(epstopdf)             Output file: <SRManCw4/SRManL4_ZADANIE1/figs/02Sygnaly_U
+24-eps-converted-to.pdf>
+(epstopdf)                    date: 2020-07-07 11:09:09
+(epstopdf)                    size: 26488 bytes
+(epstopdf)             Command: <epstopdf --outfile=SRManCw4/SRManL4_ZADANIE1/f
+igs/02Sygnaly_U24-eps-converted-to.pdf SRManCw4/SRManL4_ZADANIE1/figs/02Sygnaly
+_U24.eps>
+(epstopdf)             \includegraphics on input line 119.
+Package epstopdf Info: Output file is already uptodate.
+File: SRManCw4/SRManL4_ZADANIE1/figs/02Sygnaly_U24-eps-converted-to.pdf Graphic
+ file (type pdf)
+<use SRManCw4/SRManL4_ZADANIE1/figs/02Sygnaly_U24-eps-converted-to.pdf>
+Package pdftex.def Info: SRManCw4/SRManL4_ZADANIE1/figs/02Sygnaly_U24-eps-conve
+rted-to.pdf  used on input line 119.
+(pdftex.def)             Requested size: 125.19283pt x 125.1934pt.
+Package epstopdf Info: Source file: <SRManCw4/SRManL4_ZADANIE1/figs/03Pozycje_U
+24.eps>
+(epstopdf)                    date: 2020-07-07 11:04:00
+(epstopdf)                    size: 433225 bytes
+(epstopdf)             Output file: <SRManCw4/SRManL4_ZADANIE1/figs/03Pozycje_U
+24-eps-converted-to.pdf>
+(epstopdf)                    date: 2020-07-07 11:09:11
+(epstopdf)                    size: 143825 bytes
+(epstopdf)             Command: <epstopdf --outfile=SRManCw4/SRManL4_ZADANIE1/f
+igs/03Pozycje_U24-eps-converted-to.pdf SRManCw4/SRManL4_ZADANIE1/figs/03Pozycje
+_U24.eps>
+(epstopdf)             \includegraphics on input line 120.
+Package epstopdf Info: Output file is already uptodate.
+File: SRManCw4/SRManL4_ZADANIE1/figs/03Pozycje_U24-eps-converted-to.pdf Graphic
+ file (type pdf)
+<use SRManCw4/SRManL4_ZADANIE1/figs/03Pozycje_U24-eps-converted-to.pdf>
+Package pdftex.def Info: SRManCw4/SRManL4_ZADANIE1/figs/03Pozycje_U24-eps-conve
+rted-to.pdf  used on input line 120.
+(pdftex.def)             Requested size: 125.19283pt x 125.1934pt.
 [1
 
 {C:/Users/szymon/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <./SRManCw4
@@ -1298,25 +1553,15 @@ rted-to.pdf  used on input line 108.
 ZADANIE1/figs/01Uchyby_U12-eps-converted-to.pdf> <./SRManCw4/SRManL4_ZADANIE1/f
 igs/01Sygnaly_U12-eps-converted-to.pdf>]
 
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
-Make it at least 14.49998pt.
-We now make it that large for the rest of the document.
-This may cause the page layout to be inconsistent, however.
-
-
 Package Fancyhdr Warning: \footskip is too small (2.84526pt): 
-Make it at least 4.35004pt.
+Make it at least 3.60004pt.
 We now make it that large for the rest of the document.
 This may cause the page layout to be inconsistent, however.
 
 [2 <./SRManCw4/SRManL4_ZADANIE1/figs/02Pozycje_U24-eps-converted-to.pdf> <./SRM
 anCw4/SRManL4_ZADANIE1/figs/02Uchyby_U24-eps-converted-to.pdf> <./SRManCw4/SRMa
 nL4_ZADANIE1/figs/02Sygnaly_U24-eps-converted-to.pdf> <./SRManCw4/SRManL4_ZADAN
-IE1/figs/03Pozycje_U24-eps-converted-to.pdf> <./SRManCw4/SRManL4_ZADANIE1/figs/
-03Uchyby_U24-eps-converted-to.pdf> <./SRManCw4/SRManL4_ZADANIE1/figs/03Sygnaly_
-U24-eps-converted-to.pdf> <./SRManCw4/SRManL4_ZADANIE1/figs/04Pozycje_U24-eps-c
-onverted-to.pdf> <./SRManCw4/SRManL4_ZADANIE1/figs/04Uchyby_U24-eps-converted-t
-o.pdf> <./SRManCw4/SRManL4_ZADANIE1/figs/04Sygnaly_U24-eps-converted-to.pdf>]
+IE1/figs/03Pozycje_U24-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <SRManCw4/SRManL4_ZADANIE2/figs/01Pozycje_U
 12.eps>
 (epstopdf)                    date: 2020-07-07 11:10:05
@@ -1328,21 +1573,21 @@ Package epstopdf Info: Source file: <SRManCw4/SRManL4_ZADANIE2/figs/01Pozycje_U
 (epstopdf)             Command: <epstopdf --outfile=SRManCw4/SRManL4_ZADANIE2/f
 igs/01Pozycje_U12-eps-converted-to.pdf SRManCw4/SRManL4_ZADANIE2/figs/01Pozycje
 _U12.eps>
-(epstopdf)             \includegraphics on input line 129.
+(epstopdf)             \includegraphics on input line 144.
 Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex.exe (file ./SRManCw4/SRManL4_ZADANIE2/figs/01Pozycje_U
 12-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most v
 ersion <1.5> allowed
-<SRManCw4/SRManL4_ZADANIE2/figs/01Pozycje_U12-eps-converted-to.pdf, id=189, 227
+<SRManCw4/SRManL4_ZADANIE2/figs/01Pozycje_U12-eps-converted-to.pdf, id=155, 227
 .85126pt x 227.85126pt>
 File: SRManCw4/SRManL4_ZADANIE2/figs/01Pozycje_U12-eps-converted-to.pdf Graphic
  file (type pdf)
 <use SRManCw4/SRManL4_ZADANIE2/figs/01Pozycje_U12-eps-converted-to.pdf>
 Package pdftex.def Info: SRManCw4/SRManL4_ZADANIE2/figs/01Pozycje_U12-eps-conve
-rted-to.pdf  used on input line 129.
-(pdftex.def)             Requested size: 153.64644pt x 153.6504pt.
+rted-to.pdf  used on input line 144.
+(pdftex.def)             Requested size: 170.71828pt x 170.72113pt.
 Package epstopdf Info: Source file: <SRManCw4/SRManL4_ZADANIE2/figs/01Uchyby_U1
 2.eps>
 (epstopdf)                    date: 2020-07-07 11:11:41
@@ -1354,21 +1599,21 @@ Package epstopdf Info: Source file: <SRManCw4/SRManL4_ZADANIE2/figs/01Uchyby_U1
 (epstopdf)             Command: <epstopdf --outfile=SRManCw4/SRManL4_ZADANIE2/f
 igs/01Uchyby_U12-eps-converted-to.pdf SRManCw4/SRManL4_ZADANIE2/figs/01Uchyby_U
 12.eps>
-(epstopdf)             \includegraphics on input line 129.
+(epstopdf)             \includegraphics on input line 144.
 Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex.exe (file ./SRManCw4/SRManL4_ZADANIE2/figs/01Uchyby_U1
 2-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most ve
 rsion <1.5> allowed
-<SRManCw4/SRManL4_ZADANIE2/figs/01Uchyby_U12-eps-converted-to.pdf, id=190, 227.
+<SRManCw4/SRManL4_ZADANIE2/figs/01Uchyby_U12-eps-converted-to.pdf, id=156, 227.
 85126pt x 227.85126pt>
 File: SRManCw4/SRManL4_ZADANIE2/figs/01Uchyby_U12-eps-converted-to.pdf Graphic 
 file (type pdf)
 <use SRManCw4/SRManL4_ZADANIE2/figs/01Uchyby_U12-eps-converted-to.pdf>
 Package pdftex.def Info: SRManCw4/SRManL4_ZADANIE2/figs/01Uchyby_U12-eps-conver
-ted-to.pdf  used on input line 129.
-(pdftex.def)             Requested size: 153.64644pt x 153.6504pt.
+ted-to.pdf  used on input line 144.
+(pdftex.def)             Requested size: 170.71828pt x 170.72113pt.
 Package epstopdf Info: Source file: <SRManCw4/SRManL4_ZADANIE2/figs/01Sygnaly_U
 12.eps>
 (epstopdf)                    date: 2020-07-07 11:10:22
@@ -1380,21 +1625,21 @@ Package epstopdf Info: Source file: <SRManCw4/SRManL4_ZADANIE2/figs/01Sygnaly_U
 (epstopdf)             Command: <epstopdf --outfile=SRManCw4/SRManL4_ZADANIE2/f
 igs/01Sygnaly_U12-eps-converted-to.pdf SRManCw4/SRManL4_ZADANIE2/figs/01Sygnaly
 _U12.eps>
-(epstopdf)             \includegraphics on input line 129.
+(epstopdf)             \includegraphics on input line 144.
 Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex.exe (file ./SRManCw4/SRManL4_ZADANIE2/figs/01Sygnaly_U
 12-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most v
 ersion <1.5> allowed
-<SRManCw4/SRManL4_ZADANIE2/figs/01Sygnaly_U12-eps-converted-to.pdf, id=191, 227
+<SRManCw4/SRManL4_ZADANIE2/figs/01Sygnaly_U12-eps-converted-to.pdf, id=157, 227
 .85126pt x 227.85126pt>
 File: SRManCw4/SRManL4_ZADANIE2/figs/01Sygnaly_U12-eps-converted-to.pdf Graphic
  file (type pdf)
 <use SRManCw4/SRManL4_ZADANIE2/figs/01Sygnaly_U12-eps-converted-to.pdf>
 Package pdftex.def Info: SRManCw4/SRManL4_ZADANIE2/figs/01Sygnaly_U12-eps-conve
-rted-to.pdf  used on input line 129.
-(pdftex.def)             Requested size: 153.64644pt x 153.6504pt.
+rted-to.pdf  used on input line 144.
+(pdftex.def)             Requested size: 170.71828pt x 170.72113pt.
 Package epstopdf Info: Source file: <SRManCw4/SRManL4_ZADANIE2/figs/02Pozycje_U
 24.eps>
 (epstopdf)                    date: 2020-07-07 11:12:03
@@ -1406,21 +1651,21 @@ Package epstopdf Info: Source file: <SRManCw4/SRManL4_ZADANIE2/figs/02Pozycje_U
 (epstopdf)             Command: <epstopdf --outfile=SRManCw4/SRManL4_ZADANIE2/f
 igs/02Pozycje_U24-eps-converted-to.pdf SRManCw4/SRManL4_ZADANIE2/figs/02Pozycje
 _U24.eps>
-(epstopdf)             \includegraphics on input line 133.
+(epstopdf)             \includegraphics on input line 148.
 Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex.exe (file ./SRManCw4/SRManL4_ZADANIE2/figs/02Pozycje_U
 24-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most v
 ersion <1.5> allowed
-<SRManCw4/SRManL4_ZADANIE2/figs/02Pozycje_U24-eps-converted-to.pdf, id=192, 227
+<SRManCw4/SRManL4_ZADANIE2/figs/02Pozycje_U24-eps-converted-to.pdf, id=158, 227
 .85126pt x 227.85126pt>
 File: SRManCw4/SRManL4_ZADANIE2/figs/02Pozycje_U24-eps-converted-to.pdf Graphic
  file (type pdf)
 <use SRManCw4/SRManL4_ZADANIE2/figs/02Pozycje_U24-eps-converted-to.pdf>
 Package pdftex.def Info: SRManCw4/SRManL4_ZADANIE2/figs/02Pozycje_U24-eps-conve
-rted-to.pdf  used on input line 133.
-(pdftex.def)             Requested size: 153.64644pt x 153.6504pt.
+rted-to.pdf  used on input line 148.
+(pdftex.def)             Requested size: 170.71828pt x 170.72113pt.
 Package epstopdf Info: Source file: <SRManCw4/SRManL4_ZADANIE2/figs/02Uchyby_U2
 4.eps>
 (epstopdf)                    date: 2020-07-07 11:14:25
@@ -1432,21 +1677,21 @@ Package epstopdf Info: Source file: <SRManCw4/SRManL4_ZADANIE2/figs/02Uchyby_U2
 (epstopdf)             Command: <epstopdf --outfile=SRManCw4/SRManL4_ZADANIE2/f
 igs/02Uchyby_U24-eps-converted-to.pdf SRManCw4/SRManL4_ZADANIE2/figs/02Uchyby_U
 24.eps>
-(epstopdf)             \includegraphics on input line 133.
+(epstopdf)             \includegraphics on input line 148.
 Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex.exe (file ./SRManCw4/SRManL4_ZADANIE2/figs/02Uchyby_U2
 4-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most ve
 rsion <1.5> allowed
-<SRManCw4/SRManL4_ZADANIE2/figs/02Uchyby_U24-eps-converted-to.pdf, id=193, 227.
+<SRManCw4/SRManL4_ZADANIE2/figs/02Uchyby_U24-eps-converted-to.pdf, id=159, 227.
 85126pt x 227.85126pt>
 File: SRManCw4/SRManL4_ZADANIE2/figs/02Uchyby_U24-eps-converted-to.pdf Graphic 
 file (type pdf)
 <use SRManCw4/SRManL4_ZADANIE2/figs/02Uchyby_U24-eps-converted-to.pdf>
 Package pdftex.def Info: SRManCw4/SRManL4_ZADANIE2/figs/02Uchyby_U24-eps-conver
-ted-to.pdf  used on input line 133.
-(pdftex.def)             Requested size: 153.64644pt x 153.6504pt.
+ted-to.pdf  used on input line 148.
+(pdftex.def)             Requested size: 170.71828pt x 170.72113pt.
 Package epstopdf Info: Source file: <SRManCw4/SRManL4_ZADANIE2/figs/01Sygnaly_U
 12.eps>
 (epstopdf)                    date: 2020-07-07 11:10:22
@@ -1458,14 +1703,14 @@ Package epstopdf Info: Source file: <SRManCw4/SRManL4_ZADANIE2/figs/01Sygnaly_U
 (epstopdf)             Command: <epstopdf --outfile=SRManCw4/SRManL4_ZADANIE2/f
 igs/01Sygnaly_U12-eps-converted-to.pdf SRManCw4/SRManL4_ZADANIE2/figs/01Sygnaly
 _U12.eps>
-(epstopdf)             \includegraphics on input line 133.
+(epstopdf)             \includegraphics on input line 148.
 Package epstopdf Info: Output file is already uptodate.
 File: SRManCw4/SRManL4_ZADANIE2/figs/01Sygnaly_U12-eps-converted-to.pdf Graphic
  file (type pdf)
 <use SRManCw4/SRManL4_ZADANIE2/figs/01Sygnaly_U12-eps-converted-to.pdf>
 Package pdftex.def Info: SRManCw4/SRManL4_ZADANIE2/figs/01Sygnaly_U12-eps-conve
-rted-to.pdf  used on input line 133.
-(pdftex.def)             Requested size: 153.64644pt x 153.6504pt.
+rted-to.pdf  used on input line 148.
+(pdftex.def)             Requested size: 170.71828pt x 170.72113pt.
 [3 <./SRManCw4/SRManL4_ZADANIE2/figs/01Pozycje_U12-eps-converted-to.pdf> <./SRM
 anCw4/SRManL4_ZADANIE2/figs/01Uchyby_U12-eps-converted-to.pdf> <./SRManCw4/SRMa
 nL4_ZADANIE2/figs/01Sygnaly_U12-eps-converted-to.pdf> <./SRManCw4/SRManL4_ZADAN
@@ -1482,21 +1727,21 @@ e0-eps-converted-to.pdf>
 (epstopdf)             Command: <epstopdf --outfile=SRManCw5/SRManCw5_ZADANIE2/
 figs/01Pozycje_e0-eps-converted-to.pdf SRManCw5/SRManCw5_ZADANIE2/figs/01Pozycj
 e_e0.eps>
-(epstopdf)             \includegraphics on input line 166.
+(epstopdf)             \includegraphics on input line 181.
 Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex.exe (file ./SRManCw5/SRManCw5_ZADANIE2/figs/01Pozycje_
 e0-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most v
 ersion <1.5> allowed
-<SRManCw5/SRManCw5_ZADANIE2/figs/01Pozycje_e0-eps-converted-to.pdf, id=232, 227
+<SRManCw5/SRManCw5_ZADANIE2/figs/01Pozycje_e0-eps-converted-to.pdf, id=198, 227
 .85126pt x 227.85126pt>
 File: SRManCw5/SRManCw5_ZADANIE2/figs/01Pozycje_e0-eps-converted-to.pdf Graphic
  file (type pdf)
 <use SRManCw5/SRManCw5_ZADANIE2/figs/01Pozycje_e0-eps-converted-to.pdf>
 Package pdftex.def Info: SRManCw5/SRManCw5_ZADANIE2/figs/01Pozycje_e0-eps-conve
-rted-to.pdf  used on input line 166.
-(pdftex.def)             Requested size: 153.64644pt x 153.6504pt.
+rted-to.pdf  used on input line 181.
+(pdftex.def)             Requested size: 170.71828pt x 170.72113pt.
 Package epstopdf Info: Source file: <SRManCw5/SRManCw5_ZADANIE2/figs/01Uchyby_e
 0.eps>
 (epstopdf)                    date: 2020-07-07 11:18:43
@@ -1508,21 +1753,21 @@ Package epstopdf Info: Source file: <SRManCw5/SRManCw5_ZADANIE2/figs/01Uchyby_e
 (epstopdf)             Command: <epstopdf --outfile=SRManCw5/SRManCw5_ZADANIE2/
 figs/01Uchyby_e0-eps-converted-to.pdf SRManCw5/SRManCw5_ZADANIE2/figs/01Uchyby_
 e0.eps>
-(epstopdf)             \includegraphics on input line 166.
+(epstopdf)             \includegraphics on input line 181.
 Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex.exe (file ./SRManCw5/SRManCw5_ZADANIE2/figs/01Uchyby_e
 0-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most ve
 rsion <1.5> allowed
-<SRManCw5/SRManCw5_ZADANIE2/figs/01Uchyby_e0-eps-converted-to.pdf, id=233, 227.
+<SRManCw5/SRManCw5_ZADANIE2/figs/01Uchyby_e0-eps-converted-to.pdf, id=199, 227.
 85126pt x 227.85126pt>
 File: SRManCw5/SRManCw5_ZADANIE2/figs/01Uchyby_e0-eps-converted-to.pdf Graphic 
 file (type pdf)
 <use SRManCw5/SRManCw5_ZADANIE2/figs/01Uchyby_e0-eps-converted-to.pdf>
 Package pdftex.def Info: SRManCw5/SRManCw5_ZADANIE2/figs/01Uchyby_e0-eps-conver
-ted-to.pdf  used on input line 166.
-(pdftex.def)             Requested size: 153.64644pt x 153.6504pt.
+ted-to.pdf  used on input line 181.
+(pdftex.def)             Requested size: 170.71828pt x 170.72113pt.
 Package epstopdf Info: Source file: <SRManCw5/SRManCw5_ZADANIE2/figs/01Sygnal_e
 0.eps>
 (epstopdf)                    date: 2020-07-07 11:22:01
@@ -1534,21 +1779,21 @@ Package epstopdf Info: Source file: <SRManCw5/SRManCw5_ZADANIE2/figs/01Sygnal_e
 (epstopdf)             Command: <epstopdf --outfile=SRManCw5/SRManCw5_ZADANIE2/
 figs/01Sygnal_e0-eps-converted-to.pdf SRManCw5/SRManCw5_ZADANIE2/figs/01Sygnal_
 e0.eps>
-(epstopdf)             \includegraphics on input line 166.
+(epstopdf)             \includegraphics on input line 181.
 Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex.exe (file ./SRManCw5/SRManCw5_ZADANIE2/figs/01Sygnal_e
 0-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most ve
 rsion <1.5> allowed
-<SRManCw5/SRManCw5_ZADANIE2/figs/01Sygnal_e0-eps-converted-to.pdf, id=234, 227.
+<SRManCw5/SRManCw5_ZADANIE2/figs/01Sygnal_e0-eps-converted-to.pdf, id=200, 227.
 85126pt x 227.85126pt>
 File: SRManCw5/SRManCw5_ZADANIE2/figs/01Sygnal_e0-eps-converted-to.pdf Graphic 
 file (type pdf)
 <use SRManCw5/SRManCw5_ZADANIE2/figs/01Sygnal_e0-eps-converted-to.pdf>
 Package pdftex.def Info: SRManCw5/SRManCw5_ZADANIE2/figs/01Sygnal_e0-eps-conver
-ted-to.pdf  used on input line 166.
-(pdftex.def)             Requested size: 153.64644pt x 153.6504pt.
+ted-to.pdf  used on input line 181.
+(pdftex.def)             Requested size: 170.71828pt x 170.72113pt.
 Package epstopdf Info: Source file: <SRManCw5/SRManCw5_ZADANIE2/figs/02Pozycje.
 eps>
 (epstopdf)                    date: 2020-07-07 11:19:16
@@ -1560,21 +1805,21 @@ eps-converted-to.pdf>
 (epstopdf)             Command: <epstopdf --outfile=SRManCw5/SRManCw5_ZADANIE2/
 figs/02Pozycje-eps-converted-to.pdf SRManCw5/SRManCw5_ZADANIE2/figs/02Pozycje.e
 ps>
-(epstopdf)             \includegraphics on input line 170.
+(epstopdf)             \includegraphics on input line 185.
 Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex.exe (file ./SRManCw5/SRManCw5_ZADANIE2/figs/02Pozycje-
 eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most vers
 ion <1.5> allowed
-<SRManCw5/SRManCw5_ZADANIE2/figs/02Pozycje-eps-converted-to.pdf, id=235, 227.85
+<SRManCw5/SRManCw5_ZADANIE2/figs/02Pozycje-eps-converted-to.pdf, id=201, 227.85
 126pt x 227.85126pt>
 File: SRManCw5/SRManCw5_ZADANIE2/figs/02Pozycje-eps-converted-to.pdf Graphic fi
 le (type pdf)
 <use SRManCw5/SRManCw5_ZADANIE2/figs/02Pozycje-eps-converted-to.pdf>
 Package pdftex.def Info: SRManCw5/SRManCw5_ZADANIE2/figs/02Pozycje-eps-converte
-d-to.pdf  used on input line 170.
-(pdftex.def)             Requested size: 153.64644pt x 153.6504pt.
+d-to.pdf  used on input line 185.
+(pdftex.def)             Requested size: 170.71828pt x 170.72113pt.
 Package epstopdf Info: Source file: <SRManCw5/SRManCw5_ZADANIE2/figs/02Uchyby.e
 ps>
 (epstopdf)                    date: 2020-07-07 11:20:04
@@ -1586,21 +1831,21 @@ ps-converted-to.pdf>
 (epstopdf)             Command: <epstopdf --outfile=SRManCw5/SRManCw5_ZADANIE2/
 figs/02Uchyby-eps-converted-to.pdf SRManCw5/SRManCw5_ZADANIE2/figs/02Uchyby.eps
 >
-(epstopdf)             \includegraphics on input line 170.
+(epstopdf)             \includegraphics on input line 185.
 Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex.exe (file ./SRManCw5/SRManCw5_ZADANIE2/figs/02Uchyby-e
 ps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most versi
 on <1.5> allowed
-<SRManCw5/SRManCw5_ZADANIE2/figs/02Uchyby-eps-converted-to.pdf, id=236, 227.851
+<SRManCw5/SRManCw5_ZADANIE2/figs/02Uchyby-eps-converted-to.pdf, id=202, 227.851
 26pt x 227.85126pt>
 File: SRManCw5/SRManCw5_ZADANIE2/figs/02Uchyby-eps-converted-to.pdf Graphic fil
 e (type pdf)
 <use SRManCw5/SRManCw5_ZADANIE2/figs/02Uchyby-eps-converted-to.pdf>
 Package pdftex.def Info: SRManCw5/SRManCw5_ZADANIE2/figs/02Uchyby-eps-converted
--to.pdf  used on input line 170.
-(pdftex.def)             Requested size: 153.64644pt x 153.6504pt.
+-to.pdf  used on input line 185.
+(pdftex.def)             Requested size: 170.71828pt x 170.72113pt.
 Package epstopdf Info: Source file: <SRManCw5/SRManCw5_ZADANIE2/figs/02Sygnal.e
 ps>
 (epstopdf)                    date: 2020-07-07 11:22:45
@@ -1612,21 +1857,21 @@ ps-converted-to.pdf>
 (epstopdf)             Command: <epstopdf --outfile=SRManCw5/SRManCw5_ZADANIE2/
 figs/02Sygnal-eps-converted-to.pdf SRManCw5/SRManCw5_ZADANIE2/figs/02Sygnal.eps
 >
-(epstopdf)             \includegraphics on input line 170.
+(epstopdf)             \includegraphics on input line 185.
 Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex.exe (file ./SRManCw5/SRManCw5_ZADANIE2/figs/02Sygnal-e
 ps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most versi
 on <1.5> allowed
-<SRManCw5/SRManCw5_ZADANIE2/figs/02Sygnal-eps-converted-to.pdf, id=237, 227.851
+<SRManCw5/SRManCw5_ZADANIE2/figs/02Sygnal-eps-converted-to.pdf, id=203, 227.851
 26pt x 227.85126pt>
 File: SRManCw5/SRManCw5_ZADANIE2/figs/02Sygnal-eps-converted-to.pdf Graphic fil
 e (type pdf)
 <use SRManCw5/SRManCw5_ZADANIE2/figs/02Sygnal-eps-converted-to.pdf>
 Package pdftex.def Info: SRManCw5/SRManCw5_ZADANIE2/figs/02Sygnal-eps-converted
--to.pdf  used on input line 170.
-(pdftex.def)             Requested size: 153.64644pt x 153.6504pt.
+-to.pdf  used on input line 185.
+(pdftex.def)             Requested size: 170.71828pt x 170.72113pt.
 Package epstopdf Info: Source file: <SRManCw5/SRManCw5_ZADANIE2/figs/03Pozycje.
 eps>
 (epstopdf)                    date: 2020-07-07 11:20:29
@@ -1638,21 +1883,21 @@ eps-converted-to.pdf>
 (epstopdf)             Command: <epstopdf --outfile=SRManCw5/SRManCw5_ZADANIE2/
 figs/03Pozycje-eps-converted-to.pdf SRManCw5/SRManCw5_ZADANIE2/figs/03Pozycje.e
 ps>
-(epstopdf)             \includegraphics on input line 171.
+(epstopdf)             \includegraphics on input line 186.
 Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex.exe (file ./SRManCw5/SRManCw5_ZADANIE2/figs/03Pozycje-
 eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most vers
 ion <1.5> allowed
-<SRManCw5/SRManCw5_ZADANIE2/figs/03Pozycje-eps-converted-to.pdf, id=238, 227.85
+<SRManCw5/SRManCw5_ZADANIE2/figs/03Pozycje-eps-converted-to.pdf, id=204, 227.85
 126pt x 227.85126pt>
 File: SRManCw5/SRManCw5_ZADANIE2/figs/03Pozycje-eps-converted-to.pdf Graphic fi
 le (type pdf)
 <use SRManCw5/SRManCw5_ZADANIE2/figs/03Pozycje-eps-converted-to.pdf>
 Package pdftex.def Info: SRManCw5/SRManCw5_ZADANIE2/figs/03Pozycje-eps-converte
-d-to.pdf  used on input line 171.
-(pdftex.def)             Requested size: 153.64644pt x 153.6504pt.
+d-to.pdf  used on input line 186.
+(pdftex.def)             Requested size: 170.71828pt x 170.72113pt.
 Package epstopdf Info: Source file: <SRManCw5/SRManCw5_ZADANIE2/figs/03Uchyby.e
 ps>
 (epstopdf)                    date: 2020-07-07 11:21:19
@@ -1664,21 +1909,21 @@ ps-converted-to.pdf>
 (epstopdf)             Command: <epstopdf --outfile=SRManCw5/SRManCw5_ZADANIE2/
 figs/03Uchyby-eps-converted-to.pdf SRManCw5/SRManCw5_ZADANIE2/figs/03Uchyby.eps
 >
-(epstopdf)             \includegraphics on input line 171.
+(epstopdf)             \includegraphics on input line 186.
 Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex.exe (file ./SRManCw5/SRManCw5_ZADANIE2/figs/03Uchyby-e
 ps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most versi
 on <1.5> allowed
-<SRManCw5/SRManCw5_ZADANIE2/figs/03Uchyby-eps-converted-to.pdf, id=239, 227.851
+<SRManCw5/SRManCw5_ZADANIE2/figs/03Uchyby-eps-converted-to.pdf, id=205, 227.851
 26pt x 227.85126pt>
 File: SRManCw5/SRManCw5_ZADANIE2/figs/03Uchyby-eps-converted-to.pdf Graphic fil
 e (type pdf)
 <use SRManCw5/SRManCw5_ZADANIE2/figs/03Uchyby-eps-converted-to.pdf>
 Package pdftex.def Info: SRManCw5/SRManCw5_ZADANIE2/figs/03Uchyby-eps-converted
--to.pdf  used on input line 171.
-(pdftex.def)             Requested size: 153.64644pt x 153.6504pt.
+-to.pdf  used on input line 186.
+(pdftex.def)             Requested size: 170.71828pt x 170.72113pt.
 Package epstopdf Info: Source file: <SRManCw5/SRManCw5_ZADANIE2/figs/03Sygnal.e
 ps>
 (epstopdf)                    date: 2020-07-07 11:23:30
@@ -1690,22 +1935,21 @@ ps-converted-to.pdf>
 (epstopdf)             Command: <epstopdf --outfile=SRManCw5/SRManCw5_ZADANIE2/
 figs/03Sygnal-eps-converted-to.pdf SRManCw5/SRManCw5_ZADANIE2/figs/03Sygnal.eps
 >
-(epstopdf)             \includegraphics on input line 171.
+(epstopdf)             \includegraphics on input line 186.
 Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex.exe (file ./SRManCw5/SRManCw5_ZADANIE2/figs/03Sygnal-e
 ps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most versi
 on <1.5> allowed
-<SRManCw5/SRManCw5_ZADANIE2/figs/03Sygnal-eps-converted-to.pdf, id=240, 227.851
+<SRManCw5/SRManCw5_ZADANIE2/figs/03Sygnal-eps-converted-to.pdf, id=206, 227.851
 26pt x 227.85126pt>
 File: SRManCw5/SRManCw5_ZADANIE2/figs/03Sygnal-eps-converted-to.pdf Graphic fil
 e (type pdf)
 <use SRManCw5/SRManCw5_ZADANIE2/figs/03Sygnal-eps-converted-to.pdf>
 Package pdftex.def Info: SRManCw5/SRManCw5_ZADANIE2/figs/03Sygnal-eps-converted
--to.pdf  used on input line 171.
-(pdftex.def)             Requested size: 153.64644pt x 153.6504pt.
-[4]
+-to.pdf  used on input line 186.
+(pdftex.def)             Requested size: 170.71828pt x 170.72113pt.
 Package epstopdf Info: Source file: <SRManCw5/SRManCw5_ZADANIE2/figs/04Pozycje.
 eps>
 (epstopdf)                    date: 2020-07-07 11:43:20
@@ -1717,21 +1961,21 @@ eps-converted-to.pdf>
 (epstopdf)             Command: <epstopdf --outfile=SRManCw5/SRManCw5_ZADANIE2/
 figs/04Pozycje-eps-converted-to.pdf SRManCw5/SRManCw5_ZADANIE2/figs/04Pozycje.e
 ps>
-(epstopdf)             \includegraphics on input line 177.
+(epstopdf)             \includegraphics on input line 192.
 Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex.exe (file ./SRManCw5/SRManCw5_ZADANIE2/figs/04Pozycje-
 eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most vers
 ion <1.5> allowed
-<SRManCw5/SRManCw5_ZADANIE2/figs/04Pozycje-eps-converted-to.pdf, id=247, 227.85
+<SRManCw5/SRManCw5_ZADANIE2/figs/04Pozycje-eps-converted-to.pdf, id=207, 227.85
 126pt x 227.85126pt>
 File: SRManCw5/SRManCw5_ZADANIE2/figs/04Pozycje-eps-converted-to.pdf Graphic fi
 le (type pdf)
 <use SRManCw5/SRManCw5_ZADANIE2/figs/04Pozycje-eps-converted-to.pdf>
 Package pdftex.def Info: SRManCw5/SRManCw5_ZADANIE2/figs/04Pozycje-eps-converte
-d-to.pdf  used on input line 177.
-(pdftex.def)             Requested size: 153.64644pt x 153.6504pt.
+d-to.pdf  used on input line 192.
+(pdftex.def)             Requested size: 170.71828pt x 170.72113pt.
 Package epstopdf Info: Source file: <SRManCw5/SRManCw5_ZADANIE2/figs/04Uchyby.e
 ps>
 (epstopdf)                    date: 2020-07-07 11:44:23
@@ -1743,21 +1987,21 @@ ps-converted-to.pdf>
 (epstopdf)             Command: <epstopdf --outfile=SRManCw5/SRManCw5_ZADANIE2/
 figs/04Uchyby-eps-converted-to.pdf SRManCw5/SRManCw5_ZADANIE2/figs/04Uchyby.eps
 >
-(epstopdf)             \includegraphics on input line 177.
+(epstopdf)             \includegraphics on input line 192.
 Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex.exe (file ./SRManCw5/SRManCw5_ZADANIE2/figs/04Uchyby-e
 ps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most versi
 on <1.5> allowed
-<SRManCw5/SRManCw5_ZADANIE2/figs/04Uchyby-eps-converted-to.pdf, id=248, 227.851
+<SRManCw5/SRManCw5_ZADANIE2/figs/04Uchyby-eps-converted-to.pdf, id=208, 227.851
 26pt x 227.85126pt>
 File: SRManCw5/SRManCw5_ZADANIE2/figs/04Uchyby-eps-converted-to.pdf Graphic fil
 e (type pdf)
 <use SRManCw5/SRManCw5_ZADANIE2/figs/04Uchyby-eps-converted-to.pdf>
 Package pdftex.def Info: SRManCw5/SRManCw5_ZADANIE2/figs/04Uchyby-eps-converted
--to.pdf  used on input line 177.
-(pdftex.def)             Requested size: 153.64644pt x 153.6504pt.
+-to.pdf  used on input line 192.
+(pdftex.def)             Requested size: 170.71828pt x 170.72113pt.
 Package epstopdf Info: Source file: <SRManCw5/SRManCw5_ZADANIE2/figs/04Sygnal.e
 ps>
 (epstopdf)                    date: 2020-07-07 11:43:53
@@ -1769,21 +2013,21 @@ ps-converted-to.pdf>
 (epstopdf)             Command: <epstopdf --outfile=SRManCw5/SRManCw5_ZADANIE2/
 figs/04Sygnal-eps-converted-to.pdf SRManCw5/SRManCw5_ZADANIE2/figs/04Sygnal.eps
 >
-(epstopdf)             \includegraphics on input line 177.
+(epstopdf)             \includegraphics on input line 192.
 Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex.exe (file ./SRManCw5/SRManCw5_ZADANIE2/figs/04Sygnal-e
 ps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most versi
 on <1.5> allowed
-<SRManCw5/SRManCw5_ZADANIE2/figs/04Sygnal-eps-converted-to.pdf, id=249, 227.851
+<SRManCw5/SRManCw5_ZADANIE2/figs/04Sygnal-eps-converted-to.pdf, id=209, 227.851
 26pt x 227.85126pt>
 File: SRManCw5/SRManCw5_ZADANIE2/figs/04Sygnal-eps-converted-to.pdf Graphic fil
 e (type pdf)
 <use SRManCw5/SRManCw5_ZADANIE2/figs/04Sygnal-eps-converted-to.pdf>
 Package pdftex.def Info: SRManCw5/SRManCw5_ZADANIE2/figs/04Sygnal-eps-converted
--to.pdf  used on input line 177.
-(pdftex.def)             Requested size: 153.64644pt x 153.6504pt.
+-to.pdf  used on input line 192.
+(pdftex.def)             Requested size: 170.71828pt x 170.72113pt.
 Package epstopdf Info: Source file: <SRManCw5/SRManCw5_ZADANIE2/figs/05Pozycje.
 eps>
 (epstopdf)                    date: 2020-07-07 11:44:46
@@ -1795,21 +2039,21 @@ eps-converted-to.pdf>
 (epstopdf)             Command: <epstopdf --outfile=SRManCw5/SRManCw5_ZADANIE2/
 figs/05Pozycje-eps-converted-to.pdf SRManCw5/SRManCw5_ZADANIE2/figs/05Pozycje.e
 ps>
-(epstopdf)             \includegraphics on input line 178.
+(epstopdf)             \includegraphics on input line 193.
 Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex.exe (file ./SRManCw5/SRManCw5_ZADANIE2/figs/05Pozycje-
 eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most vers
 ion <1.5> allowed
-<SRManCw5/SRManCw5_ZADANIE2/figs/05Pozycje-eps-converted-to.pdf, id=250, 227.85
+<SRManCw5/SRManCw5_ZADANIE2/figs/05Pozycje-eps-converted-to.pdf, id=210, 227.85
 126pt x 227.85126pt>
 File: SRManCw5/SRManCw5_ZADANIE2/figs/05Pozycje-eps-converted-to.pdf Graphic fi
 le (type pdf)
 <use SRManCw5/SRManCw5_ZADANIE2/figs/05Pozycje-eps-converted-to.pdf>
 Package pdftex.def Info: SRManCw5/SRManCw5_ZADANIE2/figs/05Pozycje-eps-converte
-d-to.pdf  used on input line 178.
-(pdftex.def)             Requested size: 153.64644pt x 153.6504pt.
+d-to.pdf  used on input line 193.
+(pdftex.def)             Requested size: 170.71828pt x 170.72113pt.
 Package epstopdf Info: Source file: <SRManCw5/SRManCw5_ZADANIE2/figs/05Uchyby.e
 ps>
 (epstopdf)                    date: 2020-07-07 11:45:45
@@ -1821,21 +2065,21 @@ ps-converted-to.pdf>
 (epstopdf)             Command: <epstopdf --outfile=SRManCw5/SRManCw5_ZADANIE2/
 figs/05Uchyby-eps-converted-to.pdf SRManCw5/SRManCw5_ZADANIE2/figs/05Uchyby.eps
 >
-(epstopdf)             \includegraphics on input line 178.
+(epstopdf)             \includegraphics on input line 193.
 Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex.exe (file ./SRManCw5/SRManCw5_ZADANIE2/figs/05Uchyby-e
 ps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most versi
 on <1.5> allowed
-<SRManCw5/SRManCw5_ZADANIE2/figs/05Uchyby-eps-converted-to.pdf, id=251, 227.851
+<SRManCw5/SRManCw5_ZADANIE2/figs/05Uchyby-eps-converted-to.pdf, id=211, 227.851
 26pt x 227.85126pt>
 File: SRManCw5/SRManCw5_ZADANIE2/figs/05Uchyby-eps-converted-to.pdf Graphic fil
 e (type pdf)
 <use SRManCw5/SRManCw5_ZADANIE2/figs/05Uchyby-eps-converted-to.pdf>
 Package pdftex.def Info: SRManCw5/SRManCw5_ZADANIE2/figs/05Uchyby-eps-converted
--to.pdf  used on input line 178.
-(pdftex.def)             Requested size: 153.64644pt x 153.6504pt.
+-to.pdf  used on input line 193.
+(pdftex.def)             Requested size: 170.71828pt x 170.72113pt.
 Package epstopdf Info: Source file: <SRManCw5/SRManCw5_ZADANIE2/figs/05Sygnal.e
 ps>
 (epstopdf)                    date: 2020-07-07 11:45:24
@@ -1847,21 +2091,21 @@ ps-converted-to.pdf>
 (epstopdf)             Command: <epstopdf --outfile=SRManCw5/SRManCw5_ZADANIE2/
 figs/05Sygnal-eps-converted-to.pdf SRManCw5/SRManCw5_ZADANIE2/figs/05Sygnal.eps
 >
-(epstopdf)             \includegraphics on input line 178.
+(epstopdf)             \includegraphics on input line 193.
 Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex.exe (file ./SRManCw5/SRManCw5_ZADANIE2/figs/05Sygnal-e
 ps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most versi
 on <1.5> allowed
-<SRManCw5/SRManCw5_ZADANIE2/figs/05Sygnal-eps-converted-to.pdf, id=252, 227.851
+<SRManCw5/SRManCw5_ZADANIE2/figs/05Sygnal-eps-converted-to.pdf, id=212, 227.851
 26pt x 227.85126pt>
 File: SRManCw5/SRManCw5_ZADANIE2/figs/05Sygnal-eps-converted-to.pdf Graphic fil
 e (type pdf)
 <use SRManCw5/SRManCw5_ZADANIE2/figs/05Sygnal-eps-converted-to.pdf>
 Package pdftex.def Info: SRManCw5/SRManCw5_ZADANIE2/figs/05Sygnal-eps-converted
--to.pdf  used on input line 178.
-(pdftex.def)             Requested size: 153.64644pt x 153.6504pt.
+-to.pdf  used on input line 193.
+(pdftex.def)             Requested size: 170.71828pt x 170.72113pt.
 Package epstopdf Info: Source file: <SRManCw5/SRManCw5_ZADANIE2/figs/06Pozycje.
 eps>
 (epstopdf)                    date: 2020-07-07 11:46:03
@@ -1873,21 +2117,21 @@ eps-converted-to.pdf>
 (epstopdf)             Command: <epstopdf --outfile=SRManCw5/SRManCw5_ZADANIE2/
 figs/06Pozycje-eps-converted-to.pdf SRManCw5/SRManCw5_ZADANIE2/figs/06Pozycje.e
 ps>
-(epstopdf)             \includegraphics on input line 179.
+(epstopdf)             \includegraphics on input line 194.
 Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex.exe (file ./SRManCw5/SRManCw5_ZADANIE2/figs/06Pozycje-
 eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most vers
 ion <1.5> allowed
-<SRManCw5/SRManCw5_ZADANIE2/figs/06Pozycje-eps-converted-to.pdf, id=253, 227.85
+<SRManCw5/SRManCw5_ZADANIE2/figs/06Pozycje-eps-converted-to.pdf, id=213, 227.85
 126pt x 227.85126pt>
 File: SRManCw5/SRManCw5_ZADANIE2/figs/06Pozycje-eps-converted-to.pdf Graphic fi
 le (type pdf)
 <use SRManCw5/SRManCw5_ZADANIE2/figs/06Pozycje-eps-converted-to.pdf>
 Package pdftex.def Info: SRManCw5/SRManCw5_ZADANIE2/figs/06Pozycje-eps-converte
-d-to.pdf  used on input line 179.
-(pdftex.def)             Requested size: 153.64644pt x 153.6504pt.
+d-to.pdf  used on input line 194.
+(pdftex.def)             Requested size: 170.71828pt x 170.72113pt.
 Package epstopdf Info: Source file: <SRManCw5/SRManCw5_ZADANIE2/figs/06Uchyby.e
 ps>
 (epstopdf)                    date: 2020-07-07 11:46:40
@@ -1899,21 +2143,21 @@ ps-converted-to.pdf>
 (epstopdf)             Command: <epstopdf --outfile=SRManCw5/SRManCw5_ZADANIE2/
 figs/06Uchyby-eps-converted-to.pdf SRManCw5/SRManCw5_ZADANIE2/figs/06Uchyby.eps
 >
-(epstopdf)             \includegraphics on input line 179.
+(epstopdf)             \includegraphics on input line 194.
 Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex.exe (file ./SRManCw5/SRManCw5_ZADANIE2/figs/06Uchyby-e
 ps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most versi
 on <1.5> allowed
-<SRManCw5/SRManCw5_ZADANIE2/figs/06Uchyby-eps-converted-to.pdf, id=254, 227.851
+<SRManCw5/SRManCw5_ZADANIE2/figs/06Uchyby-eps-converted-to.pdf, id=214, 227.851
 26pt x 227.85126pt>
 File: SRManCw5/SRManCw5_ZADANIE2/figs/06Uchyby-eps-converted-to.pdf Graphic fil
 e (type pdf)
 <use SRManCw5/SRManCw5_ZADANIE2/figs/06Uchyby-eps-converted-to.pdf>
 Package pdftex.def Info: SRManCw5/SRManCw5_ZADANIE2/figs/06Uchyby-eps-converted
--to.pdf  used on input line 179.
-(pdftex.def)             Requested size: 153.64644pt x 153.6504pt.
+-to.pdf  used on input line 194.
+(pdftex.def)             Requested size: 170.71828pt x 170.72113pt.
 Package epstopdf Info: Source file: <SRManCw5/SRManCw5_ZADANIE2/figs/06Sygnal.e
 ps>
 (epstopdf)                    date: 2020-07-07 11:46:20
@@ -1925,31 +2169,89 @@ ps-converted-to.pdf>
 (epstopdf)             Command: <epstopdf --outfile=SRManCw5/SRManCw5_ZADANIE2/
 figs/06Sygnal-eps-converted-to.pdf SRManCw5/SRManCw5_ZADANIE2/figs/06Sygnal.eps
 >
-(epstopdf)             \includegraphics on input line 179.
+(epstopdf)             \includegraphics on input line 194.
 Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex.exe (file ./SRManCw5/SRManCw5_ZADANIE2/figs/06Sygnal-e
 ps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most versi
 on <1.5> allowed
-<SRManCw5/SRManCw5_ZADANIE2/figs/06Sygnal-eps-converted-to.pdf, id=255, 227.851
+<SRManCw5/SRManCw5_ZADANIE2/figs/06Sygnal-eps-converted-to.pdf, id=215, 227.851
 26pt x 227.85126pt>
 File: SRManCw5/SRManCw5_ZADANIE2/figs/06Sygnal-eps-converted-to.pdf Graphic fil
 e (type pdf)
 <use SRManCw5/SRManCw5_ZADANIE2/figs/06Sygnal-eps-converted-to.pdf>
 Package pdftex.def Info: SRManCw5/SRManCw5_ZADANIE2/figs/06Sygnal-eps-converted
--to.pdf  used on input line 179.
-(pdftex.def)             Requested size: 153.64644pt x 153.6504pt.
-[5 <./SRManCw5/SRManCw5_ZADANIE2/figs/01Pozycje_e0-eps-converted-to.pdf> <./SRM
+-to.pdf  used on input line 194.
+(pdftex.def)             Requested size: 170.71828pt x 170.72113pt.
+Package epstopdf Info: Source file: <SRManCw5/SRManCw5_ZADANIE2/figs/06Pozycje.
+eps>
+(epstopdf)                    date: 2020-07-07 11:46:03
+(epstopdf)                    size: 233425 bytes
+(epstopdf)             Output file: <SRManCw5/SRManCw5_ZADANIE2/figs/06Pozycje-
+eps-converted-to.pdf>
+(epstopdf)                    date: 2020-07-07 11:47:03
+(epstopdf)                    size: 77618 bytes
+(epstopdf)             Command: <epstopdf --outfile=SRManCw5/SRManCw5_ZADANIE2/
+figs/06Pozycje-eps-converted-to.pdf SRManCw5/SRManCw5_ZADANIE2/figs/06Pozycje.e
+ps>
+(epstopdf)             \includegraphics on input line 195.
+Package epstopdf Info: Output file is already uptodate.
+File: SRManCw5/SRManCw5_ZADANIE2/figs/06Pozycje-eps-converted-to.pdf Graphic fi
+le (type pdf)
+<use SRManCw5/SRManCw5_ZADANIE2/figs/06Pozycje-eps-converted-to.pdf>
+Package pdftex.def Info: SRManCw5/SRManCw5_ZADANIE2/figs/06Pozycje-eps-converte
+d-to.pdf  used on input line 195.
+(pdftex.def)             Requested size: 170.71828pt x 170.72113pt.
+Package epstopdf Info: Source file: <SRManCw5/SRManCw5_ZADANIE2/figs/06Uchyby.e
+ps>
+(epstopdf)                    date: 2020-07-07 11:46:40
+(epstopdf)                    size: 248990 bytes
+(epstopdf)             Output file: <SRManCw5/SRManCw5_ZADANIE2/figs/06Uchyby-e
+ps-converted-to.pdf>
+(epstopdf)                    date: 2020-07-07 11:47:04
+(epstopdf)                    size: 79428 bytes
+(epstopdf)             Command: <epstopdf --outfile=SRManCw5/SRManCw5_ZADANIE2/
+figs/06Uchyby-eps-converted-to.pdf SRManCw5/SRManCw5_ZADANIE2/figs/06Uchyby.eps
+>
+(epstopdf)             \includegraphics on input line 195.
+Package epstopdf Info: Output file is already uptodate.
+File: SRManCw5/SRManCw5_ZADANIE2/figs/06Uchyby-eps-converted-to.pdf Graphic fil
+e (type pdf)
+<use SRManCw5/SRManCw5_ZADANIE2/figs/06Uchyby-eps-converted-to.pdf>
+Package pdftex.def Info: SRManCw5/SRManCw5_ZADANIE2/figs/06Uchyby-eps-converted
+-to.pdf  used on input line 195.
+(pdftex.def)             Requested size: 170.71828pt x 170.72113pt.
+Package epstopdf Info: Source file: <SRManCw5/SRManCw5_ZADANIE2/figs/06Sygnal.e
+ps>
+(epstopdf)                    date: 2020-07-07 11:46:20
+(epstopdf)                    size: 167256 bytes
+(epstopdf)             Output file: <SRManCw5/SRManCw5_ZADANIE2/figs/06Sygnal-e
+ps-converted-to.pdf>
+(epstopdf)                    date: 2020-07-07 11:47:06
+(epstopdf)                    size: 54340 bytes
+(epstopdf)             Command: <epstopdf --outfile=SRManCw5/SRManCw5_ZADANIE2/
+figs/06Sygnal-eps-converted-to.pdf SRManCw5/SRManCw5_ZADANIE2/figs/06Sygnal.eps
+>
+(epstopdf)             \includegraphics on input line 195.
+Package epstopdf Info: Output file is already uptodate.
+File: SRManCw5/SRManCw5_ZADANIE2/figs/06Sygnal-eps-converted-to.pdf Graphic fil
+e (type pdf)
+<use SRManCw5/SRManCw5_ZADANIE2/figs/06Sygnal-eps-converted-to.pdf>
+Package pdftex.def Info: SRManCw5/SRManCw5_ZADANIE2/figs/06Sygnal-eps-converted
+-to.pdf  used on input line 195.
+(pdftex.def)             Requested size: 170.71828pt x 170.72113pt.
+[4 <./SRManCw5/SRManCw5_ZADANIE2/figs/01Pozycje_e0-eps-converted-to.pdf> <./SRM
 anCw5/SRManCw5_ZADANIE2/figs/01Uchyby_e0-eps-converted-to.pdf> <./SRManCw5/SRMa
-nCw5_ZADANIE2/figs/01Sygnal_e0-eps-converted-to.pdf> <./SRManCw5/SRManCw5_ZADAN
-IE2/figs/02Pozycje-eps-converted-to.pdf> <./SRManCw5/SRManCw5_ZADANIE2/figs/02U
-chyby-eps-converted-to.pdf> <./SRManCw5/SRManCw5_ZADANIE2/figs/02Sygnal-eps-con
-verted-to.pdf> <./SRManCw5/SRManCw5_ZADANIE2/figs/03Pozycje-eps-converted-to.pd
-f> <./SRManCw5/SRManCw5_ZADANIE2/figs/03Uchyby-eps-converted-to.pdf> <./SRManCw
-5/SRManCw5_ZADANIE2/figs/03Sygnal-eps-converted-to.pdf>]
+nCw5_ZADANIE2/figs/01Sygnal_e0-eps-converted-to.pdf>] [5 <./SRManCw5/SRManCw5_Z
+ADANIE2/figs/02Pozycje-eps-converted-to.pdf> <./SRManCw5/SRManCw5_ZADANIE2/figs
+/02Uchyby-eps-converted-to.pdf> <./SRManCw5/SRManCw5_ZADANIE2/figs/02Sygnal-eps
+-converted-to.pdf> <./SRManCw5/SRManCw5_ZADANIE2/figs/03Pozycje-eps-converted-t
+o.pdf> <./SRManCw5/SRManCw5_ZADANIE2/figs/03Uchyby-eps-converted-to.pdf> <./SRM
+anCw5/SRManCw5_ZADANIE2/figs/03Sygnal-eps-converted-to.pdf>]
+Overfull \vbox (3.96954pt too high) has occurred while \output is active []
 
-AED: lastpage setting LastPage
+
 [6 <./SRManCw5/SRManCw5_ZADANIE2/figs/04Pozycje-eps-converted-to.pdf> <./SRManC
 w5/SRManCw5_ZADANIE2/figs/04Uchyby-eps-converted-to.pdf> <./SRManCw5/SRManCw5_Z
 ADANIE2/figs/04Sygnal-eps-converted-to.pdf> <./SRManCw5/SRManCw5_ZADANIE2/figs/
@@ -1958,37 +2260,582 @@ ADANIE2/figs/04Sygnal-eps-converted-to.pdf> <./SRManCw5/SRManCw5_ZADANIE2/figs/
 .pdf> <./SRManCw5/SRManCw5_ZADANIE2/figs/06Pozycje-eps-converted-to.pdf> <./SRM
 anCw5/SRManCw5_ZADANIE2/figs/06Uchyby-eps-converted-to.pdf> <./SRManCw5/SRManCw
 5_ZADANIE2/figs/06Sygnal-eps-converted-to.pdf>]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 187.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 187.
+Package epstopdf Info: Source file: <SRManCw5/SRManCw5_ZADANIE2/figs/04Pozycje.
+eps>
+(epstopdf)                    date: 2020-07-07 11:43:20
+(epstopdf)                    size: 70020 bytes
+(epstopdf)             Output file: <SRManCw5/SRManCw5_ZADANIE2/figs/04Pozycje-
+eps-converted-to.pdf>
+(epstopdf)                    date: 2020-07-07 11:46:55
+(epstopdf)                    size: 22259 bytes
+(epstopdf)             Command: <epstopdf --outfile=SRManCw5/SRManCw5_ZADANIE2/
+figs/04Pozycje-eps-converted-to.pdf SRManCw5/SRManCw5_ZADANIE2/figs/04Pozycje.e
+ps>
+(epstopdf)             \includegraphics on input line 203.
+Package epstopdf Info: Output file is already uptodate.
+File: SRManCw5/SRManCw5_ZADANIE2/figs/04Pozycje-eps-converted-to.pdf Graphic fi
+le (type pdf)
+<use SRManCw5/SRManCw5_ZADANIE2/figs/04Pozycje-eps-converted-to.pdf>
+Package pdftex.def Info: SRManCw5/SRManCw5_ZADANIE2/figs/04Pozycje-eps-converte
+d-to.pdf  used on input line 203.
+(pdftex.def)             Requested size: 170.71828pt x 170.72113pt.
+Package epstopdf Info: Source file: <SRManCw5/SRManCw5_ZADANIE2/figs/04Uchyby.e
+ps>
+(epstopdf)                    date: 2020-07-07 11:44:23
+(epstopdf)                    size: 198022 bytes
+(epstopdf)             Output file: <SRManCw5/SRManCw5_ZADANIE2/figs/04Uchyby-e
+ps-converted-to.pdf>
+(epstopdf)                    date: 2020-07-07 11:46:56
+(epstopdf)                    size: 50892 bytes
+(epstopdf)             Command: <epstopdf --outfile=SRManCw5/SRManCw5_ZADANIE2/
+figs/04Uchyby-eps-converted-to.pdf SRManCw5/SRManCw5_ZADANIE2/figs/04Uchyby.eps
+>
+(epstopdf)             \includegraphics on input line 203.
+Package epstopdf Info: Output file is already uptodate.
+File: SRManCw5/SRManCw5_ZADANIE2/figs/04Uchyby-eps-converted-to.pdf Graphic fil
+e (type pdf)
+<use SRManCw5/SRManCw5_ZADANIE2/figs/04Uchyby-eps-converted-to.pdf>
+Package pdftex.def Info: SRManCw5/SRManCw5_ZADANIE2/figs/04Uchyby-eps-converted
+-to.pdf  used on input line 203.
+(pdftex.def)             Requested size: 170.71828pt x 170.72113pt.
+Package epstopdf Info: Source file: <SRManCw5/SRManCw5_ZADANIE2/figs/04Sygnal.e
+ps>
+(epstopdf)                    date: 2020-07-07 11:43:53
+(epstopdf)                    size: 173147 bytes
+(epstopdf)             Output file: <SRManCw5/SRManCw5_ZADANIE2/figs/04Sygnal-e
+ps-converted-to.pdf>
+(epstopdf)                    date: 2020-07-07 11:46:57
+(epstopdf)                    size: 47142 bytes
+(epstopdf)             Command: <epstopdf --outfile=SRManCw5/SRManCw5_ZADANIE2/
+figs/04Sygnal-eps-converted-to.pdf SRManCw5/SRManCw5_ZADANIE2/figs/04Sygnal.eps
+>
+(epstopdf)             \includegraphics on input line 203.
+Package epstopdf Info: Output file is already uptodate.
+File: SRManCw5/SRManCw5_ZADANIE2/figs/04Sygnal-eps-converted-to.pdf Graphic fil
+e (type pdf)
+<use SRManCw5/SRManCw5_ZADANIE2/figs/04Sygnal-eps-converted-to.pdf>
+Package pdftex.def Info: SRManCw5/SRManCw5_ZADANIE2/figs/04Sygnal-eps-converted
+-to.pdf  used on input line 203.
+(pdftex.def)             Requested size: 170.71828pt x 170.72113pt.
+Package epstopdf Info: Source file: <SRManCw5/SRManCw5_ZADANIE2/figs/05Pozycje.
+eps>
+(epstopdf)                    date: 2020-07-07 11:44:46
+(epstopdf)                    size: 275983 bytes
+(epstopdf)             Output file: <SRManCw5/SRManCw5_ZADANIE2/figs/05Pozycje-
+eps-converted-to.pdf>
+(epstopdf)                    date: 2020-07-07 11:46:59
+(epstopdf)                    size: 95823 bytes
+(epstopdf)             Command: <epstopdf --outfile=SRManCw5/SRManCw5_ZADANIE2/
+figs/05Pozycje-eps-converted-to.pdf SRManCw5/SRManCw5_ZADANIE2/figs/05Pozycje.e
+ps>
+(epstopdf)             \includegraphics on input line 204.
+Package epstopdf Info: Output file is already uptodate.
+File: SRManCw5/SRManCw5_ZADANIE2/figs/05Pozycje-eps-converted-to.pdf Graphic fi
+le (type pdf)
+<use SRManCw5/SRManCw5_ZADANIE2/figs/05Pozycje-eps-converted-to.pdf>
+Package pdftex.def Info: SRManCw5/SRManCw5_ZADANIE2/figs/05Pozycje-eps-converte
+d-to.pdf  used on input line 204.
+(pdftex.def)             Requested size: 170.71828pt x 170.72113pt.
+Package epstopdf Info: Source file: <SRManCw5/SRManCw5_ZADANIE2/figs/05Uchyby.e
+ps>
+(epstopdf)                    date: 2020-07-07 11:45:45
+(epstopdf)                    size: 270629 bytes
+(epstopdf)             Output file: <SRManCw5/SRManCw5_ZADANIE2/figs/05Uchyby-e
+ps-converted-to.pdf>
+(epstopdf)                    date: 2020-07-07 11:47:00
+(epstopdf)                    size: 85620 bytes
+(epstopdf)             Command: <epstopdf --outfile=SRManCw5/SRManCw5_ZADANIE2/
+figs/05Uchyby-eps-converted-to.pdf SRManCw5/SRManCw5_ZADANIE2/figs/05Uchyby.eps
+>
+(epstopdf)             \includegraphics on input line 204.
+Package epstopdf Info: Output file is already uptodate.
+File: SRManCw5/SRManCw5_ZADANIE2/figs/05Uchyby-eps-converted-to.pdf Graphic fil
+e (type pdf)
+<use SRManCw5/SRManCw5_ZADANIE2/figs/05Uchyby-eps-converted-to.pdf>
+Package pdftex.def Info: SRManCw5/SRManCw5_ZADANIE2/figs/05Uchyby-eps-converted
+-to.pdf  used on input line 204.
+(pdftex.def)             Requested size: 170.71828pt x 170.72113pt.
+Package epstopdf Info: Source file: <SRManCw5/SRManCw5_ZADANIE2/figs/05Sygnal.e
+ps>
+(epstopdf)                    date: 2020-07-07 11:45:24
+(epstopdf)                    size: 168311 bytes
+(epstopdf)             Output file: <SRManCw5/SRManCw5_ZADANIE2/figs/05Sygnal-e
+ps-converted-to.pdf>
+(epstopdf)                    date: 2020-07-07 11:47:02
+(epstopdf)                    size: 52275 bytes
+(epstopdf)             Command: <epstopdf --outfile=SRManCw5/SRManCw5_ZADANIE2/
+figs/05Sygnal-eps-converted-to.pdf SRManCw5/SRManCw5_ZADANIE2/figs/05Sygnal.eps
+>
+(epstopdf)             \includegraphics on input line 204.
+Package epstopdf Info: Output file is already uptodate.
+File: SRManCw5/SRManCw5_ZADANIE2/figs/05Sygnal-eps-converted-to.pdf Graphic fil
+e (type pdf)
+<use SRManCw5/SRManCw5_ZADANIE2/figs/05Sygnal-eps-converted-to.pdf>
+Package pdftex.def Info: SRManCw5/SRManCw5_ZADANIE2/figs/05Sygnal-eps-converted
+-to.pdf  used on input line 204.
+(pdftex.def)             Requested size: 170.71828pt x 170.72113pt.
+Package epstopdf Info: Source file: <SRManCw5/SRManCw5_ZADANIE2/figs/06Pozycje.
+eps>
+(epstopdf)                    date: 2020-07-07 11:46:03
+(epstopdf)                    size: 233425 bytes
+(epstopdf)             Output file: <SRManCw5/SRManCw5_ZADANIE2/figs/06Pozycje-
+eps-converted-to.pdf>
+(epstopdf)                    date: 2020-07-07 11:47:03
+(epstopdf)                    size: 77618 bytes
+(epstopdf)             Command: <epstopdf --outfile=SRManCw5/SRManCw5_ZADANIE2/
+figs/06Pozycje-eps-converted-to.pdf SRManCw5/SRManCw5_ZADANIE2/figs/06Pozycje.e
+ps>
+(epstopdf)             \includegraphics on input line 205.
+Package epstopdf Info: Output file is already uptodate.
+File: SRManCw5/SRManCw5_ZADANIE2/figs/06Pozycje-eps-converted-to.pdf Graphic fi
+le (type pdf)
+<use SRManCw5/SRManCw5_ZADANIE2/figs/06Pozycje-eps-converted-to.pdf>
+Package pdftex.def Info: SRManCw5/SRManCw5_ZADANIE2/figs/06Pozycje-eps-converte
+d-to.pdf  used on input line 205.
+(pdftex.def)             Requested size: 170.71828pt x 170.72113pt.
+Package epstopdf Info: Source file: <SRManCw5/SRManCw5_ZADANIE2/figs/06Uchyby.e
+ps>
+(epstopdf)                    date: 2020-07-07 11:46:40
+(epstopdf)                    size: 248990 bytes
+(epstopdf)             Output file: <SRManCw5/SRManCw5_ZADANIE2/figs/06Uchyby-e
+ps-converted-to.pdf>
+(epstopdf)                    date: 2020-07-07 11:47:04
+(epstopdf)                    size: 79428 bytes
+(epstopdf)             Command: <epstopdf --outfile=SRManCw5/SRManCw5_ZADANIE2/
+figs/06Uchyby-eps-converted-to.pdf SRManCw5/SRManCw5_ZADANIE2/figs/06Uchyby.eps
+>
+(epstopdf)             \includegraphics on input line 205.
+Package epstopdf Info: Output file is already uptodate.
+File: SRManCw5/SRManCw5_ZADANIE2/figs/06Uchyby-eps-converted-to.pdf Graphic fil
+e (type pdf)
+<use SRManCw5/SRManCw5_ZADANIE2/figs/06Uchyby-eps-converted-to.pdf>
+Package pdftex.def Info: SRManCw5/SRManCw5_ZADANIE2/figs/06Uchyby-eps-converted
+-to.pdf  used on input line 205.
+(pdftex.def)             Requested size: 170.71828pt x 170.72113pt.
+Package epstopdf Info: Source file: <SRManCw5/SRManCw5_ZADANIE2/figs/06Sygnal.e
+ps>
+(epstopdf)                    date: 2020-07-07 11:46:20
+(epstopdf)                    size: 167256 bytes
+(epstopdf)             Output file: <SRManCw5/SRManCw5_ZADANIE2/figs/06Sygnal-e
+ps-converted-to.pdf>
+(epstopdf)                    date: 2020-07-07 11:47:06
+(epstopdf)                    size: 54340 bytes
+(epstopdf)             Command: <epstopdf --outfile=SRManCw5/SRManCw5_ZADANIE2/
+figs/06Sygnal-eps-converted-to.pdf SRManCw5/SRManCw5_ZADANIE2/figs/06Sygnal.eps
+>
+(epstopdf)             \includegraphics on input line 205.
+Package epstopdf Info: Output file is already uptodate.
+File: SRManCw5/SRManCw5_ZADANIE2/figs/06Sygnal-eps-converted-to.pdf Graphic fil
+e (type pdf)
+<use SRManCw5/SRManCw5_ZADANIE2/figs/06Sygnal-eps-converted-to.pdf>
+Package pdftex.def Info: SRManCw5/SRManCw5_ZADANIE2/figs/06Sygnal-eps-converted
+-to.pdf  used on input line 205.
+(pdftex.def)             Requested size: 170.71828pt x 170.72113pt.
+Package epstopdf Info: Source file: <SRManCw5/SRManCw5_ZADANIE2/figs/06Pozycje.
+eps>
+(epstopdf)                    date: 2020-07-07 11:46:03
+(epstopdf)                    size: 233425 bytes
+(epstopdf)             Output file: <SRManCw5/SRManCw5_ZADANIE2/figs/06Pozycje-
+eps-converted-to.pdf>
+(epstopdf)                    date: 2020-07-07 11:47:03
+(epstopdf)                    size: 77618 bytes
+(epstopdf)             Command: <epstopdf --outfile=SRManCw5/SRManCw5_ZADANIE2/
+figs/06Pozycje-eps-converted-to.pdf SRManCw5/SRManCw5_ZADANIE2/figs/06Pozycje.e
+ps>
+(epstopdf)             \includegraphics on input line 206.
+Package epstopdf Info: Output file is already uptodate.
+File: SRManCw5/SRManCw5_ZADANIE2/figs/06Pozycje-eps-converted-to.pdf Graphic fi
+le (type pdf)
+<use SRManCw5/SRManCw5_ZADANIE2/figs/06Pozycje-eps-converted-to.pdf>
+Package pdftex.def Info: SRManCw5/SRManCw5_ZADANIE2/figs/06Pozycje-eps-converte
+d-to.pdf  used on input line 206.
+(pdftex.def)             Requested size: 170.71828pt x 170.72113pt.
+Package epstopdf Info: Source file: <SRManCw5/SRManCw5_ZADANIE2/figs/06Uchyby.e
+ps>
+(epstopdf)                    date: 2020-07-07 11:46:40
+(epstopdf)                    size: 248990 bytes
+(epstopdf)             Output file: <SRManCw5/SRManCw5_ZADANIE2/figs/06Uchyby-e
+ps-converted-to.pdf>
+(epstopdf)                    date: 2020-07-07 11:47:04
+(epstopdf)                    size: 79428 bytes
+(epstopdf)             Command: <epstopdf --outfile=SRManCw5/SRManCw5_ZADANIE2/
+figs/06Uchyby-eps-converted-to.pdf SRManCw5/SRManCw5_ZADANIE2/figs/06Uchyby.eps
+>
+(epstopdf)             \includegraphics on input line 206.
+Package epstopdf Info: Output file is already uptodate.
+File: SRManCw5/SRManCw5_ZADANIE2/figs/06Uchyby-eps-converted-to.pdf Graphic fil
+e (type pdf)
+<use SRManCw5/SRManCw5_ZADANIE2/figs/06Uchyby-eps-converted-to.pdf>
+Package pdftex.def Info: SRManCw5/SRManCw5_ZADANIE2/figs/06Uchyby-eps-converted
+-to.pdf  used on input line 206.
+(pdftex.def)             Requested size: 170.71828pt x 170.72113pt.
+Package epstopdf Info: Source file: <SRManCw5/SRManCw5_ZADANIE2/figs/06Sygnal.e
+ps>
+(epstopdf)                    date: 2020-07-07 11:46:20
+(epstopdf)                    size: 167256 bytes
+(epstopdf)             Output file: <SRManCw5/SRManCw5_ZADANIE2/figs/06Sygnal-e
+ps-converted-to.pdf>
+(epstopdf)                    date: 2020-07-07 11:47:06
+(epstopdf)                    size: 54340 bytes
+(epstopdf)             Command: <epstopdf --outfile=SRManCw5/SRManCw5_ZADANIE2/
+figs/06Sygnal-eps-converted-to.pdf SRManCw5/SRManCw5_ZADANIE2/figs/06Sygnal.eps
+>
+(epstopdf)             \includegraphics on input line 206.
+Package epstopdf Info: Output file is already uptodate.
+File: SRManCw5/SRManCw5_ZADANIE2/figs/06Sygnal-eps-converted-to.pdf Graphic fil
+e (type pdf)
+<use SRManCw5/SRManCw5_ZADANIE2/figs/06Sygnal-eps-converted-to.pdf>
+Package pdftex.def Info: SRManCw5/SRManCw5_ZADANIE2/figs/06Sygnal-eps-converted
+-to.pdf  used on input line 206.
+(pdftex.def)             Requested size: 170.71828pt x 170.72113pt.
+
+Overfull \vbox (3.96954pt too high) has occurred while \output is active []
+
+
+[7]
+Package epstopdf Info: Source file: <SRManCw5/SRManCw5_ZADANIE2/figs/04Pozycje.
+eps>
+(epstopdf)                    date: 2020-07-07 11:43:20
+(epstopdf)                    size: 70020 bytes
+(epstopdf)             Output file: <SRManCw5/SRManCw5_ZADANIE2/figs/04Pozycje-
+eps-converted-to.pdf>
+(epstopdf)                    date: 2020-07-07 11:46:55
+(epstopdf)                    size: 22259 bytes
+(epstopdf)             Command: <epstopdf --outfile=SRManCw5/SRManCw5_ZADANIE2/
+figs/04Pozycje-eps-converted-to.pdf SRManCw5/SRManCw5_ZADANIE2/figs/04Pozycje.e
+ps>
+(epstopdf)             \includegraphics on input line 234.
+Package epstopdf Info: Output file is already uptodate.
+File: SRManCw5/SRManCw5_ZADANIE2/figs/04Pozycje-eps-converted-to.pdf Graphic fi
+le (type pdf)
+<use SRManCw5/SRManCw5_ZADANIE2/figs/04Pozycje-eps-converted-to.pdf>
+Package pdftex.def Info: SRManCw5/SRManCw5_ZADANIE2/figs/04Pozycje-eps-converte
+d-to.pdf  used on input line 234.
+(pdftex.def)             Requested size: 136.57635pt x 136.57968pt.
+Package epstopdf Info: Source file: <SRManCw5/SRManCw5_ZADANIE2/figs/04Pozycje.
+eps>
+(epstopdf)                    date: 2020-07-07 11:43:20
+(epstopdf)                    size: 70020 bytes
+(epstopdf)             Output file: <SRManCw5/SRManCw5_ZADANIE2/figs/04Pozycje-
+eps-converted-to.pdf>
+(epstopdf)                    date: 2020-07-07 11:46:55
+(epstopdf)                    size: 22259 bytes
+(epstopdf)             Command: <epstopdf --outfile=SRManCw5/SRManCw5_ZADANIE2/
+figs/04Pozycje-eps-converted-to.pdf SRManCw5/SRManCw5_ZADANIE2/figs/04Pozycje.e
+ps>
+(epstopdf)             \includegraphics on input line 235.
+Package epstopdf Info: Output file is already uptodate.
+File: SRManCw5/SRManCw5_ZADANIE2/figs/04Pozycje-eps-converted-to.pdf Graphic fi
+le (type pdf)
+<use SRManCw5/SRManCw5_ZADANIE2/figs/04Pozycje-eps-converted-to.pdf>
+Package pdftex.def Info: SRManCw5/SRManCw5_ZADANIE2/figs/04Pozycje-eps-converte
+d-to.pdf  used on input line 235.
+(pdftex.def)             Requested size: 136.57635pt x 136.57968pt.
+Package epstopdf Info: Source file: <SRManCw5/SRManCw5_ZADANIE2/figs/04Pozycje.
+eps>
+(epstopdf)                    date: 2020-07-07 11:43:20
+(epstopdf)                    size: 70020 bytes
+(epstopdf)             Output file: <SRManCw5/SRManCw5_ZADANIE2/figs/04Pozycje-
+eps-converted-to.pdf>
+(epstopdf)                    date: 2020-07-07 11:46:55
+(epstopdf)                    size: 22259 bytes
+(epstopdf)             Command: <epstopdf --outfile=SRManCw5/SRManCw5_ZADANIE2/
+figs/04Pozycje-eps-converted-to.pdf SRManCw5/SRManCw5_ZADANIE2/figs/04Pozycje.e
+ps>
+(epstopdf)             \includegraphics on input line 236.
+Package epstopdf Info: Output file is already uptodate.
+File: SRManCw5/SRManCw5_ZADANIE2/figs/04Pozycje-eps-converted-to.pdf Graphic fi
+le (type pdf)
+<use SRManCw5/SRManCw5_ZADANIE2/figs/04Pozycje-eps-converted-to.pdf>
+Package pdftex.def Info: SRManCw5/SRManCw5_ZADANIE2/figs/04Pozycje-eps-converte
+d-to.pdf  used on input line 236.
+(pdftex.def)             Requested size: 136.57635pt x 136.57968pt.
+Package epstopdf Info: Source file: <SRManCw5/SRManCw5_ZADANIE2/figs/04Pozycje.
+eps>
+(epstopdf)                    date: 2020-07-07 11:43:20
+(epstopdf)                    size: 70020 bytes
+(epstopdf)             Output file: <SRManCw5/SRManCw5_ZADANIE2/figs/04Pozycje-
+eps-converted-to.pdf>
+(epstopdf)                    date: 2020-07-07 11:46:55
+(epstopdf)                    size: 22259 bytes
+(epstopdf)             Command: <epstopdf --outfile=SRManCw5/SRManCw5_ZADANIE2/
+figs/04Pozycje-eps-converted-to.pdf SRManCw5/SRManCw5_ZADANIE2/figs/04Pozycje.e
+ps>
+(epstopdf)             \includegraphics on input line 237.
+Package epstopdf Info: Output file is already uptodate.
+File: SRManCw5/SRManCw5_ZADANIE2/figs/04Pozycje-eps-converted-to.pdf Graphic fi
+le (type pdf)
+<use SRManCw5/SRManCw5_ZADANIE2/figs/04Pozycje-eps-converted-to.pdf>
+Package pdftex.def Info: SRManCw5/SRManCw5_ZADANIE2/figs/04Pozycje-eps-converte
+d-to.pdf  used on input line 237.
+(pdftex.def)             Requested size: 136.57635pt x 136.57968pt.
+Package epstopdf Info: Source file: <SRManCw5/SRManCw5_ZADANIE2/figs/04Pozycje.
+eps>
+(epstopdf)                    date: 2020-07-07 11:43:20
+(epstopdf)                    size: 70020 bytes
+(epstopdf)             Output file: <SRManCw5/SRManCw5_ZADANIE2/figs/04Pozycje-
+eps-converted-to.pdf>
+(epstopdf)                    date: 2020-07-07 11:46:55
+(epstopdf)                    size: 22259 bytes
+(epstopdf)             Command: <epstopdf --outfile=SRManCw5/SRManCw5_ZADANIE2/
+figs/04Pozycje-eps-converted-to.pdf SRManCw5/SRManCw5_ZADANIE2/figs/04Pozycje.e
+ps>
+(epstopdf)             \includegraphics on input line 238.
+Package epstopdf Info: Output file is already uptodate.
+File: SRManCw5/SRManCw5_ZADANIE2/figs/04Pozycje-eps-converted-to.pdf Graphic fi
+le (type pdf)
+<use SRManCw5/SRManCw5_ZADANIE2/figs/04Pozycje-eps-converted-to.pdf>
+Package pdftex.def Info: SRManCw5/SRManCw5_ZADANIE2/figs/04Pozycje-eps-converte
+d-to.pdf  used on input line 238.
+(pdftex.def)             Requested size: 136.57635pt x 136.57968pt.
+Package epstopdf Info: Source file: <SRManCw5/SRManCw5_ZADANIE2/figs/04Pozycje.
+eps>
+(epstopdf)                    date: 2020-07-07 11:43:20
+(epstopdf)                    size: 70020 bytes
+(epstopdf)             Output file: <SRManCw5/SRManCw5_ZADANIE2/figs/04Pozycje-
+eps-converted-to.pdf>
+(epstopdf)                    date: 2020-07-07 11:46:55
+(epstopdf)                    size: 22259 bytes
+(epstopdf)             Command: <epstopdf --outfile=SRManCw5/SRManCw5_ZADANIE2/
+figs/04Pozycje-eps-converted-to.pdf SRManCw5/SRManCw5_ZADANIE2/figs/04Pozycje.e
+ps>
+(epstopdf)             \includegraphics on input line 239.
+Package epstopdf Info: Output file is already uptodate.
+File: SRManCw5/SRManCw5_ZADANIE2/figs/04Pozycje-eps-converted-to.pdf Graphic fi
+le (type pdf)
+<use SRManCw5/SRManCw5_ZADANIE2/figs/04Pozycje-eps-converted-to.pdf>
+Package pdftex.def Info: SRManCw5/SRManCw5_ZADANIE2/figs/04Pozycje-eps-converte
+d-to.pdf  used on input line 239.
+(pdftex.def)             Requested size: 136.57635pt x 136.57968pt.
+Package epstopdf Info: Source file: <SRManCw5/SRManCw5_ZADANIE2/figs/04Pozycje.
+eps>
+(epstopdf)                    date: 2020-07-07 11:43:20
+(epstopdf)                    size: 70020 bytes
+(epstopdf)             Output file: <SRManCw5/SRManCw5_ZADANIE2/figs/04Pozycje-
+eps-converted-to.pdf>
+(epstopdf)                    date: 2020-07-07 11:46:55
+(epstopdf)                    size: 22259 bytes
+(epstopdf)             Command: <epstopdf --outfile=SRManCw5/SRManCw5_ZADANIE2/
+figs/04Pozycje-eps-converted-to.pdf SRManCw5/SRManCw5_ZADANIE2/figs/04Pozycje.e
+ps>
+(epstopdf)             \includegraphics on input line 240.
+Package epstopdf Info: Output file is already uptodate.
+File: SRManCw5/SRManCw5_ZADANIE2/figs/04Pozycje-eps-converted-to.pdf Graphic fi
+le (type pdf)
+<use SRManCw5/SRManCw5_ZADANIE2/figs/04Pozycje-eps-converted-to.pdf>
+Package pdftex.def Info: SRManCw5/SRManCw5_ZADANIE2/figs/04Pozycje-eps-converte
+d-to.pdf  used on input line 240.
+(pdftex.def)             Requested size: 136.57635pt x 136.57968pt.
+Package epstopdf Info: Source file: <SRManCw5/SRManCw5_ZADANIE2/figs/04Pozycje.
+eps>
+(epstopdf)                    date: 2020-07-07 11:43:20
+(epstopdf)                    size: 70020 bytes
+(epstopdf)             Output file: <SRManCw5/SRManCw5_ZADANIE2/figs/04Pozycje-
+eps-converted-to.pdf>
+(epstopdf)                    date: 2020-07-07 11:46:55
+(epstopdf)                    size: 22259 bytes
+(epstopdf)             Command: <epstopdf --outfile=SRManCw5/SRManCw5_ZADANIE2/
+figs/04Pozycje-eps-converted-to.pdf SRManCw5/SRManCw5_ZADANIE2/figs/04Pozycje.e
+ps>
+(epstopdf)             \includegraphics on input line 241.
+Package epstopdf Info: Output file is already uptodate.
+File: SRManCw5/SRManCw5_ZADANIE2/figs/04Pozycje-eps-converted-to.pdf Graphic fi
+le (type pdf)
+<use SRManCw5/SRManCw5_ZADANIE2/figs/04Pozycje-eps-converted-to.pdf>
+Package pdftex.def Info: SRManCw5/SRManCw5_ZADANIE2/figs/04Pozycje-eps-converte
+d-to.pdf  used on input line 241.
+(pdftex.def)             Requested size: 136.57635pt x 136.57968pt.
+Package epstopdf Info: Source file: <SRManCw5/SRManCw5_ZADANIE2/figs/04Pozycje.
+eps>
+(epstopdf)                    date: 2020-07-07 11:43:20
+(epstopdf)                    size: 70020 bytes
+(epstopdf)             Output file: <SRManCw5/SRManCw5_ZADANIE2/figs/04Pozycje-
+eps-converted-to.pdf>
+(epstopdf)                    date: 2020-07-07 11:46:55
+(epstopdf)                    size: 22259 bytes
+(epstopdf)             Command: <epstopdf --outfile=SRManCw5/SRManCw5_ZADANIE2/
+figs/04Pozycje-eps-converted-to.pdf SRManCw5/SRManCw5_ZADANIE2/figs/04Pozycje.e
+ps>
+(epstopdf)             \includegraphics on input line 242.
+Package epstopdf Info: Output file is already uptodate.
+File: SRManCw5/SRManCw5_ZADANIE2/figs/04Pozycje-eps-converted-to.pdf Graphic fi
+le (type pdf)
+<use SRManCw5/SRManCw5_ZADANIE2/figs/04Pozycje-eps-converted-to.pdf>
+Package pdftex.def Info: SRManCw5/SRManCw5_ZADANIE2/figs/04Pozycje-eps-converte
+d-to.pdf  used on input line 242.
+(pdftex.def)             Requested size: 136.57635pt x 136.57968pt.
+Package epstopdf Info: Source file: <SRManCw5/SRManCw5_ZADANIE2/figs/04Pozycje.
+eps>
+(epstopdf)                    date: 2020-07-07 11:43:20
+(epstopdf)                    size: 70020 bytes
+(epstopdf)             Output file: <SRManCw5/SRManCw5_ZADANIE2/figs/04Pozycje-
+eps-converted-to.pdf>
+(epstopdf)                    date: 2020-07-07 11:46:55
+(epstopdf)                    size: 22259 bytes
+(epstopdf)             Command: <epstopdf --outfile=SRManCw5/SRManCw5_ZADANIE2/
+figs/04Pozycje-eps-converted-to.pdf SRManCw5/SRManCw5_ZADANIE2/figs/04Pozycje.e
+ps>
+(epstopdf)             \includegraphics on input line 243.
+Package epstopdf Info: Output file is already uptodate.
+File: SRManCw5/SRManCw5_ZADANIE2/figs/04Pozycje-eps-converted-to.pdf Graphic fi
+le (type pdf)
+<use SRManCw5/SRManCw5_ZADANIE2/figs/04Pozycje-eps-converted-to.pdf>
+Package pdftex.def Info: SRManCw5/SRManCw5_ZADANIE2/figs/04Pozycje-eps-converte
+d-to.pdf  used on input line 243.
+(pdftex.def)             Requested size: 136.57635pt x 136.57968pt.
+Package epstopdf Info: Source file: <SRManCw5/SRManCw5_ZADANIE2/figs/04Pozycje.
+eps>
+(epstopdf)                    date: 2020-07-07 11:43:20
+(epstopdf)                    size: 70020 bytes
+(epstopdf)             Output file: <SRManCw5/SRManCw5_ZADANIE2/figs/04Pozycje-
+eps-converted-to.pdf>
+(epstopdf)                    date: 2020-07-07 11:46:55
+(epstopdf)                    size: 22259 bytes
+(epstopdf)             Command: <epstopdf --outfile=SRManCw5/SRManCw5_ZADANIE2/
+figs/04Pozycje-eps-converted-to.pdf SRManCw5/SRManCw5_ZADANIE2/figs/04Pozycje.e
+ps>
+(epstopdf)             \includegraphics on input line 244.
+Package epstopdf Info: Output file is already uptodate.
+File: SRManCw5/SRManCw5_ZADANIE2/figs/04Pozycje-eps-converted-to.pdf Graphic fi
+le (type pdf)
+<use SRManCw5/SRManCw5_ZADANIE2/figs/04Pozycje-eps-converted-to.pdf>
+Package pdftex.def Info: SRManCw5/SRManCw5_ZADANIE2/figs/04Pozycje-eps-converte
+d-to.pdf  used on input line 244.
+(pdftex.def)             Requested size: 136.57635pt x 136.57968pt.
+Package epstopdf Info: Source file: <SRManCw5/SRManCw5_ZADANIE2/figs/04Pozycje.
+eps>
+(epstopdf)                    date: 2020-07-07 11:43:20
+(epstopdf)                    size: 70020 bytes
+(epstopdf)             Output file: <SRManCw5/SRManCw5_ZADANIE2/figs/04Pozycje-
+eps-converted-to.pdf>
+(epstopdf)                    date: 2020-07-07 11:46:55
+(epstopdf)                    size: 22259 bytes
+(epstopdf)             Command: <epstopdf --outfile=SRManCw5/SRManCw5_ZADANIE2/
+figs/04Pozycje-eps-converted-to.pdf SRManCw5/SRManCw5_ZADANIE2/figs/04Pozycje.e
+ps>
+(epstopdf)             \includegraphics on input line 245.
+Package epstopdf Info: Output file is already uptodate.
+File: SRManCw5/SRManCw5_ZADANIE2/figs/04Pozycje-eps-converted-to.pdf Graphic fi
+le (type pdf)
+<use SRManCw5/SRManCw5_ZADANIE2/figs/04Pozycje-eps-converted-to.pdf>
+Package pdftex.def Info: SRManCw5/SRManCw5_ZADANIE2/figs/04Pozycje-eps-converte
+d-to.pdf  used on input line 245.
+(pdftex.def)             Requested size: 136.57635pt x 136.57968pt.
+Package epstopdf Info: Source file: <SRManCw5/SRManCw5_ZADANIE2/figs/04Pozycje.
+eps>
+(epstopdf)                    date: 2020-07-07 11:43:20
+(epstopdf)                    size: 70020 bytes
+(epstopdf)             Output file: <SRManCw5/SRManCw5_ZADANIE2/figs/04Pozycje-
+eps-converted-to.pdf>
+(epstopdf)                    date: 2020-07-07 11:46:55
+(epstopdf)                    size: 22259 bytes
+(epstopdf)             Command: <epstopdf --outfile=SRManCw5/SRManCw5_ZADANIE2/
+figs/04Pozycje-eps-converted-to.pdf SRManCw5/SRManCw5_ZADANIE2/figs/04Pozycje.e
+ps>
+(epstopdf)             \includegraphics on input line 246.
+Package epstopdf Info: Output file is already uptodate.
+File: SRManCw5/SRManCw5_ZADANIE2/figs/04Pozycje-eps-converted-to.pdf Graphic fi
+le (type pdf)
+<use SRManCw5/SRManCw5_ZADANIE2/figs/04Pozycje-eps-converted-to.pdf>
+Package pdftex.def Info: SRManCw5/SRManCw5_ZADANIE2/figs/04Pozycje-eps-converte
+d-to.pdf  used on input line 246.
+(pdftex.def)             Requested size: 136.57635pt x 136.57968pt.
+Package epstopdf Info: Source file: <SRManCw5/SRManCw5_ZADANIE2/figs/04Pozycje.
+eps>
+(epstopdf)                    date: 2020-07-07 11:43:20
+(epstopdf)                    size: 70020 bytes
+(epstopdf)             Output file: <SRManCw5/SRManCw5_ZADANIE2/figs/04Pozycje-
+eps-converted-to.pdf>
+(epstopdf)                    date: 2020-07-07 11:46:55
+(epstopdf)                    size: 22259 bytes
+(epstopdf)             Command: <epstopdf --outfile=SRManCw5/SRManCw5_ZADANIE2/
+figs/04Pozycje-eps-converted-to.pdf SRManCw5/SRManCw5_ZADANIE2/figs/04Pozycje.e
+ps>
+(epstopdf)             \includegraphics on input line 247.
+Package epstopdf Info: Output file is already uptodate.
+File: SRManCw5/SRManCw5_ZADANIE2/figs/04Pozycje-eps-converted-to.pdf Graphic fi
+le (type pdf)
+<use SRManCw5/SRManCw5_ZADANIE2/figs/04Pozycje-eps-converted-to.pdf>
+Package pdftex.def Info: SRManCw5/SRManCw5_ZADANIE2/figs/04Pozycje-eps-converte
+d-to.pdf  used on input line 247.
+(pdftex.def)             Requested size: 136.57635pt x 136.57968pt.
+Package epstopdf Info: Source file: <SRManCw5/SRManCw5_ZADANIE2/figs/04Pozycje.
+eps>
+(epstopdf)                    date: 2020-07-07 11:43:20
+(epstopdf)                    size: 70020 bytes
+(epstopdf)             Output file: <SRManCw5/SRManCw5_ZADANIE2/figs/04Pozycje-
+eps-converted-to.pdf>
+(epstopdf)                    date: 2020-07-07 11:46:55
+(epstopdf)                    size: 22259 bytes
+(epstopdf)             Command: <epstopdf --outfile=SRManCw5/SRManCw5_ZADANIE2/
+figs/04Pozycje-eps-converted-to.pdf SRManCw5/SRManCw5_ZADANIE2/figs/04Pozycje.e
+ps>
+(epstopdf)             \includegraphics on input line 248.
+Package epstopdf Info: Output file is already uptodate.
+File: SRManCw5/SRManCw5_ZADANIE2/figs/04Pozycje-eps-converted-to.pdf Graphic fi
+le (type pdf)
+<use SRManCw5/SRManCw5_ZADANIE2/figs/04Pozycje-eps-converted-to.pdf>
+Package pdftex.def Info: SRManCw5/SRManCw5_ZADANIE2/figs/04Pozycje-eps-converte
+d-to.pdf  used on input line 248.
+(pdftex.def)             Requested size: 136.57635pt x 136.57968pt.
+Package epstopdf Info: Source file: <SRManCw5/SRManCw5_ZADANIE2/figs/04Pozycje.
+eps>
+(epstopdf)                    date: 2020-07-07 11:43:20
+(epstopdf)                    size: 70020 bytes
+(epstopdf)             Output file: <SRManCw5/SRManCw5_ZADANIE2/figs/04Pozycje-
+eps-converted-to.pdf>
+(epstopdf)                    date: 2020-07-07 11:46:55
+(epstopdf)                    size: 22259 bytes
+(epstopdf)             Command: <epstopdf --outfile=SRManCw5/SRManCw5_ZADANIE2/
+figs/04Pozycje-eps-converted-to.pdf SRManCw5/SRManCw5_ZADANIE2/figs/04Pozycje.e
+ps>
+(epstopdf)             \includegraphics on input line 249.
+Package epstopdf Info: Output file is already uptodate.
+File: SRManCw5/SRManCw5_ZADANIE2/figs/04Pozycje-eps-converted-to.pdf Graphic fi
+le (type pdf)
+<use SRManCw5/SRManCw5_ZADANIE2/figs/04Pozycje-eps-converted-to.pdf>
+Package pdftex.def Info: SRManCw5/SRManCw5_ZADANIE2/figs/04Pozycje-eps-converte
+d-to.pdf  used on input line 249.
+(pdftex.def)             Requested size: 136.57635pt x 136.57968pt.
+ 
+AED: lastpage setting LastPage
+[8]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 257.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 257.
  (SRMan_RAPORT_Z7Z8.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 187.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 187.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 257.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 257.
 Package rerunfilecheck Info: File `SRMan_RAPORT_Z7Z8.out' has not changed.
 (rerunfilecheck)             Checksum: 598D8F0A161E4917C145B70CF098890A;630.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
  ) 
 Here is how much of TeX's memory you used:
- 26874 strings out of 480799
- 551882 string characters out of 2912021
- 819430 words of memory out of 3000000
- 42290 multiletter control sequences out of 15000+200000
- 580859 words of font info for 56 fonts, out of 3000000 for 9000
+ 25783 strings out of 480799
+ 527402 string characters out of 2912021
+ 805512 words of memory out of 3000000
+ 41184 multiletter control sequences out of 15000+200000
+ 583501 words of font info for 56 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 66i,11n,103p,830b,381s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/MiKTeX 2.9/fonts/enc/dvips/lm/lm-rm.enc}{C:/MiKTeX 2.9/fonts/enc/dvips/lm
-/lm-mathsy.enc}{C:/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathit.enc}{C:/MiKTeX 2.9/f
-onts/enc/dvips/lm/lm-mathex.enc}{C:/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.enc}<C:
-/MiKTeX 2.9/fonts/type1/public/lm/lmbx12.pfb><C:/MiKTeX 2.9/fonts/type1/public/
-lm/lmbxi10.pfb><C:/MiKTeX 2.9/fonts/type1/public/lm/lmex10.pfb><C:/MiKTeX 2.9/f
-onts/type1/public/lm/lmmi12.pfb><C:/MiKTeX 2.9/fonts/type1/public/lm/lmmi8.pfb>
-<C:/MiKTeX 2.9/fonts/type1/public/lm/lmr12.pfb><C:/MiKTeX 2.9/fonts/type1/publi
-c/lm/lmr8.pfb><C:/MiKTeX 2.9/fonts/type1/public/lm/lmri12.pfb><C:/MiKTeX 2.9/fo
-nts/type1/public/lm/lmss12.pfb><C:/MiKTeX 2.9/fonts/type1/public/lm/lmss17.pfb>
-<C:/MiKTeX 2.9/fonts/type1/public/lm/lmssbx10.pfb><C:/MiKTeX 2.9/fonts/type1/pu
-blic/lm/lmsy10.pfb><C:/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msbm10.pf
-b>
-Output written on SRMan_RAPORT_Z7Z8.pdf (6 pages, 2576223 bytes).
+ 66i,12n,103p,830b,358s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.enc}{C:/MiKTeX 2.9/fonts/enc/dvips/lm
+/lm-rm.enc}{C:/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathsy.enc}{C:/MiKTeX 2.9/fonts
+/enc/dvips/lm/lm-mathit.enc}{C:/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathex.enc}<C:
+/MiKTeX 2.9/fonts/type1/public/lm/lmbx10.pfb><C:/MiKTeX 2.9/fonts/type1/public/
+lm/lmbx12.pfb><C:/MiKTeX 2.9/fonts/type1/public/lm/lmbxi10.pfb><C:/MiKTeX 2.9/f
+onts/type1/public/lm/lmex10.pfb><C:/MiKTeX 2.9/fonts/type1/public/lm/lmmi10.pfb
+><C:/MiKTeX 2.9/fonts/type1/public/lm/lmmi7.pfb><C:/MiKTeX 2.9/fonts/type1/publ
+ic/lm/lmr10.pfb><C:/MiKTeX 2.9/fonts/type1/public/lm/lmr7.pfb><C:/MiKTeX 2.9/fo
+nts/type1/public/lm/lmr8.pfb><C:/MiKTeX 2.9/fonts/type1/public/lm/lmri10.pfb><C
+:/MiKTeX 2.9/fonts/type1/public/lm/lmss10.pfb><C:/MiKTeX 2.9/fonts/type1/public
+/lm/lmss12.pfb><C:/MiKTeX 2.9/fonts/type1/public/lm/lmssbx10.pfb><C:/MiKTeX 2.9
+/fonts/type1/public/lm/lmsy10.pfb><C:/MiKTeX 2.9/fonts/type1/public/amsfonts/sy
+mbols/msbm10.pfb>
+Output written on SRMan_RAPORT_Z7Z8.pdf (8 pages, 2225961 bytes).
 PDF statistics:
- 429 PDF objects out of 1000 (max. 8388607)
- 25 named destinations out of 1000 (max. 500000)
- 404 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 435 PDF objects out of 1000 (max. 8388607)
+ 45 named destinations out of 1000 (max. 500000)
+ 379 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -163,7 +163,7 @@ umax = diag([u1max; u2max]);
 
 %---- USTALENIE TUNELU
 global epsilon
-epsilon = 0.9;
+epsilon = 0.05  ;
 
 %---- STROJENIE REGULATORA
 % uchyb e

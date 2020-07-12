@@ -91,7 +91,7 @@ Kv = diag([w w]);
 
 % Macierz wzmocnieñ
 global Gamma
-r = 1/100.0;
+r = 100.0;
 Gamma = diag([r r r r r r r]);
 
 %% (d)  ZADANIE 2.4
@@ -103,6 +103,6 @@ Gamma = diag([r r r r r r r]);
 %---- • Przeprowadziæ symulacje dla skokowych, sinusoidalnych i wielomianowych sygna³ów zadanych
 %       przyjmuj¹c macierz wzmocnieñ Kv jako zmienn¹ w czasie:
 
-global Delta
-delta = 2000.0;
+global Delta delta
+delta = 5000.0;
 Delta = diag([delta delta]);

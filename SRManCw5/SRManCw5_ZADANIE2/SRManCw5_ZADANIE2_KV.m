@@ -15,6 +15,6 @@ m2 = input(4);
 m3 = input(5);
 m4 = input(6);
 Mhat = [m1 m2; m3 m4];
-global Delta
+global delta
 
-Kv = s' * Delta * Mhat;
+Kv = Mhat * s;

@@ -1,8 +1,8 @@
 %% PODSTAWOWE USTAWIENIA DOKUMENTU
-\documentclass[12pt, a4paper, polish]{article}
+\documentclass[10pt, a4paper, polish]{article}
 \DeclareUnicodeCharacter{2003}{-}
 %\usepackage[a4paper, lmargin=2.5cm, rmargin=2.5cm, hmargin=2.5cm, bmargin=2.5cm]{geometry}
-\usepackage[a4paper,top=2.5cm,bottom=1.5cm,left=1.5cm,right=1.5cm]{geometry}
+\usepackage[a4paper,top=2cm,bottom=0.5cm,left=0.5cm,right=0.5cm]{geometry}
 %\geometry{verbose,lmargin=2.5cm,rmargin=2.5cm}
 \usepackage{enumerate}
 % Symbole matematyczne
@@ -31,9 +31,14 @@
 \usepackage{graphicx}
 \usepackage[section]{placeins} % Ogarnięcie obrazków
 \usepackage{float}
-\usepackage{subcaption}
+%\usepackage{subcaption}
 %\usepackage[outdir=./]{epstopdf}
 \usepackage{grffile}
+%\usepackage{showframe}
+% Subfigura
+\usepackage[hang]{subfigure} 
+%\usepackage[position=left]{subfig}
+
 
 %% ODSTĘPY W WIERSZACH
 \setlength{\parindent}{1.2cm}
@@ -103,9 +108,19 @@
 			Wyniki symulacji dla zmniejszonego napięcia zasilania $u_{2max}=12$ [V] o wymuszeniu $Q_d=[1\quad1]$: przebiegi a) pozycji ogniw wraz z zadanym sygnałem referencyjnym, b) uchybów pozycji i prędkości, c)  napięć sterujących oraz odpowiadające im momenty generowane na wałach silników.}\label{fig:hiperkula12v}
 	\end{figure}
 	\begin{figure}[!ht]\centering
-		a) \includegraphics[width=0.30\columnwidth]{SRManCw4/SRManL4_ZADANIE1/figs/02Pozycje_U24} b)\includegraphics[width=0.30\columnwidth]{SRManCw4/SRManL4_ZADANIE1/figs/02Uchyby_U24} c)\includegraphics[width=0.30\columnwidth]{SRManCw4/SRManL4_ZADANIE1/figs/02Sygnaly_U24}\\
-		d) \includegraphics[width=0.30\columnwidth]{SRManCw4/SRManL4_ZADANIE1/figs/03Pozycje_U24} e)\includegraphics[width=0.30\columnwidth]{SRManCw4/SRManL4_ZADANIE1/figs/03Uchyby_U24} f)\includegraphics[width=0.30\columnwidth]{SRManCw4/SRManL4_ZADANIE1/figs/03Sygnaly_U24}\\
-		g) \includegraphics[width=0.30\columnwidth]{SRManCw4/SRManL4_ZADANIE1/figs/04Pozycje_U24} h)\includegraphics[width=0.30\columnwidth]{SRManCw4/SRManL4_ZADANIE1/figs/04Uchyby_U24} i)\includegraphics[width=0.30\columnwidth]{SRManCw4/SRManL4_ZADANIE1/figs/04Sygnaly_U24}\caption{
+		a) \includegraphics[width=0.22\columnwidth]{SRManCw4/SRManL4_ZADANIE1/figs/02Pozycje_U24} b)\includegraphics[width=0.22\columnwidth]{SRManCw4/SRManL4_ZADANIE1/figs/02Uchyby_U24} c)\includegraphics[width=0.22\columnwidth]{SRManCw4/SRManL4_ZADANIE1/figs/02Sygnaly_U24}	
+		d) \includegraphics[width=0.22\columnwidth]{SRManCw4/SRManL4_ZADANIE1/figs/03Pozycje_U24}\\
+				a) \includegraphics[width=0.22\columnwidth]{SRManCw4/SRManL4_ZADANIE1/figs/02Pozycje_U24} b)\includegraphics[width=0.22\columnwidth]{SRManCw4/SRManL4_ZADANIE1/figs/02Uchyby_U24} c)\includegraphics[width=0.22\columnwidth]{SRManCw4/SRManL4_ZADANIE1/figs/02Sygnaly_U24}	
+		d) \includegraphics[width=0.22\columnwidth]{SRManCw4/SRManL4_ZADANIE1/figs/03Pozycje_U24}\\
+				a) \includegraphics[width=0.22\columnwidth]{SRManCw4/SRManL4_ZADANIE1/figs/02Pozycje_U24} b)\includegraphics[width=0.22\columnwidth]{SRManCw4/SRManL4_ZADANIE1/figs/02Uchyby_U24} c)\includegraphics[width=0.22\columnwidth]{SRManCw4/SRManL4_ZADANIE1/figs/02Sygnaly_U24}	
+		d) \includegraphics[width=0.22\columnwidth]{SRManCw4/SRManL4_ZADANIE1/figs/03Pozycje_U24}\\
+				a) \includegraphics[width=0.22\columnwidth]{SRManCw4/SRManL4_ZADANIE1/figs/02Pozycje_U24} b)\includegraphics[width=0.22\columnwidth]{SRManCw4/SRManL4_ZADANIE1/figs/02Uchyby_U24} c)\includegraphics[width=0.22\columnwidth]{SRManCw4/SRManL4_ZADANIE1/figs/02Sygnaly_U24}	
+		d) \includegraphics[width=0.22\columnwidth]{SRManCw4/SRManL4_ZADANIE1/figs/03Pozycje_U24}\\
+				a) \includegraphics[width=0.22\columnwidth]{SRManCw4/SRManL4_ZADANIE1/figs/02Pozycje_U24} b)\includegraphics[width=0.22\columnwidth]{SRManCw4/SRManL4_ZADANIE1/figs/02Uchyby_U24} c)\includegraphics[width=0.22\columnwidth]{SRManCw4/SRManL4_ZADANIE1/figs/02Sygnaly_U24}	
+		d) \includegraphics[width=0.22\columnwidth]{SRManCw4/SRManL4_ZADANIE1/figs/03Pozycje_U24}\\
+%	 e)\includegraphics[width=0.30\columnwidth]{SRManCw4/SRManL4_ZADANIE1/figs/03Uchyby_U24} f)\includegraphics[width=0.30\columnwidth]{SRManCw4/SRManL4_ZADANIE1/figs/03Sygnaly_U24}\\
+%		g) \includegraphics[width=0.30\columnwidth]{SRManCw4/SRManL4_ZADANIE1/figs/04Pozycje_U24} h)\includegraphics[width=0.30\columnwidth]{SRManCw4/SRManL4_ZADANIE1/figs/04Uchyby_U24} i)\includegraphics[width=0.30\columnwidth]{SRManCw4/SRManL4_ZADANIE1/figs/04Sygnaly_U24}
+\caption{
 			Wyniki symulacji dla $u_{HKmax}=24$ [V]. Przebiegi (a, d, g) pozycji ogniw wraz z zadanym sygnałem referencyjnym, (b, e, h) uchybów pozycji i prędkości, (c, f, i)  napięć sterujących oraz odpowiadające im momenty generowane na wałach silników, o wymuszeniu:\\
 			\textbf{a-c:} $Q_{d1}=[1\quad1]$;\\
 			\textbf{d-f:} $Q_{d2}=[\sin(0,6t);\quad \sin(0,7t)]$;\\
@@ -176,6 +191,18 @@ Podsumowując, mimo wprowadzonych niepewności parametrycznych regulator oddawa�
 	\begin{figure}[H]\centering
 	a) \includegraphics[width=0.30\columnwidth]{SRManCw5/SRManCw5_ZADANIE2/figs/04Pozycje} b)\includegraphics[width=0.30\columnwidth]{SRManCw5/SRManCw5_ZADANIE2/figs/04Uchyby} c)\includegraphics[width=0.30\columnwidth]{SRManCw5/SRManCw5_ZADANIE2/figs/04Sygnal}\\
 	d) \includegraphics[width=0.30\columnwidth]{SRManCw5/SRManCw5_ZADANIE2/figs/05Pozycje} e)\includegraphics[width=0.30\columnwidth]{SRManCw5/SRManCw5_ZADANIE2/figs/05Uchyby} f)\includegraphics[width=0.30\columnwidth]{SRManCw5/SRManCw5_ZADANIE2/figs/05Sygnal}\\
+	d) \includegraphics[width=0.30\columnwidth]{SRManCw5/SRManCw5_ZADANIE2/figs/06Pozycje} e)\includegraphics[width=0.30\columnwidth]{SRManCw5/SRManCw5_ZADANIE2/figs/06Uchyby} f)\includegraphics[width=0.30\columnwidth]{SRManCw5/SRManCw5_ZADANIE2/figs/06Sygnal}\\
+		d) \includegraphics[width=0.30\columnwidth]{SRManCw5/SRManCw5_ZADANIE2/figs/06Pozycje} e)\includegraphics[width=0.30\columnwidth]{SRManCw5/SRManCw5_ZADANIE2/figs/06Uchyby} f)\includegraphics[width=0.30\columnwidth]{SRManCw5/SRManCw5_ZADANIE2/figs/06Sygnal}\caption{
+		Wyniki symulacji dla $K_V=\delta\hat{M}(q)$, $e_0=0$. Przebiegi (a, d, g) pozycji ogniw wraz z zadanym sygnałem referencyjnym, (b, e, h) uchybów pozycji i prędkości, (c, f, i)  napięć sterujących oraz odpowiadające im momenty generowane na wałach silników, o wymuszeniu:\\
+		\textbf{a-c:} $Q_{d1}=[1\quad1]$;\\
+		\textbf{d-f:} $Q_{d2}=[\sin(0,6t);\quad \sin(0,7t)]$;\\
+		\textbf{g-i:} $Q_{d3}=[0,0025t^3+0,0020t^2+0,0015t+0,001]$.}
+\end{figure}
+
+	\begin{figure}[H]\centering
+	a) \includegraphics[width=0.30\columnwidth]{SRManCw5/SRManCw5_ZADANIE2/figs/04Pozycje} b)\includegraphics[width=0.30\columnwidth]{SRManCw5/SRManCw5_ZADANIE2/figs/04Uchyby} c)\includegraphics[width=0.30\columnwidth]{SRManCw5/SRManCw5_ZADANIE2/figs/04Sygnal}\\
+	d) \includegraphics[width=0.30\columnwidth]{SRManCw5/SRManCw5_ZADANIE2/figs/05Pozycje} e)\includegraphics[width=0.30\columnwidth]{SRManCw5/SRManCw5_ZADANIE2/figs/05Uchyby} f)\includegraphics[width=0.30\columnwidth]{SRManCw5/SRManCw5_ZADANIE2/figs/05Sygnal}\\
+	d) \includegraphics[width=0.30\columnwidth]{SRManCw5/SRManCw5_ZADANIE2/figs/06Pozycje} e)\includegraphics[width=0.30\columnwidth]{SRManCw5/SRManCw5_ZADANIE2/figs/06Uchyby} f)\includegraphics[width=0.30\columnwidth]{SRManCw5/SRManCw5_ZADANIE2/figs/06Sygnal}\\
 	d) \includegraphics[width=0.30\columnwidth]{SRManCw5/SRManCw5_ZADANIE2/figs/06Pozycje} e)\includegraphics[width=0.30\columnwidth]{SRManCw5/SRManCw5_ZADANIE2/figs/06Uchyby} f)\includegraphics[width=0.30\columnwidth]{SRManCw5/SRManCw5_ZADANIE2/figs/06Sygnal}\caption{
 		Wyniki symulacji dla $K_V=\delta\hat{M}(q)$, $e_0=0$. Przebiegi (a, d, g) pozycji ogniw wraz z zadanym sygnałem referencyjnym, (b, e, h) uchybów pozycji i prędkości, (c, f, i)  napięć sterujących oraz odpowiadające im momenty generowane na wałach silników, o wymuszeniu:\\
 		\textbf{a-c:} $Q_{d1}=[1\quad1]$;\\
@@ -183,5 +210,48 @@ Podsumowując, mimo wprowadzonych niepewności parametrycznych regulator oddawa�
 		\textbf{g-i:} $Q_{d3}=[0,0025t^3+0,0020t^2+0,0015t+0,001]$.}
 \end{figure}
 
+\begin{figure}[H]
+	\centering
+%	\begin{subfigure}[h]{0.32\columnwidth}
+%		\includegraphics[width=\columnwidth]{SRManCw5/SRManCw5_ZADANIE2/figs/04Pozycje}
+%		\caption{A gull}
+%		\label{fig:gull}
+%	\end{subfigure}
+%	~ %add desired spacing between images, e. g. ~, \quad, \qquad, \hfill etc. 
+%	%(or a blank line to force the subfigure onto a new line)
+%	\begin{subfigure}[h]{0.32\columnwidth}
+%	\includegraphics[width=\columnwidth]{SRManCw5/SRManCw5_ZADANIE2/figs/04Pozycje}
+%		\caption{A tiger}
+%		\label{fig:tiger}
+%	\end{subfigure}
+%	~ %add desired spacing between images, e. g. ~, \quad, \qquad, \hfill etc. 
+%	%(or a blank line to force the subfigure onto a new line)
+%	\begin{subfigure}[h]{0.32\columnwidth}
+%	\includegraphics[width=\columnwidth]{SRManCw5/SRManCw5_ZADANIE2/figs/04Pozycje}
+%		\caption{A mouse}
+%		\label{fig:mouse}
+%	\end{subfigure}
+\subfigure[]{\label{fig:a}\includegraphics[width=0.24\columnwidth]{SRManCw5/SRManCw5_ZADANIE2/figs/04Pozycje}}
+\subfigure[Caption] {\label{fig:a}\includegraphics[width=0.24\columnwidth]{SRManCw5/SRManCw5_ZADANIE2/figs/04Pozycje}}
+\subfigure[Caption]{\label{fig:a}\includegraphics[width=0.24\columnwidth]{SRManCw5/SRManCw5_ZADANIE2/figs/04Pozycje}}
+\subfigure[Caption]{\label{fig:a}\includegraphics[width=0.24\columnwidth]{SRManCw5/SRManCw5_ZADANIE2/figs/04Pozycje}}\\[-2ex]
+\subfigure[]{\label{fig:a}\includegraphics[width=0.24\columnwidth]{SRManCw5/SRManCw5_ZADANIE2/figs/04Pozycje}}
+\subfigure[Caption]{\label{fig:a}\includegraphics[width=0.24\columnwidth]{SRManCw5/SRManCw5_ZADANIE2/figs/04Pozycje}}
+\subfigure[Caption]{\label{fig:a}\includegraphics[width=0.24\columnwidth]{SRManCw5/SRManCw5_ZADANIE2/figs/04Pozycje}}
+\subfigure[Caption]{\label{fig:a}\includegraphics[width=0.24\columnwidth]{SRManCw5/SRManCw5_ZADANIE2/figs/04Pozycje}}\\[-2ex]
+\subfigure[]{\label{fig:a}\includegraphics[width=0.24\columnwidth]{SRManCw5/SRManCw5_ZADANIE2/figs/04Pozycje}}
+\subfigure[Caption]{\label{fig:a}\includegraphics[width=0.24\columnwidth]{SRManCw5/SRManCw5_ZADANIE2/figs/04Pozycje}}
+\subfigure[Caption]{\label{fig:a}\includegraphics[width=0.24\columnwidth]{SRManCw5/SRManCw5_ZADANIE2/figs/04Pozycje}}
+\subfigure[Caption]{\label{fig:a}\includegraphics[width=0.24\columnwidth]{SRManCw5/SRManCw5_ZADANIE2/figs/04Pozycje}}\\[-2ex]
+\subfigure[]{\label{fig:a}\includegraphics[width=0.24\columnwidth]{SRManCw5/SRManCw5_ZADANIE2/figs/04Pozycje}}
+\subfigure[Caption]{\label{fig:a}\includegraphics[width=0.24\columnwidth]{SRManCw5/SRManCw5_ZADANIE2/figs/04Pozycje}}
+\subfigure[Caption]{\label{fig:a}\includegraphics[width=0.24\columnwidth]{SRManCw5/SRManCw5_ZADANIE2/figs/04Pozycje}}
+\subfigure[Caption]{\label{fig:a}\includegraphics[width=0.24\columnwidth]{SRManCw5/SRManCw5_ZADANIE2/figs/04Pozycje}}\\[-2ex]
+\caption{
+	Wyniki symulacji dla $K_V=\delta\hat{M}(q)$, $e_0=0$. Przebiegi (a, d, g) pozycji ogniw wraz z zadanym sygnałem referencyjnym, (b, e, h) uchybów pozycji i prędkości, (c, f, i)  napięć sterujących oraz odpowiadające im momenty generowane na wałach silników, o wymuszeniu:\\
+	\textbf{a-c:} $Q_{d1}=[1\quad1]$;\\
+	\textbf{d-f:} $Q_{d2}=[\sin(0,6t);\quad \sin(0,7t)]$;\\
+	\textbf{g-i:} $Q_{d3}=[0,0025t^3+0,0020t^2+0,0015t+0,001]$.}
+\end{figure}
 
 \end{document}
