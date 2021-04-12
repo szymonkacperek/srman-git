@@ -1,4 +1,4 @@
-close all;
+% close all;
 
 q1 = Qsamples(:,1);
 q2 = Qsamples(:,2);
